@@ -129,8 +129,8 @@
 Rev A1</text>
 <text x="50.546" y="25.146" size="1.016" layer="21" font="vector">+3V3</text>
 <text x="1.016" y="27.686" size="1.016" layer="21" font="vector">+24V</text>
-<text x="29.464" y="6.858" size="1.016" layer="22" font="vector" rot="R90">TX</text>
-<text x="32.258" y="6.858" size="1.016" layer="22" font="vector" rot="R90">RX</text>
+<text x="28.702" y="6.858" size="1.016" layer="22" font="vector" rot="MR90">TX</text>
+<text x="31.242" y="6.858" size="1.016" layer="22" font="vector" rot="MR90">RX</text>
 </plain>
 <libraries>
 <library name="exmachina">
