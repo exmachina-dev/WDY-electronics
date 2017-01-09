@@ -12648,6 +12648,8 @@ Various fiducial points for machine vision alignment.</description>
 <wire x1="3.048" y1="3.048" x2="-3.048" y2="3.048" width="0.1524" layer="51"/>
 <wire x1="-3.048" y1="3.048" x2="-3.048" y2="-3.048" width="0.1524" layer="51"/>
 <text x="-3.1242" y="1.8542" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<text x="-3.81" y="6.35" size="1.778" layer="25">&gt;NAME</text>
+<text x="-3.81" y="3.81" size="1.778" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -12778,67 +12780,206 @@ Various fiducial points for machine vision alignment.</description>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
-<part name="T1" library="exmachina" deviceset="EXMACHINA-LOGO" device="-NAME"/>
-<part name="P1" library="con-wiznet" deviceset="RB1-125BAG1A" device=""/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="220"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="220"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="49.9"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="49.9"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="49.9"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="49.9"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="C1" library="rcl" deviceset="CPOL-EU" device="CT3216" value="4.7uF"/>
+<part name="T1" library="exmachina" deviceset="EXMACHINA-LOGO" device="-NAME">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="P1" library="con-wiznet" deviceset="RB1-125BAG1A" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="220">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCMR06X2200FTL"/>
+<attribute name="OC_NEWARK" value="86T3577"/>
+</part>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="220">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCMR06X2200FTL"/>
+<attribute name="OC_NEWARK" value="86T3577"/>
+</part>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="49.9">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="OC_NEWARK" value="86T3659"/>
+</part>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="49.9">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="OC_NEWARK" value="86T3659"/>
+</part>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="49.9">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="OC_NEWARK" value="86T3659"/>
+</part>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="49.9">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="OC_NEWARK" value="86T3659"/>
+</part>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="100nF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="OC_NEWARK" value="06R4925"/>
+</part>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="100nF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="OC_NEWARK" value="06R4925"/>
+</part>
+<part name="C1" library="rcl" deviceset="CPOL-EU" device="CT3216" value="4.7uF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="F931A475MAA"/>
+<attribute name="OC_NEWARK" value="58R3271"/>
+</part>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="+3V32" library="supply1" deviceset="+3V3" device=""/>
-<part name="U1" library="textas" deviceset="DP83848JSQ/NOPB" device=""/>
+<part name="U1" library="textas" deviceset="DP83848JSQ/NOPB" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="DP83848JSQ/NOPB"/>
+<attribute name="OC_NEWARK" value="96W2841"/>
+</part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="+3V34" library="supply1" deviceset="+3V3" device=""/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="C8" library="rcl" deviceset="CPOL-EU" device="CT3216" value="10uF"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="100nF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="OC_NEWARK" value="06R4925"/>
+</part>
+<part name="C8" library="rcl" deviceset="CPOL-EU" device="CT3216" value="10uF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="F931A106MAA"/>
+<attribute name="OC_NEWARK" value="58R3260"/>
+</part>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="R0603" value="4K7"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="C4" library="rcl" deviceset="CPOL-EU" device="CT3216" value="10uF"/>
+<part name="R7" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCMR06X4701FTL"/>
+<attribute name="OC_NEWARK" value="86T3649"/>
+</part>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="100nF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="OC_NEWARK" value="06R4925"/>
+</part>
+<part name="C4" library="rcl" deviceset="CPOL-EU" device="CT3216" value="10uF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="F931A106MAA"/>
+<attribute name="OC_NEWARK" value="58R3260"/>
+</part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="C11" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="100nF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="OC_NEWARK" value="06R4925"/>
+</part>
+<part name="C11" library="rcl" deviceset="C-EU" device="C0603" value="100nF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="OC_NEWARK" value="06R4925"/>
+</part>
 <part name="+3V35" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V39" library="supply1" deviceset="+3V3" device=""/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="100nF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="OC_NEWARK" value="06R4925"/>
+</part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="X1" library="crystal" deviceset="ASE" device="" value="ASE_50"/>
+<part name="X1" library="crystal" deviceset="ASE" device="" value="ASE_50">
+<attribute name="MPN" value="ASE-50.000MHZ-LC-T"/>
+<attribute name="OC_NEWARK" value="84R2105"/>
+</part>
 <part name="+3V37" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="100nF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="OC_NEWARK" value="06R4925"/>
+</part>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="+3V36" library="supply1" deviceset="+3V3" device=""/>
-<part name="C12" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C12" library="rcl" deviceset="C-EU" device="C0603" value="100nF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="OC_NEWARK" value="06R4925"/>
+</part>
 <part name="+3V33" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V38" library="supply1" deviceset="+3V3" device=""/>
-<part name="JP1" library="SparkFun" deviceset="FIDUCIAL" device="1X2" value="FIDUCIAL1X2"/>
-<part name="JP2" library="SparkFun" deviceset="FIDUCIAL" device="1X2" value="FIDUCIAL1X2"/>
-<part name="JP3" library="SparkFun" deviceset="FIDUCIAL" device="1X2" value="FIDUCIAL1X2"/>
-<part name="JP4" library="SparkFun" deviceset="FIDUCIAL" device="1X2" value="FIDUCIAL1X2"/>
-<part name="H4" library="holes" deviceset="MOUNT-HOLE" device="3.0"/>
-<part name="H3" library="holes" deviceset="MOUNT-HOLE" device="3.0"/>
-<part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.0"/>
-<part name="H1" library="holes" deviceset="MOUNT-HOLE" device="3.0"/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="2K2"/>
-<part name="J1" library="con-molex" deviceset="22-?-02" device="05-7028"/>
+<part name="JP1" library="SparkFun" deviceset="FIDUCIAL" device="1X2" value="FIDUCIAL1X2">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="JP2" library="SparkFun" deviceset="FIDUCIAL" device="1X2" value="FIDUCIAL1X2">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="JP3" library="SparkFun" deviceset="FIDUCIAL" device="1X2" value="FIDUCIAL1X2">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="JP4" library="SparkFun" deviceset="FIDUCIAL" device="1X2" value="FIDUCIAL1X2">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="H4" library="holes" deviceset="MOUNT-HOLE" device="3.0">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="H3" library="holes" deviceset="MOUNT-HOLE" device="3.0">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.0">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="H1" library="holes" deviceset="MOUNT-HOLE" device="3.0">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="2K2">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCMR06X2201FTL"/>
+<attribute name="OC_NEWARK" value="86T3578"/>
+</part>
+<part name="J1" library="con-molex" deviceset="22-?-02" device="05-7028">
+<attribute name="MPN" value="22-05-7028"/>
+<attribute name="OC_NEWARK" value="25M1728"/>
+</part>
 <part name="+3V31" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="D1" library="diode" deviceset="STPS3L40?" device="UF" value="STPS3L40UF"/>
-<part name="J2" library="con-molex" deviceset="22-?-06" device="05-7068"/>
-<part name="J3" library="con-molex" deviceset="22-?-06" device="05-7068"/>
+<part name="D1" library="diode" deviceset="STPS3L40?" device="UF" value="STPS3L40UF">
+<attribute name="MF" value=""/>
+<attribute name="OC_NEWARK" value="06X0873"/>
+</part>
+<part name="J2" library="con-molex" deviceset="22-?-06" device="05-7068">
+<attribute name="MPN" value="22-05-7068"/>
+<attribute name="OC_NEWARK" value="25M1733"/>
+</part>
+<part name="J3" library="con-molex" deviceset="22-?-06" device="05-7068">
+<attribute name="MPN" value="22-05-7068"/>
+<attribute name="OC_NEWARK" value="25M1733"/>
+</part>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -12854,66 +12995,193 @@ Various fiducial points for machine vision alignment.</description>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="T1" gate="G$1" x="311.404" y="19.05"/>
-<instance part="P1" gate="G$1" x="33.02" y="205.74" rot="MR0"/>
-<instance part="R2" gate="G$1" x="66.04" y="175.26"/>
-<instance part="R1" gate="G$1" x="66.04" y="185.42"/>
-<instance part="R3" gate="G$1" x="99.06" y="182.88" rot="R90"/>
-<instance part="R4" gate="G$1" x="106.68" y="182.88" rot="R90"/>
-<instance part="R5" gate="G$1" x="116.84" y="182.88" rot="R90"/>
-<instance part="R6" gate="G$1" x="124.46" y="182.88" rot="R90"/>
-<instance part="C2" gate="G$1" x="99.06" y="167.64"/>
-<instance part="C3" gate="G$1" x="116.84" y="167.64"/>
-<instance part="C1" gate="G$1" x="78.74" y="167.64"/>
+<instance part="T1" gate="G$1" x="311.404" y="19.05">
+<attribute name="OC_NEWARK" x="311.404" y="19.05" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="311.404" y="19.05" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="311.404" y="19.05" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="P1" gate="G$1" x="33.02" y="205.74" rot="MR0">
+<attribute name="OC_NEWARK" x="33.02" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="33.02" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="33.02" y="205.74" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R2" gate="G$1" x="66.04" y="175.26">
+<attribute name="OC_NEWARK" x="66.04" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="66.04" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="66.04" y="175.26" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R1" gate="G$1" x="66.04" y="185.42">
+<attribute name="OC_NEWARK" x="66.04" y="185.42" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="66.04" y="185.42" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="66.04" y="185.42" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R3" gate="G$1" x="99.06" y="182.88" rot="R90">
+<attribute name="OC_NEWARK" x="99.06" y="182.88" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="99.06" y="182.88" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="99.06" y="182.88" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R4" gate="G$1" x="106.68" y="182.88" rot="R90">
+<attribute name="OC_NEWARK" x="106.68" y="182.88" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="106.68" y="182.88" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="106.68" y="182.88" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R5" gate="G$1" x="116.84" y="182.88" rot="R90">
+<attribute name="OC_NEWARK" x="116.84" y="182.88" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="116.84" y="182.88" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="116.84" y="182.88" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R6" gate="G$1" x="124.46" y="182.88" rot="R90">
+<attribute name="OC_NEWARK" x="124.46" y="182.88" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="124.46" y="182.88" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="124.46" y="182.88" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C2" gate="G$1" x="99.06" y="167.64">
+<attribute name="OC_NEWARK" x="99.06" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="99.06" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="99.06" y="167.64" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C3" gate="G$1" x="116.84" y="167.64">
+<attribute name="OC_NEWARK" x="116.84" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="116.84" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="116.84" y="167.64" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C1" gate="G$1" x="78.74" y="167.64">
+<attribute name="OC_NEWARK" x="78.74" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="78.74" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="78.74" y="167.64" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND2" gate="1" x="78.74" y="157.48"/>
 <instance part="GND3" gate="1" x="88.9" y="157.48"/>
 <instance part="GND4" gate="1" x="99.06" y="157.48"/>
 <instance part="GND5" gate="1" x="116.84" y="157.48"/>
 <instance part="+3V32" gate="G$1" x="78.74" y="251.46"/>
-<instance part="U1" gate="A" x="233.68" y="223.52"/>
+<instance part="U1" gate="A" x="233.68" y="223.52">
+<attribute name="OC_NEWARK" x="233.68" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="233.68" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="233.68" y="223.52" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND7" gate="1" x="190.5" y="182.88" rot="R270"/>
 <instance part="GND17" gate="1" x="353.06" y="157.48"/>
 <instance part="+3V34" gate="G$1" x="213.36" y="238.76"/>
-<instance part="C9" gate="G$1" x="248.92" y="137.16"/>
-<instance part="C8" gate="G$1" x="238.76" y="137.16"/>
+<instance part="C9" gate="G$1" x="248.92" y="137.16">
+<attribute name="OC_NEWARK" x="248.92" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="248.92" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="248.92" y="137.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C8" gate="G$1" x="238.76" y="137.16">
+<attribute name="OC_NEWARK" x="238.76" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="238.76" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="238.76" y="137.16" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND14" gate="1" x="238.76" y="124.46"/>
-<instance part="R7" gate="G$1" x="231.14" y="167.64" rot="R270"/>
-<instance part="C7" gate="G$1" x="223.52" y="137.16"/>
-<instance part="C4" gate="G$1" x="193.04" y="137.16"/>
+<instance part="R7" gate="G$1" x="231.14" y="167.64" rot="R270">
+<attribute name="OC_NEWARK" x="231.14" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="231.14" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="231.14" y="167.64" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C7" gate="G$1" x="223.52" y="137.16">
+<attribute name="OC_NEWARK" x="223.52" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="223.52" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="223.52" y="137.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C4" gate="G$1" x="193.04" y="137.16">
+<attribute name="OC_NEWARK" x="193.04" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="193.04" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="193.04" y="137.16" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND6" gate="1" x="190.5" y="193.04" rot="R270"/>
 <instance part="GND8" gate="1" x="193.04" y="124.46"/>
 <instance part="GND12" gate="1" x="223.52" y="124.46"/>
 <instance part="GND13" gate="1" x="231.14" y="157.48"/>
-<instance part="C10" gate="G$1" x="259.08" y="137.16"/>
-<instance part="C11" gate="G$1" x="269.24" y="137.16"/>
+<instance part="C10" gate="G$1" x="259.08" y="137.16">
+<attribute name="OC_NEWARK" x="259.08" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="259.08" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="259.08" y="137.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C11" gate="G$1" x="269.24" y="137.16">
+<attribute name="OC_NEWARK" x="269.24" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="269.24" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="269.24" y="137.16" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="+3V35" gate="G$1" x="238.76" y="149.86"/>
 <instance part="+3V39" gate="G$1" x="368.3" y="233.68"/>
-<instance part="C5" gate="G$1" x="203.2" y="137.16"/>
+<instance part="C5" gate="G$1" x="203.2" y="137.16">
+<attribute name="OC_NEWARK" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="203.2" y="137.16" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND9" gate="1" x="203.2" y="124.46"/>
 <instance part="X1" gate="G$1" x="345.44" y="134.62"/>
 <instance part="+3V37" gate="G$1" x="327.66" y="144.78"/>
 <instance part="GND16" gate="1" x="327.66" y="124.46"/>
-<instance part="C6" gate="G$1" x="213.36" y="137.16"/>
+<instance part="C6" gate="G$1" x="213.36" y="137.16">
+<attribute name="OC_NEWARK" x="213.36" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="213.36" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="213.36" y="137.16" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND11" gate="1" x="213.36" y="124.46"/>
 <instance part="GND15" gate="1" x="312.42" y="121.92"/>
 <instance part="+3V36" gate="G$1" x="312.42" y="147.32"/>
-<instance part="C12" gate="G$1" x="312.42" y="134.62"/>
+<instance part="C12" gate="G$1" x="312.42" y="134.62">
+<attribute name="OC_NEWARK" x="312.42" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="312.42" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="312.42" y="134.62" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="+3V33" gate="G$1" x="132.08" y="193.04"/>
 <instance part="+3V38" gate="G$1" x="360.68" y="144.78"/>
-<instance part="JP1" gate="G$1" x="344.678" y="21.59"/>
-<instance part="JP2" gate="G$1" x="348.488" y="21.59"/>
-<instance part="JP3" gate="G$1" x="352.298" y="21.59"/>
-<instance part="JP4" gate="G$1" x="356.362" y="21.59"/>
-<instance part="H4" gate="G$1" x="248.92" y="10.16"/>
-<instance part="H3" gate="G$1" x="233.68" y="10.16"/>
-<instance part="H2" gate="G$1" x="213.36" y="10.16"/>
-<instance part="H1" gate="G$1" x="193.04" y="10.16"/>
-<instance part="R8" gate="G$1" x="360.68" y="208.28" rot="R270"/>
+<instance part="JP1" gate="G$1" x="344.678" y="21.59">
+<attribute name="OC_NEWARK" x="344.678" y="21.59" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="344.678" y="21.59" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="344.678" y="21.59" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JP2" gate="G$1" x="348.488" y="21.59">
+<attribute name="OC_NEWARK" x="348.488" y="21.59" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="348.488" y="21.59" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="348.488" y="21.59" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JP3" gate="G$1" x="352.298" y="21.59">
+<attribute name="OC_NEWARK" x="352.298" y="21.59" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="352.298" y="21.59" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="352.298" y="21.59" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JP4" gate="G$1" x="356.362" y="21.59">
+<attribute name="OC_NEWARK" x="356.362" y="21.59" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="356.362" y="21.59" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="356.362" y="21.59" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="H4" gate="G$1" x="248.92" y="10.16">
+<attribute name="OC_NEWARK" x="248.92" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="248.92" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="248.92" y="10.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="H3" gate="G$1" x="233.68" y="10.16">
+<attribute name="OC_NEWARK" x="233.68" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="233.68" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="233.68" y="10.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="H2" gate="G$1" x="213.36" y="10.16">
+<attribute name="OC_NEWARK" x="213.36" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="213.36" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="213.36" y="10.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="H1" gate="G$1" x="193.04" y="10.16">
+<attribute name="OC_NEWARK" x="193.04" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="193.04" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="193.04" y="10.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R8" gate="G$1" x="360.68" y="208.28" rot="R270">
+<attribute name="OC_NEWARK" x="360.68" y="208.28" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="360.68" y="208.28" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="360.68" y="208.28" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="J1" gate="-1" x="27.94" y="76.2" rot="R180"/>
 <instance part="J1" gate="-2" x="27.94" y="81.28" rot="R180"/>
 <instance part="+3V31" gate="G$1" x="40.64" y="93.98"/>
 <instance part="GND1" gate="1" x="40.64" y="60.96"/>
-<instance part="D1" gate="A" x="55.88" y="78.74" rot="R90"/>
+<instance part="D1" gate="A" x="55.88" y="78.74" rot="R90">
+<attribute name="OC_NEWARK" x="55.88" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="55.88" y="78.74" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="J2" gate="-1" x="238.76" y="93.98"/>
 <instance part="J2" gate="-2" x="238.76" y="88.9"/>
 <instance part="J2" gate="-3" x="238.76" y="83.82"/>
