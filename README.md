@@ -1,29 +1,34 @@
-```
-____ _ ____ _    ____    ____ _    ____ ____ ___ ____ ____ _  _ _ ____ ____ 
-|___ | [__  |    |__| __ |___ |    |___ |     |  |__/ |  | |\ | | |    [__  
-|___ | ___] |___ |  |    |___ |___ |___ |___  |  |  \ |__| | \| | |___ ___] 
- 
-```
-                                                                         
-                                                                         
-# Eisla electronics
+WDY electronics
+===============
 
-This repo contains all necessary files to design and produce PCBs for the Eisla product range.
+This repo contains PCB design files for the WDY product.
 
-## File format and folder structure
+# File format and folder structure
 
 Documentation files should be in PDF. Board image files can be in PNG or PDF.
 
-PCB Design file are in EAGLE Standard edition (7.4) file format.
+PCB design files are in EAGLE Standard edition (7.7) file format.
 
-These are general rules to help maintain a consistent folder structure:
 
-* All libraries are placed inside the root lib/ folder.  
+The following are general rules to help maintain a consistent folder structure:
+
+* All libraries are placed inside the shared libraries repository. It can be found
+  on [Github](https://github.com/exmchina-dev/eagle-resources)
 
 * One board for each project folder.  
 
-* Mutiples revisions can be placed inside a subfolder. i.e. ArmazCape/Rev A1  
+* Mutiples revisions must be placed in a separate subfolder. i.e. `ArmazCape/Rev A1`
 
-* BOMs, partlists, spreadsheet should placed inside a BOMs/ folder.  
+* BOMs, partlists, spreadsheets should placed inside a `BOMs/` folder.  
 
-* Documentations files are in eagle-resources/doc or in doc/ inside a project folder.
+* Documentations files are in `doc/` inside a project folder.
+
+# License
+
+All files are released under Creative Commons BY-NC-SA license unless specified.
+A quick summary can be found at [](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+For the full text, see the [](LICENSE) file.
+
+# Source
+
+Original repository can be found on [GitHub](https://github.com/exmachina-dev/WDY-electronics)
