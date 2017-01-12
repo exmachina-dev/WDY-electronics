@@ -8,22 +8,22 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="2" name="Route2" color="14" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="3" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="25" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -41,13 +41,13 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
@@ -62,57 +62,57 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
-<layer number="100" name="Mechanical" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="101" name="Patch_Top" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="Top_middle" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="105" name="Beschreib" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="BGA-Top" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="BD-Top" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="Bottom_middle" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="203" name="203bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="205" name="205bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="207" name="207bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="208" name="208bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="217" name="217bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="218" name="218bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="219" name="219bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="220" name="220bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="221" name="221bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="222" name="222bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="223" name="223bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="224" name="224bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="254" name="OrgLBR" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Mechanical" color="7" fill="1" visible="no" active="yes"/>
+<layer number="101" name="Patch_Top" color="7" fill="1" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="Top_middle" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
+<layer number="105" name="Beschreib" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="BGA-Top" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="BD-Top" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="Bottom_middle" color="7" fill="1" visible="no" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="217" name="217bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="218" name="218bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="219" name="219bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="220" name="220bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="221" name="221bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="222" name="222bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="223" name="223bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="224" name="224bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="no" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="no" active="yes"/>
+<layer number="254" name="OrgLBR" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -871,8 +871,8 @@ Your Eurocircuits Team
 <attribute name="OC_NEWARK" value="unknown" x="46.132" y="20.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="" x="46.132" y="20.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="" x="46.132" y="20.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="34.893" y="28.120790625" size="0.6096" layer="26" rot="MR270"/>
-<attribute name="VALUE" x="58.973040625" y="28.120790625" size="0.4064" layer="28" rot="MR270"/>
+<attribute name="NAME" x="34.893" y="24.120790625" size="0.6096" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="34.954040625" y="28.120790625" size="0.4064" layer="28" rot="MR270"/>
 </element>
 <element name="R2" library="rcl" package="R0603" value="220" x="47.656" y="32.57" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="86T3577" x="47.656" y="32.57" size="1.778" layer="27" rot="R180" display="off"/>
@@ -958,8 +958,8 @@ Your Eurocircuits Team
 <attribute name="OC_NEWARK" value="58R3260" x="18.319" y="18.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="" x="18.319" y="18.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="F931A106MAA" x="18.319" y="18.6" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="19.589" y="16.06" size="0.6096" layer="26" rot="MR90"/>
-<attribute name="VALUE" x="15.779" y="16.06" size="0.4064" layer="28" rot="MR90"/>
+<attribute name="NAME" x="19.462" y="17.584" size="0.6096" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="19.462" y="18.727" size="0.4064" layer="28" rot="MR90"/>
 </element>
 <element name="R7" library="rcl" package="R0603" value="4K7" x="28.733" y="25.712" smashed="yes" rot="R90">
 <attribute name="OC_NEWARK" value="86T3649" x="28.733" y="25.712" size="1.778" layer="27" rot="R90" display="off"/>
@@ -972,36 +972,36 @@ Your Eurocircuits Team
 <attribute name="OC_NEWARK" value="06R4925" x="28.225" y="20.124" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="" x="28.225" y="20.124" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="MC0603B104K250CT" x="28.225" y="20.124" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="27.59" y="20.759" size="0.6096" layer="26" rot="MR270"/>
-<attribute name="VALUE" x="30.13" y="20.759" size="0.4064" layer="28" rot="MR270"/>
+<attribute name="NAME" x="29.495" y="19.87" size="0.6096" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="29.495" y="21.521" size="0.4064" layer="28" rot="MR270"/>
 </element>
 <element name="C4" library="rcl" package="CT3216" value="10uF" x="27.844" y="29.395" smashed="yes" rot="MR90">
 <attribute name="OC_NEWARK" value="58R3260" x="27.844" y="29.395" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="" x="27.844" y="29.395" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="F931A106MAA" x="27.844" y="29.395" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="29.114" y="26.855" size="0.6096" layer="26" rot="MR90"/>
-<attribute name="VALUE" x="25.304" y="26.855" size="0.4064" layer="28" rot="MR90"/>
+<attribute name="NAME" x="29.114" y="28.157" size="0.6096" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="29.114" y="29.49" size="0.4064" layer="28" rot="MR90"/>
 </element>
 <element name="C10" library="rcl" package="C0603" value="100nF" x="22.383" y="26.474" smashed="yes" rot="MR0">
 <attribute name="OC_NEWARK" value="06R4925" x="22.383" y="26.474" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="" x="22.383" y="26.474" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="MC0603B104K250CT" x="22.383" y="26.474" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="23.018" y="27.109" size="0.6096" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="23.018" y="24.569" size="0.4064" layer="28" rot="MR0"/>
+<attribute name="NAME" x="23.907" y="27.236" size="0.6096" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="22.256" y="27.236" size="0.4064" layer="28" rot="MR0"/>
 </element>
 <element name="C11" library="rcl" package="C0603" value="100nF" x="29.876" y="26.093" smashed="yes" rot="MR90">
 <attribute name="OC_NEWARK" value="06R4925" x="29.876" y="26.093" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="" x="29.876" y="26.093" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="MC0603B104K250CT" x="29.876" y="26.093" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="30.511" y="25.458" size="0.6096" layer="26" rot="MR90"/>
-<attribute name="VALUE" x="27.971" y="25.458" size="0.4064" layer="28" rot="MR90"/>
+<attribute name="NAME" x="30.638" y="24.823" size="0.6096" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="30.622" y="26.315" size="0.4064" layer="28" rot="MR90"/>
 </element>
 <element name="C5" library="rcl" package="C0603" value="100nF" x="27.844" y="24.823" smashed="yes" rot="MR90">
 <attribute name="OC_NEWARK" value="06R4925" x="27.844" y="24.823" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="" x="27.844" y="24.823" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="MC0603B104K250CT" x="27.844" y="24.823" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="28.479" y="24.188" size="0.6096" layer="26" rot="MR90"/>
-<attribute name="VALUE" x="25.939" y="24.188" size="0.4064" layer="28" rot="MR90"/>
+<attribute name="NAME" x="28.479" y="23.807" size="0.6096" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="28.479" y="24.95" size="0.4064" layer="28" rot="MR90"/>
 </element>
 <element name="X1" library="crystal" package="ASE" value="ASE_50" x="22.256" y="27.601" smashed="yes" rot="R270">
 <attribute name="MPN" value="ASE-50.000MHZ-LC-T" x="-48.864" y="63.161" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1015,8 +1015,8 @@ Your Eurocircuits Team
 <attribute name="OC_NEWARK" value="06R4925" x="20.351" y="24.442" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="" x="20.351" y="24.442" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="MC0603B104K250CT" x="20.351" y="24.442" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="20.986" y="25.077" size="0.6096" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="20.986" y="22.537" size="0.4064" layer="28" rot="MR0"/>
+<attribute name="NAME" x="21.494" y="25.077" size="0.6096" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="20.224" y="25.077" size="0.4064" layer="28" rot="MR0"/>
 </element>
 <element name="C12" library="rcl" package="C0603" value="100nF" x="19.589" y="27.601" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="06R4925" x="19.589" y="27.601" size="1.778" layer="27" rot="R270" display="off"/>
