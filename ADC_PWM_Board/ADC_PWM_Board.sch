@@ -5460,12 +5460,32 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+24V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="AVDD">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.905" x2="0" y2="1.27" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="AVDD" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="+24V" prefix="P+">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="+24V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AVDD" prefix="S">
+<gates>
+<gate name="A" symbol="AVDD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -7763,12 +7783,12 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="MPN" value="MCMR06X1001FTL"/>
 <attribute name="OC_NEWARK" value="86T3505"/>
 </part>
-<part name="+3V34" library="supply1" deviceset="+3V3" device=""/>
-<part name="+3V35" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V32" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V33" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
-<part name="R15" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
+<part name="R15" library="rcl" deviceset="R-EU_" device="R0603" value="2K7">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="MCMR06X4701FTL"/>
 <attribute name="OC_NEWARK" value="86T3649"/>
@@ -7779,7 +7799,7 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="OC_NEWARK" value="86T3504"/>
 </part>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
-<part name="R17" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
+<part name="R17" library="rcl" deviceset="R-EU_" device="R0603" value="2K7">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="MCMR06X4701FTL"/>
 <attribute name="OC_NEWARK" value="86T3649"/>
@@ -7800,7 +7820,7 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="OC_NEWARK" value="06R4925"/>
 </part>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="+3V310" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V38" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
@@ -7808,7 +7828,7 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="MPN" value="MC0603B104K250CT"/>
 <attribute name="OC_NEWARK" value="06R4925"/>
 </part>
-<part name="+3V311" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V39" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="J7" library="con-molex" deviceset="22-?-05" device="05-7058">
 <attribute name="MF" value="MOLEX"/>
@@ -7823,7 +7843,7 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="MPN" value="MCMR06X1000FTL"/>
 <attribute name="OC_NEWARK" value="86T3504"/>
 </part>
-<part name="R16" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
+<part name="R16" library="rcl" deviceset="R-EU_" device="R0603" value="2K7">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="MCMR06X4701FTL"/>
 <attribute name="OC_NEWARK" value="86T3649"/>
@@ -7871,9 +7891,9 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="MPN" value="MC0603B104K250CT"/>
 <attribute name="OC_NEWARK" value="06R4925"/>
 </part>
-<part name="+3V36" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V34" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="+3V33" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V31" library="supply1" deviceset="+3V3" device=""/>
 <part name="T1" library="exmachina" deviceset="EXMACHINA-LOGO" device="-NAME">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
@@ -7935,16 +7955,12 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="MPN" value="22-05-7028"/>
 <attribute name="OC_NEWARK" value="25M1728"/>
 </part>
-<part name="J10" library="con-molex" deviceset="22-?-02" device="05-7028">
-<attribute name="MPN" value="22-05-7028"/>
-<attribute name="OC_NEWARK" value="25M1728"/>
-</part>
-<part name="J11" library="con-phoenix-508" deviceset="MSTBA2" device=""/>
+<part name="J10" library="con-phoenix-508" deviceset="MSTBA2" device=""/>
 <part name="P+6" library="supply3" deviceset="+24V" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="+3V39" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V37" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
 <attribute name="MF" value=""/>
@@ -7958,8 +7974,6 @@ Various fiducial points for machine vision alignment.</description>
 </part>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="+3V31" library="supply1" deviceset="+3V3" device=""/>
-<part name="+3V32" library="supply1" deviceset="+3V3" device=""/>
 <part name="CC1" library="cc-by-sa" deviceset="CC-BY-NC-SA" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
@@ -7972,15 +7986,22 @@ Various fiducial points for machine vision alignment.</description>
 </part>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="+3V38" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V36" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="MC0603B104K250CT"/>
 <attribute name="OC_NEWARK" value="06R4925"/>
 </part>
-<part name="+3V37" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V35" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
+<part name="J11" library="con-molex" deviceset="22-?-03" device="05-7038">
+<attribute name="MPN" value="22-05-7038"/>
+<attribute name="OC_NEWARK" value="26M6362"/>
+</part>
+<part name="S3" library="supply3" deviceset="AVDD" device=""/>
+<part name="S1" library="supply3" deviceset="AVDD" device=""/>
+<part name="S2" library="supply3" deviceset="AVDD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8068,8 +8089,8 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="MF" x="74.93" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="74.93" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="+3V34" gate="G$1" x="74.93" y="83.82"/>
-<instance part="+3V35" gate="G$1" x="74.93" y="41.91"/>
+<instance part="+3V32" gate="G$1" x="74.93" y="83.82"/>
+<instance part="+3V33" gate="G$1" x="74.93" y="41.91"/>
 <instance part="GND7" gate="1" x="52.07" y="52.07"/>
 <instance part="GND8" gate="1" x="52.07" y="7.62"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -8105,7 +8126,7 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="MPN" x="218.44" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND21" gate="1" x="213.36" y="55.88"/>
-<instance part="+3V310" gate="G$1" x="223.52" y="111.76"/>
+<instance part="+3V38" gate="G$1" x="223.52" y="111.76"/>
 <instance part="GND22" gate="1" x="226.06" y="81.28"/>
 <instance part="GND17" gate="1" x="187.96" y="55.88"/>
 <instance part="C10" gate="G$1" x="248.92" y="63.5">
@@ -8113,13 +8134,13 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="MF" x="248.92" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="248.92" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="+3V311" gate="G$1" x="248.92" y="73.66"/>
+<instance part="+3V39" gate="G$1" x="248.92" y="73.66"/>
 <instance part="GND23" gate="1" x="248.92" y="50.8"/>
-<instance part="J7" gate="-1" x="182.88" y="104.14" rot="MR0"/>
-<instance part="J7" gate="-2" x="182.88" y="99.06" rot="MR0"/>
-<instance part="J7" gate="-3" x="182.88" y="93.98" rot="MR0"/>
-<instance part="J7" gate="-4" x="182.88" y="88.9" rot="MR0"/>
-<instance part="J7" gate="-5" x="182.88" y="83.82" rot="MR0"/>
+<instance part="J7" gate="-1" x="180.34" y="83.82" rot="MR0"/>
+<instance part="J7" gate="-2" x="180.34" y="88.9" rot="MR0"/>
+<instance part="J7" gate="-3" x="180.34" y="99.06" rot="MR0"/>
+<instance part="J7" gate="-4" x="180.34" y="104.14" rot="MR0"/>
+<instance part="J7" gate="-5" x="180.34" y="93.98" rot="MR0"/>
 <instance part="U3" gate="A" x="246.38" y="96.52">
 <attribute name="MF" x="246.38" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
@@ -8176,9 +8197,9 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="MF" x="85.09" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="85.09" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="+3V36" gate="G$1" x="85.09" y="127"/>
+<instance part="+3V34" gate="G$1" x="85.09" y="127"/>
 <instance part="GND10" gate="1" x="85.09" y="104.14"/>
-<instance part="+3V33" gate="G$1" x="58.42" y="146.05"/>
+<instance part="+3V31" gate="G$1" x="58.42" y="146.05"/>
 <instance part="T1" gate="G$1" x="311.15" y="19.05">
 <attribute name="OC_NEWARK" x="311.15" y="19.05" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="311.15" y="19.05" size="1.778" layer="96" display="off"/>
@@ -8234,18 +8255,16 @@ Various fiducial points for machine vision alignment.</description>
 <instance part="J8" gate="-2" x="185.42" y="35.56"/>
 <instance part="J8" gate="-3" x="185.42" y="30.48"/>
 <instance part="J8" gate="-4" x="185.42" y="25.4"/>
-<instance part="J9" gate="-1" x="215.9" y="245.11"/>
-<instance part="J9" gate="-2" x="215.9" y="240.03"/>
-<instance part="J10" gate="-1" x="215.9" y="217.17"/>
-<instance part="J10" gate="-2" x="215.9" y="212.09"/>
-<instance part="J11" gate="-1" x="215.9" y="196.85" rot="MR0"/>
-<instance part="J11" gate="-2" x="215.9" y="191.77" rot="MR0"/>
+<instance part="J9" gate="-1" x="215.9" y="217.17"/>
+<instance part="J9" gate="-2" x="215.9" y="212.09"/>
+<instance part="J10" gate="-1" x="215.9" y="196.85" rot="MR0"/>
+<instance part="J10" gate="-2" x="215.9" y="191.77" rot="MR0"/>
 <instance part="P+6" gate="1" x="205.74" y="200.66"/>
 <instance part="GND20" gate="1" x="205.74" y="186.69"/>
 <instance part="P+5" gate="1" x="205.74" y="223.52"/>
 <instance part="GND19" gate="1" x="205.74" y="207.01"/>
-<instance part="+3V39" gate="G$1" x="205.74" y="252.73"/>
-<instance part="GND18" gate="1" x="205.74" y="234.95"/>
+<instance part="+3V37" gate="G$1" x="195.58" y="252.73" rot="MR0"/>
+<instance part="GND18" gate="1" x="205.74" y="229.87"/>
 <instance part="C4" gate="G$1" x="90.17" y="60.96">
 <attribute name="OC_NEWARK" x="90.17" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="90.17" y="60.96" size="1.778" layer="96" display="off"/>
@@ -8258,8 +8277,6 @@ Various fiducial points for machine vision alignment.</description>
 </instance>
 <instance part="GND12" gate="1" x="90.17" y="7.62"/>
 <instance part="GND11" gate="1" x="90.17" y="52.07"/>
-<instance part="+3V31" gate="G$1" x="29.21" y="245.11"/>
-<instance part="+3V32" gate="G$1" x="29.21" y="207.01"/>
 <instance part="CC1" gate="G$1" x="303.53" y="8.89">
 <attribute name="OC_NEWARK" x="303.53" y="8.89" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="303.53" y="8.89" size="1.778" layer="96" display="off"/>
@@ -8273,15 +8290,21 @@ Various fiducial points for machine vision alignment.</description>
 <instance part="U2" gate="B" x="124.46" y="17.78"/>
 <instance part="GND15" gate="1" x="109.982" y="52.07"/>
 <instance part="GND14" gate="1" x="108.712" y="7.874"/>
-<instance part="+3V38" gate="G$1" x="144.78" y="76.708"/>
+<instance part="+3V36" gate="G$1" x="144.78" y="76.708"/>
 <instance part="GND16" gate="1" x="143.002" y="52.07"/>
 <instance part="C6" gate="G$1" x="101.6" y="43.18">
 <attribute name="OC_NEWARK" x="101.6" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="101.6" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="101.6" y="43.18" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="+3V37" gate="G$1" x="101.6" y="53.34"/>
+<instance part="+3V35" gate="G$1" x="101.6" y="53.34"/>
 <instance part="GND13" gate="1" x="101.6" y="30.48"/>
+<instance part="J11" gate="-1" x="218.44" y="246.38"/>
+<instance part="J11" gate="-2" x="218.44" y="241.3"/>
+<instance part="J11" gate="-3" x="218.44" y="236.22"/>
+<instance part="S3" gate="A" x="205.74" y="251.46" rot="MR0"/>
+<instance part="S1" gate="A" x="29.21" y="245.11"/>
+<instance part="S2" gate="A" x="29.21" y="207.01"/>
 </instances>
 <busses>
 </busses>
@@ -8383,18 +8406,12 @@ Various fiducial points for machine vision alignment.</description>
 </segment>
 <segment>
 <pinref part="J9" gate="-2" pin="S"/>
-<pinref part="GND18" gate="1" pin="GND"/>
-<wire x1="213.36" y1="240.03" x2="205.74" y2="240.03" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="240.03" x2="205.74" y2="237.49" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J10" gate="-2" pin="S"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 <wire x1="213.36" y1="212.09" x2="205.74" y2="212.09" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="212.09" x2="205.74" y2="209.55" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J11" gate="-2" pin="1"/>
+<pinref part="J10" gate="-2" pin="1"/>
 <pinref part="GND20" gate="1" pin="GND"/>
 <wire x1="210.82" y1="191.77" x2="205.74" y2="191.77" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="191.77" x2="205.74" y2="189.23" width="0.1524" layer="91"/>
@@ -8410,10 +8427,10 @@ Various fiducial points for machine vision alignment.</description>
 <wire x1="90.17" y1="12.7" x2="90.17" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J7" gate="-5" pin="S"/>
 <wire x1="187.96" y1="58.42" x2="187.96" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="83.82" x2="185.42" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
+<pinref part="J7" gate="-1" pin="S"/>
+<wire x1="182.88" y1="83.82" x2="187.96" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="C1"/>
@@ -8438,67 +8455,61 @@ Various fiducial points for machine vision alignment.</description>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="101.6" y1="38.1" x2="101.6" y2="33.02" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J11" gate="-3" pin="S"/>
+<pinref part="GND18" gate="1" pin="GND"/>
+<wire x1="215.9" y1="236.22" x2="205.74" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="236.22" x2="205.74" y2="232.41" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+3V3" class="2">
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="74.93" y1="78.74" x2="74.93" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="+3V34" gate="G$1" pin="+3V3"/>
+<pinref part="+3V32" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="74.93" y1="35.56" x2="74.93" y2="39.37" width="0.1524" layer="91"/>
-<pinref part="+3V35" gate="G$1" pin="+3V3"/>
+<pinref part="+3V33" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="+3V311" gate="G$1" pin="+3V3"/>
+<pinref part="+3V39" gate="G$1" pin="+3V3"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="248.92" y1="71.12" x2="248.92" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="VCC"/>
-<pinref part="+3V310" gate="G$1" pin="+3V3"/>
+<pinref part="+3V38" gate="G$1" pin="+3V3"/>
 <wire x1="228.6" y1="101.6" x2="223.52" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="101.6" x2="223.52" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="+3V36" gate="G$1" pin="+3V3"/>
+<pinref part="+3V34" gate="G$1" pin="+3V3"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="85.09" y1="124.46" x2="85.09" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="V+"/>
 <wire x1="58.42" y1="143.51" x2="58.42" y2="140.97" width="0.1524" layer="91"/>
-<pinref part="+3V33" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="J9" gate="-1" pin="S"/>
-<pinref part="+3V39" gate="G$1" pin="+3V3"/>
-<wire x1="213.36" y1="245.11" x2="205.74" y2="245.11" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="245.11" x2="205.74" y2="250.19" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J1" gate="-1" pin="S"/>
-<wire x1="24.13" y1="237.49" x2="29.21" y2="237.49" width="0.1524" layer="91"/>
-<wire x1="29.21" y1="242.57" x2="29.21" y2="237.49" width="0.1524" layer="91"/>
 <pinref part="+3V31" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="J2" gate="-1" pin="S"/>
-<wire x1="24.13" y1="199.39" x2="29.21" y2="199.39" width="0.1524" layer="91"/>
-<wire x1="29.21" y1="199.39" x2="29.21" y2="204.47" width="0.1524" layer="91"/>
-<pinref part="+3V32" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="VCC"/>
 <wire x1="139.7" y1="66.04" x2="144.78" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="66.04" x2="144.78" y2="74.168" width="0.1524" layer="91"/>
-<pinref part="+3V38" gate="G$1" pin="+3V3"/>
+<pinref part="+3V36" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="+3V35" gate="G$1" pin="+3V3"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="50.8" x2="101.6" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+3V37" gate="G$1" pin="+3V3"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="50.8" x2="101.6" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="250.19" x2="195.58" y2="241.3" width="0.1524" layer="91"/>
+<pinref part="J11" gate="-2" pin="S"/>
+<wire x1="215.9" y1="241.3" x2="195.58" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADC_TEMP_1" class="1">
@@ -8531,7 +8542,7 @@ Various fiducial points for machine vision alignment.</description>
 <wire x1="52.07" y1="76.2" x2="52.07" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J11" gate="-1" pin="1"/>
+<pinref part="J10" gate="-1" pin="1"/>
 <pinref part="P+6" gate="1" pin="+24V"/>
 <wire x1="210.82" y1="196.85" x2="205.74" y2="196.85" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="196.85" x2="205.74" y2="198.12" width="0.1524" layer="91"/>
@@ -8626,9 +8637,7 @@ Various fiducial points for machine vision alignment.</description>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="129.54" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
-<pinref part="J7" gate="-1" pin="S"/>
 <wire x1="187.96" y1="124.46" x2="187.96" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="104.14" x2="185.42" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="124.46" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
 <junction x="187.96" y="124.46"/>
 <pinref part="R16" gate="G$1" pin="1"/>
@@ -8638,6 +8647,9 @@ Various fiducial points for machine vision alignment.</description>
 <wire x1="198.12" y1="121.92" x2="198.12" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="124.46" x2="193.04" y2="124.46" width="0.1524" layer="91"/>
 <junction x="193.04" y="124.46"/>
+<pinref part="J7" gate="-4" pin="S"/>
+<wire x1="182.88" y1="104.14" x2="185.42" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="104.14" x2="185.42" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="27.94" y1="138.43" x2="35.56" y2="138.43" width="0.1524" layer="91"/>
@@ -8646,7 +8658,7 @@ Various fiducial points for machine vision alignment.</description>
 <pinref part="P+1" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="J10" gate="-1" pin="S"/>
+<pinref part="J9" gate="-1" pin="S"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
 <wire x1="213.36" y1="217.17" x2="205.74" y2="217.17" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="217.17" x2="205.74" y2="220.98" width="0.1524" layer="91"/>
@@ -8678,34 +8690,34 @@ Various fiducial points for machine vision alignment.</description>
 </net>
 <net name="N$35" class="0">
 <segment>
-<pinref part="J7" gate="-2" pin="S"/>
 <pinref part="R18" gate="G$1" pin="1"/>
-<wire x1="185.42" y1="99.06" x2="187.96" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="99.06" x2="200.66" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="111.76" x2="187.96" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="J7" gate="-3" pin="S"/>
+<wire x1="182.88" y1="99.06" x2="187.96" y2="99.06" width="0.1524" layer="91"/>
 <junction x="187.96" y="99.06"/>
 </segment>
 </net>
 <net name="N$40" class="0">
 <segment>
 <pinref part="R19" gate="G$1" pin="1"/>
-<wire x1="185.42" y1="93.98" x2="193.04" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="J7" gate="-3" pin="S"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="93.98" x2="200.66" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="104.14" x2="193.04" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="J7" gate="-5" pin="S"/>
+<wire x1="182.88" y1="93.98" x2="193.04" y2="93.98" width="0.1524" layer="91"/>
 <junction x="193.04" y="93.98"/>
 </segment>
 </net>
 <net name="N$46" class="0">
 <segment>
-<pinref part="J7" gate="-4" pin="S"/>
 <pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="185.42" y1="88.9" x2="198.12" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="88.9" x2="200.66" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="111.76" x2="198.12" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="J7" gate="-2" pin="S"/>
+<wire x1="182.88" y1="88.9" x2="198.12" y2="88.9" width="0.1524" layer="91"/>
 <junction x="198.12" y="88.9"/>
 </segment>
 </net>
@@ -8856,6 +8868,26 @@ Various fiducial points for machine vision alignment.</description>
 <pinref part="U2" gate="B" pin="A2"/>
 <wire x1="90.17" y1="22.86" x2="111.76" y2="22.86" width="0.1524" layer="91"/>
 <junction x="90.17" y="22.86"/>
+</segment>
+</net>
+<net name="AVDD" class="0">
+<segment>
+<pinref part="S3" gate="A" pin="AVDD"/>
+<wire x1="205.74" y1="246.38" x2="205.74" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="J11" gate="-1" pin="S"/>
+<wire x1="215.9" y1="246.38" x2="205.74" y2="246.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J1" gate="-1" pin="S"/>
+<wire x1="24.13" y1="237.49" x2="29.21" y2="237.49" width="0.1524" layer="91"/>
+<wire x1="29.21" y1="242.57" x2="29.21" y2="237.49" width="0.1524" layer="91"/>
+<pinref part="S1" gate="A" pin="AVDD"/>
+</segment>
+<segment>
+<pinref part="J2" gate="-1" pin="S"/>
+<wire x1="24.13" y1="199.39" x2="29.21" y2="199.39" width="0.1524" layer="91"/>
+<wire x1="29.21" y1="199.39" x2="29.21" y2="204.47" width="0.1524" layer="91"/>
+<pinref part="S2" gate="A" pin="AVDD"/>
 </segment>
 </net>
 </nets>
