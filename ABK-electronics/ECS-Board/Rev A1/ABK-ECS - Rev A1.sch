@@ -19692,12 +19692,36 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
-<part name="T1" library="exmachina" deviceset="EXMACHINA-LOGO" device="-NAME"/>
-<part name="CC1" library="cc-by-sa" deviceset="CC-BY-NC-SA" device=""/>
-<part name="JP1" library="SparkFun" deviceset="FIDUCIAL" device="1X2"/>
-<part name="JP2" library="SparkFun" deviceset="FIDUCIAL" device="1X2"/>
-<part name="JP3" library="SparkFun" deviceset="FIDUCIAL" device="1X2"/>
-<part name="JP4" library="SparkFun" deviceset="FIDUCIAL" device="1X2"/>
+<part name="T1" library="exmachina" deviceset="EXMACHINA-LOGO" device="-NAME">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="CC1" library="cc-by-sa" deviceset="CC-BY-NC-SA" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="JP1" library="SparkFun" deviceset="FIDUCIAL" device="1X2">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="JP2" library="SparkFun" deviceset="FIDUCIAL" device="1X2">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="JP3" library="SparkFun" deviceset="FIDUCIAL" device="1X2">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="JP4" library="SparkFun" deviceset="FIDUCIAL" device="1X2">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
 <part name="U2" library="NXP" deviceset="LPC1768FBD100" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="LPC1768FBD100"/>
@@ -19802,13 +19826,13 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <part name="+3V34" library="supply1" deviceset="+3V3" device=""/>
 <part name="SW1" library="Switch_SMT" deviceset="B3FS" device="" technology="-1015">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="B3FS-1010"/>
+<attribute name="OC_NEWARK" value="36M3638"/>
 </part>
 <part name="SW2" library="Switch_SMT" deviceset="B3FS" device="" technology="-1015">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="B3FS-1010"/>
+<attribute name="OC_NEWARK" value="36M3638"/>
 </part>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="10K">
 <attribute name="MF" value=""/>
@@ -19900,17 +19924,17 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" value="3557"/>
 <attribute name="OC_NEWARK" value="22M2711"/>
 </part>
-<part name="LED2" library="led" deviceset="LED" device="CHIPLED_0603" value="Blue">
+<part name="LED2" library="led" deviceset="LED" device="CHIPLED_0603" value="Red">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="OVS-0603"/>
 <attribute name="OC_NEWARK" value="15R2205"/>
 </part>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="4k7">
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="MCMR06X4701FTL"/>
 <attribute name="OC_NEWARK" value="86T3649"/>
 </part>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="4k7">
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="MCMR06X4701FTL"/>
 <attribute name="OC_NEWARK" value="86T3649"/>
@@ -19938,28 +19962,28 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="LED5" library="led" deviceset="LED" device="CHIP-LED0603" value="Blue">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="OVS-0604"/>
+<attribute name="MPN" value="OVS-0603"/>
 <attribute name="OC_FARNELL" value="1716771"/>
-<attribute name="OC_NEWARK" value="15R2206"/>
+<attribute name="OC_NEWARK" value="15R2205"/>
 </part>
-<part name="R15" library="rcl" deviceset="R-EU_" device="R0603" value="1k5">
-<attribute name="MF" value="Multicomp Passives"/>
-<attribute name="MPN" value="MC0063W060311K5"/>
+<part name="R15" library="rcl" deviceset="R-EU_" device="R0603" value="1K5">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCMR06X1501FTL"/>
 <attribute name="OC_FARNELL" value="2073391"/>
-<attribute name="OC_NEWARK" value="58K4488"/>
+<attribute name="OC_NEWARK" value="86T3542"/>
 </part>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="LED6" library="led" deviceset="LED" device="CHIP-LED0603" value="Blue">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="OVS-0604"/>
+<attribute name="MPN" value="OVS-0603"/>
 <attribute name="OC_FARNELL" value="1716771"/>
-<attribute name="OC_NEWARK" value="15R2206"/>
+<attribute name="OC_NEWARK" value="15R2205"/>
 </part>
-<part name="R16" library="rcl" deviceset="R-EU_" device="R0603" value="1k5">
-<attribute name="MF" value="Multicomp Passives"/>
-<attribute name="MPN" value="MC0063W060311K5"/>
+<part name="R16" library="rcl" deviceset="R-EU_" device="R0603" value="1K5">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCMR06X1501FTL"/>
 <attribute name="OC_FARNELL" value="2073391"/>
-<attribute name="OC_NEWARK" value="58K4488"/>
+<attribute name="OC_NEWARK" value="86T3542"/>
 </part>
 <part name="U3" library="lineartechnology" deviceset="LT3686HDDPBF" device="">
 <attribute name="MF" value=""/>
@@ -19967,11 +19991,11 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <part name="U4" library="lineartechnology" deviceset="LT3686HDDPBF" device="">
 <attribute name="MF" value=""/>
 </part>
-<part name="R19" library="rcl" deviceset="R-EU_" device="R0603" value="31k6">
-<attribute name="MF" value="Multicomp Passives"/>
-<attribute name="MPN" value="MC0063W060311K5"/>
+<part name="R19" library="rcl" deviceset="R-EU_" device="R0603" value="31K6">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCMR06X3162FTL"/>
 <attribute name="OC_FARNELL" value="2073391"/>
-<attribute name="OC_NEWARK" value="58K4488"/>
+<attribute name="OC_NEWARK" value="86T3613"/>
 </part>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="1000pF">
 <attribute name="MF" value=""/>
@@ -19988,11 +20012,11 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" value="GRT188R61H225KE13D"/>
 <attribute name="OC_NEWARK" value="01AC8938"/>
 </part>
-<part name="R20" library="rcl" deviceset="R-EU_" device="R0603" value="31k6">
-<attribute name="MF" value="Multicomp Passives"/>
-<attribute name="MPN" value="MC0063W060311K5"/>
+<part name="R20" library="rcl" deviceset="R-EU_" device="R0603" value="31K6">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCMR06X3162FTL"/>
 <attribute name="OC_FARNELL" value="2073391"/>
-<attribute name="OC_NEWARK" value="58K4488"/>
+<attribute name="OC_NEWARK" value="86T3613"/>
 </part>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0603" value="1000pF">
 <attribute name="MF" value=""/>
@@ -20002,13 +20026,13 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
-<part name="R21" library="rcl" deviceset="R-EU_" device="R0603" value="10k">
+<part name="R21" library="rcl" deviceset="R-EU_" device="R0603" value="10K">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="MCMR06X1002FTL"/>
 <attribute name="OC_FARNELL" value="2073391"/>
 <attribute name="OC_NEWARK" value="86T3506"/>
 </part>
-<part name="R22" library="rcl" deviceset="R-EU_" device="R0603" value="52k3">
+<part name="R22" library="rcl" deviceset="R-EU_" device="R0603" value="52K3">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="MC0063W0603152K3"/>
 <attribute name="OC_FARNELL" value="2073391"/>
@@ -20027,17 +20051,17 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
-<part name="R23" library="rcl" deviceset="R-EU_" device="R0603" value="10k">
+<part name="R23" library="rcl" deviceset="R-EU_" device="R0603" value="10K">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="MCMR06X1002FTL"/>
 <attribute name="OC_FARNELL" value="2073391"/>
 <attribute name="OC_NEWARK" value="86T3506"/>
 </part>
-<part name="R24" library="rcl" deviceset="R-EU_" device="R0603" value="31k6">
-<attribute name="MF" value="Multicomp Passives"/>
-<attribute name="MPN" value="MC0063W060311K5"/>
+<part name="R24" library="rcl" deviceset="R-EU_" device="R0603" value="31K6">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCMR06X3162FTL"/>
 <attribute name="OC_FARNELL" value="2073391"/>
-<attribute name="OC_NEWARK" value="58K4488"/>
+<attribute name="OC_NEWARK" value="86T3613"/>
 </part>
 <part name="C18" library="rcl" deviceset="C-EU" device="C0603" value="2.2uF">
 <attribute name="MF" value=""/>
@@ -20094,8 +20118,8 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="C22" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MC0603B104K250CT"/>
-<attribute name="OC_NEWARK" value="06R4925"/>
+<attribute name="MPN" value="MC0603B104K160CT"/>
+<attribute name="OC_NEWARK" value="06R4923"/>
 </part>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
@@ -20125,19 +20149,53 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
 <part name="GND49" library="supply1" deviceset="GND" device=""/>
-<part name="SJ1" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NC"/>
-<part name="SJ2" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NC"/>
-<part name="SJ4" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NC"/>
-<part name="SJ5" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NC"/>
-<part name="MP1" library="holes" deviceset="MOUNT-PAD" device="3,0"/>
-<part name="MP2" library="holes" deviceset="MOUNT-PAD" device="3,0"/>
-<part name="MP3" library="holes" deviceset="MOUNT-PAD" device="3,0"/>
-<part name="MP4" library="holes" deviceset="MOUNT-PAD" device="3,0"/>
-<part name="U6" library="International_Rectifier_By_element14_Batch_1" deviceset="IRLML6344TRPBF" device=""/>
+<part name="SJ1" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NC">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="SJ2" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NC">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="SJ4" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NC">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="SJ5" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NC">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="MP1" library="holes" deviceset="MOUNT-PAD" device="3,0">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="MP2" library="holes" deviceset="MOUNT-PAD" device="3,0">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="MP3" library="holes" deviceset="MOUNT-PAD" device="3,0">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="MP4" library="holes" deviceset="MOUNT-PAD" device="3,0">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="U6" library="International_Rectifier_By_element14_Batch_1" deviceset="IRLML6344TRPBF" device="">
+<attribute name="MF" value=""/>
+</part>
 <part name="R35" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X4701FTL"/>
+<attribute name="OC_NEWARK" value="86T3649"/>
 </part>
 <part name="R36" library="rcl" deviceset="R-EU_" device="R0603" value="100">
 <attribute name="MF" value=""/>
@@ -20151,11 +20209,23 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </part>
 <part name="GND54" library="supply1" deviceset="GND" device=""/>
 <part name="P+14" library="supply3" deviceset="+24V" device=""/>
-<part name="J5" library="con-molex" deviceset="22-?-02" device="05-7028"/>
+<part name="J5" library="con-molex" deviceset="22-?-02" device="05-7028">
+<attribute name="MPN" value="22-05-7028"/>
+<attribute name="OC_NEWARK" value="25M1728"/>
+</part>
 <part name="GND55" library="supply1" deviceset="GND" device=""/>
-<part name="OK1" library="optocoupler" deviceset="TLP283-4" device=""/>
-<part name="U9" library="International_Rectifier_By_element14_Batch_1" deviceset="IRLML6344TRPBF" device=""/>
-<part name="J4" library="con-molex" deviceset="22-?-06" device="05-7068"/>
+<part name="OK1" library="optocoupler" deviceset="TLP283-4" device="">
+<attribute name="MF" value="VISHAY/TELEFUNKEN"/>
+<attribute name="MPN" value="TCMT4100"/>
+<attribute name="OC_NEWARK" value="06H1639"/>
+</part>
+<part name="U9" library="International_Rectifier_By_element14_Batch_1" deviceset="IRLML6344TRPBF" device="">
+<attribute name="MF" value=""/>
+</part>
+<part name="J4" library="con-molex" deviceset="22-?-06" device="05-7068">
+<attribute name="MPN" value="22-05-7068"/>
+<attribute name="OC_NEWARK" value="25M1733"/>
+</part>
 <part name="P+6" library="supply3" deviceset="+24V" device=""/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
@@ -20164,8 +20234,8 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <part name="GND43" library="supply1" deviceset="GND" device=""/>
 <part name="R28" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X4701FTL"/>
+<attribute name="OC_NEWARK" value="86T3649"/>
 </part>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply3" deviceset="+24V" device=""/>
@@ -20176,13 +20246,13 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </part>
 <part name="R34" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X4701FTL"/>
+<attribute name="OC_NEWARK" value="86T3649"/>
 </part>
 <part name="R38" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X1001FTL"/>
+<attribute name="OC_NEWARK" value="86T3505"/>
 </part>
 <part name="GND53" library="supply1" deviceset="GND" device=""/>
 <part name="R42" library="rcl" deviceset="R-EU_" device="R0603" value="100">
@@ -20190,11 +20260,13 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" value="MCMR06X1000FTL"/>
 <attribute name="OC_NEWARK" value="86T3504"/>
 </part>
-<part name="U5" library="International_Rectifier_By_element14_Batch_1" deviceset="IRLML6344TRPBF" device=""/>
+<part name="U5" library="International_Rectifier_By_element14_Batch_1" deviceset="IRLML6344TRPBF" device="">
+<attribute name="MF" value=""/>
+</part>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X4701FTL"/>
+<attribute name="OC_NEWARK" value="86T3649"/>
 </part>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
 <part name="P+9" library="supply3" deviceset="+24V" device=""/>
@@ -20205,13 +20277,13 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </part>
 <part name="R18" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X4701FTL"/>
+<attribute name="OC_NEWARK" value="86T3649"/>
 </part>
 <part name="R30" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X1001FTL"/>
+<attribute name="OC_NEWARK" value="86T3505"/>
 </part>
 <part name="GND51" library="supply1" deviceset="GND" device=""/>
 <part name="R32" library="rcl" deviceset="R-EU_" device="R0603" value="100">
@@ -20219,11 +20291,13 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" value="MCMR06X1000FTL"/>
 <attribute name="OC_NEWARK" value="86T3504"/>
 </part>
-<part name="U7" library="International_Rectifier_By_element14_Batch_1" deviceset="IRLML6344TRPBF" device=""/>
+<part name="U7" library="International_Rectifier_By_element14_Batch_1" deviceset="IRLML6344TRPBF" device="">
+<attribute name="MF" value=""/>
+</part>
 <part name="R33" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X4701FTL"/>
+<attribute name="OC_NEWARK" value="86T3649"/>
 </part>
 <part name="GND52" library="supply1" deviceset="GND" device=""/>
 <part name="P+10" library="supply3" deviceset="+24V" device=""/>
@@ -20234,13 +20308,13 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </part>
 <part name="R40" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X4701FTL"/>
+<attribute name="OC_NEWARK" value="86T3649"/>
 </part>
 <part name="R41" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X1001FTL"/>
+<attribute name="OC_NEWARK" value="86T3505"/>
 </part>
 <part name="GND56" library="supply1" deviceset="GND" device=""/>
 <part name="R43" library="rcl" deviceset="R-EU_" device="R0603" value="100">
@@ -20248,11 +20322,13 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" value="MCMR06X1000FTL"/>
 <attribute name="OC_NEWARK" value="86T3504"/>
 </part>
-<part name="U8" library="International_Rectifier_By_element14_Batch_1" deviceset="IRLML6344TRPBF" device=""/>
+<part name="U8" library="International_Rectifier_By_element14_Batch_1" deviceset="IRLML6344TRPBF" device="">
+<attribute name="MF" value=""/>
+</part>
 <part name="R44" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X4701FTL"/>
+<attribute name="OC_NEWARK" value="86T3649"/>
 </part>
 <part name="GND57" library="supply1" deviceset="GND" device=""/>
 <part name="P+12" library="supply3" deviceset="+24V" device=""/>
@@ -20263,13 +20339,13 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </part>
 <part name="R46" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X4701FTL"/>
+<attribute name="OC_NEWARK" value="86T3649"/>
 </part>
 <part name="R47" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X1001FTL"/>
+<attribute name="OC_NEWARK" value="86T3505"/>
 </part>
 <part name="GND58" library="supply1" deviceset="GND" device=""/>
 <part name="R48" library="rcl" deviceset="R-EU_" device="R0603" value="100">
@@ -20283,95 +20359,104 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <part name="P+17" library="supply1" deviceset="+5V" device=""/>
 <part name="R49" library="rcl" deviceset="R-EU_" device="R0603" value="330">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X3300FTL"/>
+<attribute name="OC_NEWARK" value="86T3616"/>
 </part>
 <part name="R50" library="rcl" deviceset="R-EU_" device="R0603" value="330">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X3300FTL"/>
+<attribute name="OC_NEWARK" value="86T3616"/>
 </part>
 <part name="R51" library="rcl" deviceset="R-EU_" device="R0603" value="330">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X3300FTL"/>
+<attribute name="OC_NEWARK" value="86T3616"/>
 </part>
 <part name="R52" library="rcl" deviceset="R-EU_" device="R0603" value="330">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X3300FTL"/>
+<attribute name="OC_NEWARK" value="86T3616"/>
 </part>
-<part name="OK2" library="optocoupler" deviceset="TLP283-4" device=""/>
+<part name="OK2" library="optocoupler" deviceset="TLP283-4" device="">
+<attribute name="MF" value="VISHAY/TELEFUNKEN"/>
+<attribute name="MPN" value="TCMT4100"/>
+<attribute name="OC_NEWARK" value="06H1639"/>
+</part>
 <part name="R53" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X1001FTL"/>
+<attribute name="OC_NEWARK" value="86T3505"/>
 </part>
 <part name="GND59" library="supply1" deviceset="GND" device=""/>
 <part name="R54" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X1001FTL"/>
+<attribute name="OC_NEWARK" value="86T3505"/>
 </part>
 <part name="GND60" library="supply1" deviceset="GND" device=""/>
 <part name="R55" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X1001FTL"/>
+<attribute name="OC_NEWARK" value="86T3505"/>
 </part>
 <part name="GND61" library="supply1" deviceset="GND" device=""/>
 <part name="R56" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X1001FTL"/>
+<attribute name="OC_NEWARK" value="86T3505"/>
 </part>
 <part name="GND62" library="supply1" deviceset="GND" device=""/>
-<part name="J7" library="con-molex" deviceset="22-?-06" device="05-7068"/>
+<part name="J7" library="con-molex" deviceset="22-?-06" device="05-7068">
+<attribute name="MPN" value="22-05-7068"/>
+<attribute name="OC_NEWARK" value="25M1733"/>
+</part>
 <part name="P+18" library="supply3" deviceset="+24V" device=""/>
 <part name="GND63" library="supply1" deviceset="GND" device=""/>
-<part name="U10" library="TI-CD4050BD" deviceset="CD4050BD" device=""/>
+<part name="U10" library="TI-CD4050BD" deviceset="CD4050BD" device="">
+<attribute name="MF" value=""/>
+</part>
 <part name="R57" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X1001FTL"/>
+<attribute name="OC_NEWARK" value="86T3505"/>
 </part>
 <part name="R58" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X4701FTL"/>
+<attribute name="OC_NEWARK" value="86T3649"/>
 </part>
 <part name="GND64" library="supply1" deviceset="GND" device=""/>
 <part name="R59" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X1001FTL"/>
+<attribute name="OC_NEWARK" value="86T3505"/>
 </part>
 <part name="R60" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X4701FTL"/>
+<attribute name="OC_NEWARK" value="86T3649"/>
 </part>
 <part name="GND65" library="supply1" deviceset="GND" device=""/>
 <part name="R61" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X1001FTL"/>
+<attribute name="OC_NEWARK" value="86T3505"/>
 </part>
 <part name="R62" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X4701FTL"/>
+<attribute name="OC_NEWARK" value="86T3649"/>
 </part>
 <part name="GND66" library="supply1" deviceset="GND" device=""/>
 <part name="R63" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X1001FTL"/>
+<attribute name="OC_NEWARK" value="86T3505"/>
 </part>
 <part name="R64" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1000FTL"/>
-<attribute name="OC_NEWARK" value="86T3504"/>
+<attribute name="MPN" value="MCMR06X4701FTL"/>
+<attribute name="OC_NEWARK" value="86T3649"/>
 </part>
 <part name="GND67" library="supply1" deviceset="GND" device=""/>
 <part name="P+19" library="supply1" deviceset="+5V" device=""/>
@@ -20380,10 +20465,18 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <part name="P+22" library="supply1" deviceset="+5V" device=""/>
 <part name="GND68" library="supply1" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
-<part name="C21" library="rcl" deviceset="C-EU" device="C0603" value="0.1Uf"/>
+<part name="C21" library="rcl" deviceset="C-EU" device="C0603" value="0.1Uf">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K500CT"/>
+<attribute name="OC_NEWARK" value="06R4927"/>
+</part>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND69" library="supply1" deviceset="GND" device=""/>
-<part name="J2" library="con-multicomp" deviceset="USB-B-S-RA" device=""/>
+<part name="J2" library="con-multicomp" deviceset="USB-B-S-RA" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="USB-B-S-RA"/>
+<attribute name="OC_NEWARK" value="14N8154"/>
+</part>
 <part name="R65" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="MCMR06X4701FTL"/>
@@ -20527,12 +20620,36 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="T1" gate="G$1" x="311.15" y="19.05"/>
-<instance part="CC1" gate="G$1" x="303.53" y="8.89"/>
-<instance part="JP1" gate="G$1" x="345.44" y="21.59"/>
-<instance part="JP2" gate="G$1" x="349.25" y="21.59"/>
-<instance part="JP3" gate="G$1" x="353.06" y="21.59"/>
-<instance part="JP4" gate="G$1" x="356.87" y="21.59"/>
+<instance part="T1" gate="G$1" x="311.15" y="19.05">
+<attribute name="OC_NEWARK" x="311.15" y="19.05" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="311.15" y="19.05" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="311.15" y="19.05" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="CC1" gate="G$1" x="303.53" y="8.89">
+<attribute name="OC_NEWARK" x="303.53" y="8.89" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="303.53" y="8.89" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="303.53" y="8.89" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="JP1" gate="G$1" x="345.44" y="21.59">
+<attribute name="OC_NEWARK" x="345.44" y="21.59" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="345.44" y="21.59" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="345.44" y="21.59" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="JP2" gate="G$1" x="349.25" y="21.59">
+<attribute name="OC_NEWARK" x="349.25" y="21.59" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="349.25" y="21.59" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="349.25" y="21.59" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="JP3" gate="G$1" x="353.06" y="21.59">
+<attribute name="OC_NEWARK" x="353.06" y="21.59" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="353.06" y="21.59" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="353.06" y="21.59" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="JP4" gate="G$1" x="356.87" y="21.59">
+<attribute name="OC_NEWARK" x="356.87" y="21.59" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="356.87" y="21.59" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="356.87" y="21.59" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="U2" gate="A" x="133.35" y="233.68">
 <attribute name="OC_NEWARK" x="133.35" y="233.68" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="133.35" y="233.68" size="1.778" layer="96" display="off"/>
@@ -20732,7 +20849,11 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <instance part="J3" gate="-6" x="121.92" y="38.1" rot="MR0"/>
 <instance part="GND18" gate="1" x="128.778" y="32.258"/>
 <instance part="GND20" gate="1" x="370.84" y="33.02"/>
-<instance part="J2" gate="G$1" x="195.58" y="43.18"/>
+<instance part="J2" gate="G$1" x="195.58" y="43.18">
+<attribute name="OC_NEWARK" x="195.58" y="43.18" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="195.58" y="43.18" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="195.58" y="43.18" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="R65" gate="G$1" x="24.13" y="17.78" rot="R270">
 <attribute name="OC_NEWARK" x="24.13" y="17.78" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MF" x="24.13" y="17.78" size="1.778" layer="96" rot="R180" display="off"/>
@@ -21637,14 +21758,46 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <instance part="GND47" gate="1" x="304.8" y="27.94"/>
 <instance part="GND48" gate="1" x="317.5" y="27.94"/>
 <instance part="GND49" gate="1" x="330.2" y="27.94"/>
-<instance part="SJ1" gate="1" x="330.2" y="38.1" rot="R90"/>
-<instance part="SJ2" gate="1" x="292.1" y="38.1" rot="R90"/>
-<instance part="SJ4" gate="1" x="317.5" y="38.1" rot="R90"/>
-<instance part="SJ5" gate="1" x="304.8" y="38.1" rot="R90"/>
-<instance part="MP1" gate="1" x="292.1" y="50.8" rot="R180"/>
-<instance part="MP2" gate="1" x="304.8" y="50.8" rot="R180"/>
-<instance part="MP3" gate="1" x="317.5" y="50.8" rot="R180"/>
-<instance part="MP4" gate="1" x="330.2" y="50.8" rot="R180"/>
+<instance part="SJ1" gate="1" x="330.2" y="38.1" rot="R90">
+<attribute name="OC_NEWARK" x="330.2" y="38.1" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="330.2" y="38.1" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="330.2" y="38.1" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="SJ2" gate="1" x="292.1" y="38.1" rot="R90">
+<attribute name="OC_NEWARK" x="292.1" y="38.1" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="292.1" y="38.1" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="292.1" y="38.1" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="SJ4" gate="1" x="317.5" y="38.1" rot="R90">
+<attribute name="OC_NEWARK" x="317.5" y="38.1" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="317.5" y="38.1" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="317.5" y="38.1" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="SJ5" gate="1" x="304.8" y="38.1" rot="R90">
+<attribute name="OC_NEWARK" x="304.8" y="38.1" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="304.8" y="38.1" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="304.8" y="38.1" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="MP1" gate="1" x="292.1" y="50.8" rot="R180">
+<attribute name="OC_NEWARK" x="292.1" y="50.8" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="292.1" y="50.8" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="292.1" y="50.8" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="MP2" gate="1" x="304.8" y="50.8" rot="R180">
+<attribute name="OC_NEWARK" x="304.8" y="50.8" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="304.8" y="50.8" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="304.8" y="50.8" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="MP3" gate="1" x="317.5" y="50.8" rot="R180">
+<attribute name="OC_NEWARK" x="317.5" y="50.8" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="317.5" y="50.8" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="317.5" y="50.8" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="MP4" gate="1" x="330.2" y="50.8" rot="R180">
+<attribute name="OC_NEWARK" x="330.2" y="50.8" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="330.2" y="50.8" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="330.2" y="50.8" size="1.27" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -22093,7 +22246,9 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MF" x="254" y="224.79" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
-<instance part="U6" gate="A" x="236.22" y="22.86" rot="MR0"/>
+<instance part="U6" gate="A" x="236.22" y="22.86" rot="MR0">
+<attribute name="MF" x="236.22" y="22.86" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="R35" gate="G$1" x="236.22" y="38.1" rot="MR90">
 <attribute name="OC_NEWARK" x="236.22" y="38.1" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="MF" x="236.22" y="38.1" size="1.778" layer="96" rot="MR90" display="off"/>
@@ -22118,7 +22273,9 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <instance part="OK1" gate="B" x="137.16" y="172.72" rot="MR0"/>
 <instance part="OK1" gate="C" x="137.16" y="119.38" rot="MR0"/>
 <instance part="OK1" gate="D" x="137.16" y="66.04" rot="MR0"/>
-<instance part="U9" gate="A" x="83.82" y="228.6" rot="MR0"/>
+<instance part="U9" gate="A" x="83.82" y="228.6" rot="MR0">
+<attribute name="MF" x="83.82" y="228.6" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="J4" gate="-1" x="22.86" y="193.04" rot="MR0"/>
 <instance part="J4" gate="-2" x="22.86" y="187.96" rot="MR0"/>
 <instance part="J4" gate="-3" x="22.86" y="182.88" rot="MR0"/>
@@ -22159,7 +22316,9 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MF" x="71.12" y="236.22" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="MPN" x="71.12" y="236.22" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="U5" gate="A" x="83.82" y="172.72" rot="MR0"/>
+<instance part="U5" gate="A" x="83.82" y="172.72" rot="MR0">
+<attribute name="MF" x="83.82" y="172.72" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="R1" gate="G$1" x="83.82" y="187.96" rot="MR90">
 <attribute name="OC_NEWARK" x="83.82" y="187.96" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="MF" x="83.82" y="187.96" size="1.778" layer="96" rot="MR90" display="off"/>
@@ -22188,7 +22347,9 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MF" x="71.12" y="180.34" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="MPN" x="71.12" y="180.34" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="U7" gate="A" x="83.82" y="119.38" rot="MR0"/>
+<instance part="U7" gate="A" x="83.82" y="119.38" rot="MR0">
+<attribute name="MF" x="83.82" y="119.38" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="R33" gate="G$1" x="83.82" y="134.62" rot="MR90">
 <attribute name="OC_NEWARK" x="83.82" y="134.62" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="MF" x="83.82" y="134.62" size="1.778" layer="96" rot="MR90" display="off"/>
@@ -22217,7 +22378,9 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MF" x="71.12" y="127" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="MPN" x="71.12" y="127" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="U8" gate="A" x="83.82" y="66.04" rot="MR0"/>
+<instance part="U8" gate="A" x="83.82" y="66.04" rot="MR0">
+<attribute name="MF" x="83.82" y="66.04" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="R44" gate="G$1" x="83.82" y="81.28" rot="MR90">
 <attribute name="OC_NEWARK" x="83.82" y="81.28" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="MF" x="83.82" y="81.28" size="1.778" layer="96" rot="MR90" display="off"/>
@@ -22306,7 +22469,9 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <instance part="J7" gate="-6" x="205.74" y="121.92" rot="MR0"/>
 <instance part="P+18" gate="1" x="210.82" y="157.48"/>
 <instance part="GND63" gate="1" x="210.82" y="111.76"/>
-<instance part="U10" gate="A" x="340.36" y="124.46"/>
+<instance part="U10" gate="A" x="340.36" y="124.46">
+<attribute name="MF" x="340.36" y="124.46" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="R57" gate="G$1" x="276.86" y="185.42" rot="MR180">
 <attribute name="OC_NEWARK" x="276.86" y="185.42" size="1.778" layer="96" rot="MR180" display="off"/>
 <attribute name="MF" x="276.86" y="185.42" size="1.778" layer="96" rot="MR180" display="off"/>
@@ -22357,7 +22522,11 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <instance part="P+22" gate="1" x="284.48" y="86.36"/>
 <instance part="GND68" gate="1" x="317.5" y="99.06"/>
 <instance part="+3V4" gate="G$1" x="320.04" y="142.24"/>
-<instance part="C21" gate="G$1" x="337.82" y="81.28"/>
+<instance part="C21" gate="G$1" x="337.82" y="81.28">
+<attribute name="OC_NEWARK" x="337.82" y="81.28" size="1.27" layer="96" display="off"/>
+<attribute name="MF" x="337.82" y="81.28" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="337.82" y="81.28" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="+3V5" gate="G$1" x="337.82" y="88.9"/>
 <instance part="GND69" gate="1" x="337.82" y="71.12"/>
 <instance part="LED9" gate="G$1" x="322.58" y="190.5">
