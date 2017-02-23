@@ -20104,7 +20104,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="OC_NEWARK" value="82T9378"/>
 </part>
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
-<part name="LED7" library="led" deviceset="LED" device="CHIPLED_0603" value="Blue">
+<part name="LED7" library="led" deviceset="LED" device="CHIPLED_0603" value="Red">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="OVS-0603"/>
 <attribute name="OC_NEWARK" value="15R2205"/>
@@ -20389,6 +20389,105 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" value="MCMR06X4701FTL"/>
 <attribute name="OC_NEWARK" value="86T3649"/>
 </part>
+<part name="LED9" library="led" deviceset="LED" device="CHIPLED_0603" value="Blue">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="OVS-0603"/>
+<attribute name="OC_NEWARK" value="15R2205"/>
+</part>
+<part name="R67" library="rcl" deviceset="R-EU_" device="R0603" value="1K5">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCMR06X1501FTL"/>
+<attribute name="OC_NEWARK" value="86T3542"/>
+</part>
+<part name="GND70" library="supply1" deviceset="GND" device=""/>
+<part name="LED10" library="led" deviceset="LED" device="CHIPLED_0603" value="Blue">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="OVS-0603"/>
+<attribute name="OC_NEWARK" value="15R2205"/>
+</part>
+<part name="R68" library="rcl" deviceset="R-EU_" device="R0603" value="1K5">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCMR06X1501FTL"/>
+<attribute name="OC_NEWARK" value="86T3542"/>
+</part>
+<part name="GND71" library="supply1" deviceset="GND" device=""/>
+<part name="LED11" library="led" deviceset="LED" device="CHIPLED_0603" value="Blue">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="OVS-0603"/>
+<attribute name="OC_NEWARK" value="15R2205"/>
+</part>
+<part name="R69" library="rcl" deviceset="R-EU_" device="R0603" value="1K5">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCMR06X1501FTL"/>
+<attribute name="OC_NEWARK" value="86T3542"/>
+</part>
+<part name="GND72" library="supply1" deviceset="GND" device=""/>
+<part name="LED12" library="led" deviceset="LED" device="CHIPLED_0603" value="Blue">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="OVS-0603"/>
+<attribute name="OC_NEWARK" value="15R2205"/>
+</part>
+<part name="R70" library="rcl" deviceset="R-EU_" device="R0603" value="1K5">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCMR06X1501FTL"/>
+<attribute name="OC_NEWARK" value="86T3542"/>
+</part>
+<part name="GND73" library="supply1" deviceset="GND" device=""/>
+<part name="LED13" library="led" deviceset="LED" device="CHIPLED_0603" value="Blue">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="OVS-0603"/>
+<attribute name="OC_NEWARK" value="15R2205"/>
+</part>
+<part name="R71" library="rcl" deviceset="R-EU_" device="R0603" value="1K5">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCMR06X1501FTL"/>
+<attribute name="OC_NEWARK" value="86T3542"/>
+</part>
+<part name="GND74" library="supply1" deviceset="GND" device=""/>
+<part name="LED14" library="led" deviceset="LED" device="CHIPLED_0603" value="Blue">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="OVS-0603"/>
+<attribute name="OC_NEWARK" value="15R2205"/>
+</part>
+<part name="R72" library="rcl" deviceset="R-EU_" device="R0603" value="1K5">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCMR06X1501FTL"/>
+<attribute name="OC_NEWARK" value="86T3542"/>
+</part>
+<part name="GND75" library="supply1" deviceset="GND" device=""/>
+<part name="LED15" library="led" deviceset="LED" device="CHIPLED_0603" value="Blue">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="OVS-0603"/>
+<attribute name="OC_NEWARK" value="15R2205"/>
+</part>
+<part name="R73" library="rcl" deviceset="R-EU_" device="R0603" value="1K5">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCMR06X1501FTL"/>
+<attribute name="OC_NEWARK" value="86T3542"/>
+</part>
+<part name="GND76" library="supply1" deviceset="GND" device=""/>
+<part name="LED16" library="led" deviceset="LED" device="CHIPLED_0603" value="Blue">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="OVS-0603"/>
+<attribute name="OC_NEWARK" value="15R2205"/>
+</part>
+<part name="R74" library="rcl" deviceset="R-EU_" device="R0603" value="1K5">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCMR06X1501FTL"/>
+<attribute name="OC_NEWARK" value="86T3542"/>
+</part>
+<part name="GND77" library="supply1" deviceset="GND" device=""/>
+<part name="LED8" library="led" deviceset="LED" device="CHIPLED_0603" value="Blue">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="OVS-0603"/>
+<attribute name="OC_NEWARK" value="15R2205"/>
+</part>
+<part name="R66" library="rcl" deviceset="R-EU_" device="R0603" value="1K5">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCMR06X1501FTL"/>
+<attribute name="OC_NEWARK" value="86T3542"/>
+</part>
+<part name="GND8" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21336,6 +21435,13 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="U1" gate="A" pin="WP"/>
 </segment>
 </net>
+<net name="230V-DETECTION" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="P1[27]/CLKOUT/*USB_OVRCR/CAP0[1]"/>
+<wire x1="133.35" y1="127" x2="125.984" y2="127" width="0.1524" layer="91"/>
+<label x="125.984" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -22008,11 +22114,11 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <instance part="J5" gate="-1" x="208.28" y="30.48" rot="MR0"/>
 <instance part="J5" gate="-2" x="208.28" y="25.4" rot="MR0"/>
 <instance part="GND55" gate="1" x="215.9" y="20.32" rot="MR0"/>
-<instance part="OK1" gate="A" x="142.24" y="228.6" rot="MR0"/>
-<instance part="OK1" gate="B" x="142.24" y="172.72" rot="MR0"/>
-<instance part="OK1" gate="C" x="142.24" y="119.38" rot="MR0"/>
-<instance part="OK1" gate="D" x="142.24" y="66.04" rot="MR0"/>
-<instance part="U9" gate="A" x="93.98" y="228.6" rot="MR0"/>
+<instance part="OK1" gate="A" x="137.16" y="228.6" rot="MR0"/>
+<instance part="OK1" gate="B" x="137.16" y="172.72" rot="MR0"/>
+<instance part="OK1" gate="C" x="137.16" y="119.38" rot="MR0"/>
+<instance part="OK1" gate="D" x="137.16" y="66.04" rot="MR0"/>
+<instance part="U9" gate="A" x="83.82" y="228.6" rot="MR0"/>
 <instance part="J4" gate="-1" x="22.86" y="193.04" rot="MR0"/>
 <instance part="J4" gate="-2" x="22.86" y="187.96" rot="MR0"/>
 <instance part="J4" gate="-3" x="22.86" y="182.88" rot="MR0"/>
@@ -22021,148 +22127,148 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <instance part="J4" gate="-6" x="22.86" y="167.64" rot="MR0"/>
 <instance part="P+6" gate="1" x="30.48" y="200.66"/>
 <instance part="GND37" gate="1" x="30.48" y="162.56"/>
-<instance part="GND38" gate="1" x="160.02" y="220.98"/>
-<instance part="GND39" gate="1" x="160.02" y="165.1"/>
-<instance part="GND42" gate="1" x="160.02" y="111.76"/>
-<instance part="GND43" gate="1" x="160.02" y="55.88"/>
-<instance part="R28" gate="G$1" x="93.98" y="243.84" rot="MR90">
-<attribute name="OC_NEWARK" x="93.98" y="243.84" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MF" x="93.98" y="243.84" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MPN" x="93.98" y="243.84" size="1.778" layer="96" rot="MR90" display="off"/>
+<instance part="GND38" gate="1" x="154.94" y="220.98"/>
+<instance part="GND39" gate="1" x="154.94" y="165.1"/>
+<instance part="GND42" gate="1" x="154.94" y="111.76"/>
+<instance part="GND43" gate="1" x="154.94" y="55.88"/>
+<instance part="R28" gate="G$1" x="83.82" y="243.84" rot="MR90">
+<attribute name="OC_NEWARK" x="83.82" y="243.84" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MF" x="83.82" y="243.84" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MPN" x="83.82" y="243.84" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
-<instance part="GND45" gate="1" x="119.38" y="208.28"/>
-<instance part="P+8" gate="1" x="93.98" y="254"/>
-<instance part="R29" gate="G$1" x="109.22" y="226.06" rot="MR0">
-<attribute name="OC_NEWARK" x="109.22" y="226.06" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MF" x="109.22" y="226.06" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MPN" x="109.22" y="226.06" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="GND45" gate="1" x="114.3" y="208.28"/>
+<instance part="P+8" gate="1" x="83.82" y="254"/>
+<instance part="R29" gate="G$1" x="96.52" y="226.06" rot="MR0">
+<attribute name="OC_NEWARK" x="96.52" y="226.06" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MF" x="96.52" y="226.06" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="96.52" y="226.06" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="R34" gate="G$1" x="119.38" y="218.44" rot="MR270">
-<attribute name="OC_NEWARK" x="119.38" y="218.44" size="1.778" layer="96" rot="MR270" display="off"/>
-<attribute name="MF" x="119.38" y="218.44" size="1.778" layer="96" rot="MR270" display="off"/>
-<attribute name="MPN" x="119.38" y="218.44" size="1.778" layer="96" rot="MR270" display="off"/>
+<instance part="R34" gate="G$1" x="114.3" y="218.44" rot="MR270">
+<attribute name="OC_NEWARK" x="114.3" y="218.44" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MF" x="114.3" y="218.44" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MPN" x="114.3" y="218.44" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
-<instance part="R38" gate="G$1" x="127" y="226.06" rot="MR180">
-<attribute name="OC_NEWARK" x="127" y="226.06" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MF" x="127" y="226.06" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="127" y="226.06" size="1.778" layer="96" rot="MR180" display="off"/>
+<instance part="R38" gate="G$1" x="121.92" y="226.06" rot="MR180">
+<attribute name="OC_NEWARK" x="121.92" y="226.06" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MF" x="121.92" y="226.06" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MPN" x="121.92" y="226.06" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
-<instance part="GND53" gate="1" x="93.98" y="208.28"/>
-<instance part="R42" gate="G$1" x="81.28" y="236.22" rot="MR0">
-<attribute name="OC_NEWARK" x="81.28" y="236.22" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MF" x="81.28" y="236.22" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MPN" x="81.28" y="236.22" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="GND53" gate="1" x="83.82" y="208.28"/>
+<instance part="R42" gate="G$1" x="71.12" y="236.22" rot="MR0">
+<attribute name="OC_NEWARK" x="71.12" y="236.22" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MF" x="71.12" y="236.22" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="71.12" y="236.22" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="U5" gate="A" x="93.98" y="172.72" rot="MR0"/>
-<instance part="R1" gate="G$1" x="93.98" y="187.96" rot="MR90">
-<attribute name="OC_NEWARK" x="93.98" y="187.96" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MF" x="93.98" y="187.96" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MPN" x="93.98" y="187.96" size="1.778" layer="96" rot="MR90" display="off"/>
+<instance part="U5" gate="A" x="83.82" y="172.72" rot="MR0"/>
+<instance part="R1" gate="G$1" x="83.82" y="187.96" rot="MR90">
+<attribute name="OC_NEWARK" x="83.82" y="187.96" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MF" x="83.82" y="187.96" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MPN" x="83.82" y="187.96" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
-<instance part="GND50" gate="1" x="119.38" y="152.4"/>
-<instance part="P+9" gate="1" x="93.98" y="198.12"/>
-<instance part="R17" gate="G$1" x="109.22" y="170.18" rot="MR0">
-<attribute name="OC_NEWARK" x="109.22" y="170.18" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MF" x="109.22" y="170.18" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MPN" x="109.22" y="170.18" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="GND50" gate="1" x="114.3" y="152.4"/>
+<instance part="P+9" gate="1" x="83.82" y="198.12"/>
+<instance part="R17" gate="G$1" x="96.52" y="170.18" rot="MR0">
+<attribute name="OC_NEWARK" x="96.52" y="170.18" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MF" x="96.52" y="170.18" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="96.52" y="170.18" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="R18" gate="G$1" x="119.38" y="162.56" rot="MR270">
-<attribute name="OC_NEWARK" x="119.38" y="162.56" size="1.778" layer="96" rot="MR270" display="off"/>
-<attribute name="MF" x="119.38" y="162.56" size="1.778" layer="96" rot="MR270" display="off"/>
-<attribute name="MPN" x="119.38" y="162.56" size="1.778" layer="96" rot="MR270" display="off"/>
+<instance part="R18" gate="G$1" x="114.3" y="162.56" rot="MR270">
+<attribute name="OC_NEWARK" x="114.3" y="162.56" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MF" x="114.3" y="162.56" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MPN" x="114.3" y="162.56" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
-<instance part="R30" gate="G$1" x="127" y="170.18" rot="MR180">
-<attribute name="OC_NEWARK" x="127" y="170.18" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MF" x="127" y="170.18" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="127" y="170.18" size="1.778" layer="96" rot="MR180" display="off"/>
+<instance part="R30" gate="G$1" x="121.92" y="170.18" rot="MR180">
+<attribute name="OC_NEWARK" x="121.92" y="170.18" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MF" x="121.92" y="170.18" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MPN" x="121.92" y="170.18" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
-<instance part="GND51" gate="1" x="93.98" y="152.4"/>
-<instance part="R32" gate="G$1" x="81.28" y="180.34" rot="MR0">
-<attribute name="OC_NEWARK" x="81.28" y="180.34" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MF" x="81.28" y="180.34" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MPN" x="81.28" y="180.34" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="GND51" gate="1" x="83.82" y="152.4"/>
+<instance part="R32" gate="G$1" x="71.12" y="180.34" rot="MR0">
+<attribute name="OC_NEWARK" x="71.12" y="180.34" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MF" x="71.12" y="180.34" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="71.12" y="180.34" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="U7" gate="A" x="93.98" y="119.38" rot="MR0"/>
-<instance part="R33" gate="G$1" x="93.98" y="134.62" rot="MR90">
-<attribute name="OC_NEWARK" x="93.98" y="134.62" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MF" x="93.98" y="134.62" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MPN" x="93.98" y="134.62" size="1.778" layer="96" rot="MR90" display="off"/>
+<instance part="U7" gate="A" x="83.82" y="119.38" rot="MR0"/>
+<instance part="R33" gate="G$1" x="83.82" y="134.62" rot="MR90">
+<attribute name="OC_NEWARK" x="83.82" y="134.62" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MF" x="83.82" y="134.62" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MPN" x="83.82" y="134.62" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
-<instance part="GND52" gate="1" x="119.38" y="99.06"/>
-<instance part="P+10" gate="1" x="93.98" y="144.78"/>
-<instance part="R39" gate="G$1" x="109.22" y="116.84" rot="MR0">
-<attribute name="OC_NEWARK" x="109.22" y="116.84" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MF" x="109.22" y="116.84" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MPN" x="109.22" y="116.84" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="GND52" gate="1" x="114.3" y="99.06"/>
+<instance part="P+10" gate="1" x="83.82" y="144.78"/>
+<instance part="R39" gate="G$1" x="96.52" y="116.84" rot="MR0">
+<attribute name="OC_NEWARK" x="96.52" y="116.84" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MF" x="96.52" y="116.84" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="96.52" y="116.84" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="R40" gate="G$1" x="119.38" y="109.22" rot="MR270">
-<attribute name="OC_NEWARK" x="119.38" y="109.22" size="1.778" layer="96" rot="MR270" display="off"/>
-<attribute name="MF" x="119.38" y="109.22" size="1.778" layer="96" rot="MR270" display="off"/>
-<attribute name="MPN" x="119.38" y="109.22" size="1.778" layer="96" rot="MR270" display="off"/>
+<instance part="R40" gate="G$1" x="114.3" y="109.22" rot="MR270">
+<attribute name="OC_NEWARK" x="114.3" y="109.22" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MF" x="114.3" y="109.22" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MPN" x="114.3" y="109.22" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
-<instance part="R41" gate="G$1" x="127" y="116.84" rot="MR180">
-<attribute name="OC_NEWARK" x="127" y="116.84" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MF" x="127" y="116.84" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="127" y="116.84" size="1.778" layer="96" rot="MR180" display="off"/>
+<instance part="R41" gate="G$1" x="121.92" y="116.84" rot="MR180">
+<attribute name="OC_NEWARK" x="121.92" y="116.84" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MF" x="121.92" y="116.84" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MPN" x="121.92" y="116.84" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
-<instance part="GND56" gate="1" x="93.98" y="99.06"/>
-<instance part="R43" gate="G$1" x="81.28" y="127" rot="MR0">
-<attribute name="OC_NEWARK" x="81.28" y="127" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MF" x="81.28" y="127" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MPN" x="81.28" y="127" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="GND56" gate="1" x="83.82" y="99.06"/>
+<instance part="R43" gate="G$1" x="71.12" y="127" rot="MR0">
+<attribute name="OC_NEWARK" x="71.12" y="127" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MF" x="71.12" y="127" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="71.12" y="127" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="U8" gate="A" x="93.98" y="66.04" rot="MR0"/>
-<instance part="R44" gate="G$1" x="93.98" y="81.28" rot="MR90">
-<attribute name="OC_NEWARK" x="93.98" y="81.28" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MF" x="93.98" y="81.28" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MPN" x="93.98" y="81.28" size="1.778" layer="96" rot="MR90" display="off"/>
+<instance part="U8" gate="A" x="83.82" y="66.04" rot="MR0"/>
+<instance part="R44" gate="G$1" x="83.82" y="81.28" rot="MR90">
+<attribute name="OC_NEWARK" x="83.82" y="81.28" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MF" x="83.82" y="81.28" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MPN" x="83.82" y="81.28" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
-<instance part="GND57" gate="1" x="119.38" y="45.72"/>
-<instance part="P+12" gate="1" x="93.98" y="91.44"/>
-<instance part="R45" gate="G$1" x="109.22" y="63.5" rot="MR0">
-<attribute name="OC_NEWARK" x="109.22" y="63.5" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MF" x="109.22" y="63.5" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MPN" x="109.22" y="63.5" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="GND57" gate="1" x="114.3" y="45.72"/>
+<instance part="P+12" gate="1" x="83.82" y="91.44"/>
+<instance part="R45" gate="G$1" x="96.52" y="63.5" rot="MR0">
+<attribute name="OC_NEWARK" x="96.52" y="63.5" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MF" x="96.52" y="63.5" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="96.52" y="63.5" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="R46" gate="G$1" x="119.38" y="55.88" rot="MR270">
-<attribute name="OC_NEWARK" x="119.38" y="55.88" size="1.778" layer="96" rot="MR270" display="off"/>
-<attribute name="MF" x="119.38" y="55.88" size="1.778" layer="96" rot="MR270" display="off"/>
-<attribute name="MPN" x="119.38" y="55.88" size="1.778" layer="96" rot="MR270" display="off"/>
+<instance part="R46" gate="G$1" x="114.3" y="55.88" rot="MR270">
+<attribute name="OC_NEWARK" x="114.3" y="55.88" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MF" x="114.3" y="55.88" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MPN" x="114.3" y="55.88" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
-<instance part="R47" gate="G$1" x="127" y="63.5" rot="MR180">
-<attribute name="OC_NEWARK" x="127" y="63.5" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MF" x="127" y="63.5" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="127" y="63.5" size="1.778" layer="96" rot="MR180" display="off"/>
+<instance part="R47" gate="G$1" x="121.92" y="63.5" rot="MR180">
+<attribute name="OC_NEWARK" x="121.92" y="63.5" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MF" x="121.92" y="63.5" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MPN" x="121.92" y="63.5" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
-<instance part="GND58" gate="1" x="93.98" y="45.72"/>
-<instance part="R48" gate="G$1" x="81.28" y="73.66" rot="MR0">
-<attribute name="OC_NEWARK" x="81.28" y="73.66" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MF" x="81.28" y="73.66" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MPN" x="81.28" y="73.66" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="GND58" gate="1" x="83.82" y="45.72"/>
+<instance part="R48" gate="G$1" x="71.12" y="73.66" rot="MR0">
+<attribute name="OC_NEWARK" x="71.12" y="73.66" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MF" x="71.12" y="73.66" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="71.12" y="73.66" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="P+13" gate="1" x="132.08" y="76.2"/>
-<instance part="P+15" gate="1" x="132.08" y="129.54"/>
-<instance part="P+16" gate="1" x="132.08" y="182.88"/>
-<instance part="P+17" gate="1" x="132.08" y="238.76"/>
-<instance part="R49" gate="G$1" x="160.02" y="121.92" rot="MR180">
-<attribute name="OC_NEWARK" x="160.02" y="121.92" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MF" x="160.02" y="121.92" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="160.02" y="121.92" size="1.778" layer="96" rot="MR180" display="off"/>
+<instance part="P+13" gate="1" x="127" y="76.2"/>
+<instance part="P+15" gate="1" x="127" y="129.54"/>
+<instance part="P+16" gate="1" x="127" y="182.88"/>
+<instance part="P+17" gate="1" x="127" y="238.76"/>
+<instance part="R49" gate="G$1" x="154.94" y="121.92" rot="MR180">
+<attribute name="OC_NEWARK" x="154.94" y="121.92" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MF" x="154.94" y="121.92" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MPN" x="154.94" y="121.92" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
-<instance part="R50" gate="G$1" x="160.02" y="68.58" rot="MR180">
-<attribute name="OC_NEWARK" x="160.02" y="68.58" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MF" x="160.02" y="68.58" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="160.02" y="68.58" size="1.778" layer="96" rot="MR180" display="off"/>
+<instance part="R50" gate="G$1" x="154.94" y="68.58" rot="MR180">
+<attribute name="OC_NEWARK" x="154.94" y="68.58" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MF" x="154.94" y="68.58" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MPN" x="154.94" y="68.58" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
-<instance part="R51" gate="G$1" x="160.02" y="175.26" rot="MR180">
-<attribute name="OC_NEWARK" x="160.02" y="175.26" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MF" x="160.02" y="175.26" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="160.02" y="175.26" size="1.778" layer="96" rot="MR180" display="off"/>
+<instance part="R51" gate="G$1" x="154.94" y="175.26" rot="MR180">
+<attribute name="OC_NEWARK" x="154.94" y="175.26" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MF" x="154.94" y="175.26" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MPN" x="154.94" y="175.26" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
-<instance part="R52" gate="G$1" x="160.02" y="231.14" rot="MR180">
-<attribute name="OC_NEWARK" x="160.02" y="231.14" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MF" x="160.02" y="231.14" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="160.02" y="231.14" size="1.778" layer="96" rot="MR180" display="off"/>
+<instance part="R52" gate="G$1" x="154.94" y="231.14" rot="MR180">
+<attribute name="OC_NEWARK" x="154.94" y="231.14" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MF" x="154.94" y="231.14" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MPN" x="154.94" y="231.14" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="OK2" gate="A" x="261.62" y="187.96"/>
 <instance part="OK2" gate="B" x="261.62" y="149.86"/>
@@ -22254,6 +22360,105 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <instance part="C21" gate="G$1" x="337.82" y="81.28"/>
 <instance part="+3V5" gate="G$1" x="337.82" y="88.9"/>
 <instance part="GND69" gate="1" x="337.82" y="71.12"/>
+<instance part="LED9" gate="G$1" x="322.58" y="190.5">
+<attribute name="OC_NEWARK" x="322.58" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="322.58" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="322.58" y="190.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R67" gate="G$1" x="322.58" y="177.8" rot="R270">
+<attribute name="OC_NEWARK" x="322.58" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="322.58" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="322.58" y="177.8" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="GND70" gate="1" x="322.58" y="167.64"/>
+<instance part="LED10" gate="G$1" x="332.74" y="190.5">
+<attribute name="OC_NEWARK" x="332.74" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="332.74" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="332.74" y="190.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R68" gate="G$1" x="332.74" y="177.8" rot="R270">
+<attribute name="OC_NEWARK" x="332.74" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="332.74" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="332.74" y="177.8" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="GND71" gate="1" x="332.74" y="167.64"/>
+<instance part="LED11" gate="G$1" x="342.9" y="190.5">
+<attribute name="OC_NEWARK" x="342.9" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="342.9" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="342.9" y="190.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R69" gate="G$1" x="342.9" y="177.8" rot="R270">
+<attribute name="OC_NEWARK" x="342.9" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="342.9" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="342.9" y="177.8" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="GND72" gate="1" x="342.9" y="167.64"/>
+<instance part="LED12" gate="G$1" x="353.06" y="190.5">
+<attribute name="OC_NEWARK" x="353.06" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="353.06" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="353.06" y="190.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R70" gate="G$1" x="353.06" y="177.8" rot="R270">
+<attribute name="OC_NEWARK" x="353.06" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="353.06" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="353.06" y="177.8" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="GND73" gate="1" x="353.06" y="167.64"/>
+<instance part="LED13" gate="G$1" x="104.14" y="220.98">
+<attribute name="OC_NEWARK" x="104.14" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="104.14" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="104.14" y="220.98" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R71" gate="G$1" x="104.14" y="208.28" rot="R270">
+<attribute name="OC_NEWARK" x="104.14" y="208.28" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="104.14" y="208.28" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="104.14" y="208.28" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="GND74" gate="1" x="104.14" y="198.12"/>
+<instance part="LED14" gate="G$1" x="104.14" y="165.1">
+<attribute name="OC_NEWARK" x="104.14" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="104.14" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="104.14" y="165.1" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R72" gate="G$1" x="104.14" y="152.4" rot="R270">
+<attribute name="OC_NEWARK" x="104.14" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="104.14" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="104.14" y="152.4" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="GND75" gate="1" x="104.14" y="142.24"/>
+<instance part="LED15" gate="G$1" x="104.14" y="111.76">
+<attribute name="OC_NEWARK" x="104.14" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="104.14" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="104.14" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R73" gate="G$1" x="104.14" y="99.06" rot="R270">
+<attribute name="OC_NEWARK" x="104.14" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="104.14" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="104.14" y="99.06" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="GND76" gate="1" x="104.14" y="88.9"/>
+<instance part="LED16" gate="G$1" x="104.14" y="58.42">
+<attribute name="OC_NEWARK" x="104.14" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="104.14" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="104.14" y="58.42" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R74" gate="G$1" x="104.14" y="45.72" rot="R270">
+<attribute name="OC_NEWARK" x="104.14" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="104.14" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="104.14" y="45.72" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="GND77" gate="1" x="104.14" y="35.56"/>
+<instance part="LED8" gate="G$1" x="312.42" y="190.5">
+<attribute name="OC_NEWARK" x="312.42" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="312.42" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="312.42" y="190.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R66" gate="G$1" x="312.42" y="177.8" rot="R270">
+<attribute name="OC_NEWARK" x="312.42" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="312.42" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="312.42" y="177.8" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="GND8" gate="1" x="312.42" y="167.64"/>
 </instances>
 <busses>
 </busses>
@@ -22300,66 +22505,66 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <segment>
 <pinref part="OK1" gate="D" pin="C"/>
 <pinref part="GND43" gate="1" pin="GND"/>
-<wire x1="152.4" y1="63.5" x2="160.02" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="63.5" x2="160.02" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="63.5" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="63.5" x2="154.94" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="OK1" gate="C" pin="C"/>
 <pinref part="GND42" gate="1" pin="GND"/>
-<wire x1="152.4" y1="116.84" x2="160.02" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="116.84" x2="160.02" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="116.84" x2="154.94" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="116.84" x2="154.94" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="OK1" gate="B" pin="C"/>
 <pinref part="GND39" gate="1" pin="GND"/>
-<wire x1="152.4" y1="170.18" x2="160.02" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="170.18" x2="160.02" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="170.18" x2="154.94" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="170.18" x2="154.94" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="OK1" gate="A" pin="C"/>
 <pinref part="GND38" gate="1" pin="GND"/>
-<wire x1="152.4" y1="226.06" x2="160.02" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="226.06" x2="160.02" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="226.06" x2="154.94" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="226.06" x2="154.94" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R34" gate="G$1" pin="2"/>
 <pinref part="GND45" gate="1" pin="GND"/>
-<wire x1="119.38" y1="213.36" x2="119.38" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="213.36" x2="114.3" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U9" gate="A" pin="S"/>
 <pinref part="GND53" gate="1" pin="GND"/>
-<wire x1="93.98" y1="223.52" x2="93.98" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="223.52" x2="83.82" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R18" gate="G$1" pin="2"/>
 <pinref part="GND50" gate="1" pin="GND"/>
-<wire x1="119.38" y1="157.48" x2="119.38" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="157.48" x2="114.3" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U5" gate="A" pin="S"/>
 <pinref part="GND51" gate="1" pin="GND"/>
-<wire x1="93.98" y1="167.64" x2="93.98" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="167.64" x2="83.82" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R40" gate="G$1" pin="2"/>
 <pinref part="GND52" gate="1" pin="GND"/>
-<wire x1="119.38" y1="104.14" x2="119.38" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="104.14" x2="114.3" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U7" gate="A" pin="S"/>
 <pinref part="GND56" gate="1" pin="GND"/>
-<wire x1="93.98" y1="114.3" x2="93.98" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="114.3" x2="83.82" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R46" gate="G$1" pin="2"/>
 <pinref part="GND57" gate="1" pin="GND"/>
-<wire x1="119.38" y1="50.8" x2="119.38" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="50.8" x2="114.3" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U8" gate="A" pin="S"/>
 <pinref part="GND58" gate="1" pin="GND"/>
-<wire x1="93.98" y1="60.96" x2="93.98" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="60.96" x2="83.82" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="OK2" gate="A" pin="C"/>
@@ -22422,6 +22627,51 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="GND69" gate="1" pin="GND"/>
 <wire x1="337.82" y1="76.2" x2="337.82" y2="73.66" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND70" gate="1" pin="GND"/>
+<pinref part="R67" gate="G$1" pin="2"/>
+<wire x1="322.58" y1="170.18" x2="322.58" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND71" gate="1" pin="GND"/>
+<pinref part="R68" gate="G$1" pin="2"/>
+<wire x1="332.74" y1="170.18" x2="332.74" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND72" gate="1" pin="GND"/>
+<pinref part="R69" gate="G$1" pin="2"/>
+<wire x1="342.9" y1="170.18" x2="342.9" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND73" gate="1" pin="GND"/>
+<pinref part="R70" gate="G$1" pin="2"/>
+<wire x1="353.06" y1="170.18" x2="353.06" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND74" gate="1" pin="GND"/>
+<pinref part="R71" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="200.66" x2="104.14" y2="203.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND75" gate="1" pin="GND"/>
+<pinref part="R72" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="144.78" x2="104.14" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND76" gate="1" pin="GND"/>
+<pinref part="R73" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="91.44" x2="104.14" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND77" gate="1" pin="GND"/>
+<pinref part="R74" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="38.1" x2="104.14" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND8" gate="1" pin="GND"/>
+<pinref part="R66" gate="G$1" pin="2"/>
+<wire x1="312.42" y1="170.18" x2="312.42" y2="172.72" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+24V" class="0">
 <segment>
@@ -22444,22 +22694,22 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <segment>
 <pinref part="P+8" gate="1" pin="+24V"/>
 <pinref part="R28" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="251.46" x2="93.98" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="251.46" x2="83.82" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+9" gate="1" pin="+24V"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="195.58" x2="93.98" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="195.58" x2="83.82" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+10" gate="1" pin="+24V"/>
 <pinref part="R33" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="142.24" x2="93.98" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="142.24" x2="83.82" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+12" gate="1" pin="+24V"/>
 <pinref part="R44" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="88.9" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="88.9" x2="83.82" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J7" gate="-1" pin="S"/>
@@ -22483,26 +22733,26 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <segment>
 <pinref part="P+13" gate="1" pin="+5V"/>
 <pinref part="OK1" gate="D" pin="COL"/>
-<wire x1="132.08" y1="73.66" x2="132.08" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="68.58" x2="134.62" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="127" y1="73.66" x2="127" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="127" y1="68.58" x2="129.54" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+17" gate="1" pin="+5V"/>
 <pinref part="OK1" gate="A" pin="COL"/>
-<wire x1="132.08" y1="236.22" x2="132.08" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="231.14" x2="134.62" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="127" y1="236.22" x2="127" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="127" y1="231.14" x2="129.54" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+16" gate="1" pin="+5V"/>
 <pinref part="OK1" gate="B" pin="COL"/>
-<wire x1="132.08" y1="180.34" x2="132.08" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="175.26" x2="134.62" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="127" y1="180.34" x2="127" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="127" y1="175.26" x2="129.54" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="OK1" gate="C" pin="COL"/>
 <pinref part="P+15" gate="1" pin="+5V"/>
-<wire x1="134.62" y1="121.92" x2="132.08" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="121.92" x2="132.08" y2="127" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="121.92" x2="127" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="127" y1="121.92" x2="127" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="OK2" gate="D" pin="COL"/>
@@ -22550,6 +22800,12 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="U10" gate="A" pin="B"/>
 <wire x1="320.04" y1="129.54" x2="322.58" y2="129.54" width="0.1524" layer="91"/>
 <label x="320.04" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="332.74" y1="200.66" x2="355.6" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="LED10" gate="G$1" pin="A"/>
+<wire x1="332.74" y1="193.04" x2="332.74" y2="200.66" width="0.1524" layer="91"/>
+<label x="355.6" y="200.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$60" class="0">
@@ -22625,6 +22881,12 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="254" y1="20.32" x2="256.54" y2="20.32" width="0.1524" layer="91"/>
 <label x="256.54" y="20.32" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="LED8" gate="G$1" pin="A"/>
+<wire x1="312.42" y1="193.04" x2="312.42" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="205.74" x2="355.6" y2="205.74" width="0.1524" layer="91"/>
+<label x="355.6" y="205.74" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="230V-DETECTION" class="0">
 <segment>
@@ -22641,151 +22903,167 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <segment>
 <pinref part="R42" gate="G$1" pin="1"/>
 <pinref part="U9" gate="A" pin="D"/>
-<wire x1="86.36" y1="236.22" x2="93.98" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="236.22" x2="93.98" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="236.22" x2="83.82" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="236.22" x2="83.82" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="R28" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="238.76" x2="93.98" y2="236.22" width="0.1524" layer="91"/>
-<junction x="93.98" y="236.22"/>
+<wire x1="83.82" y1="238.76" x2="83.82" y2="236.22" width="0.1524" layer="91"/>
+<junction x="83.82" y="236.22"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="U9" gate="A" pin="G"/>
 <pinref part="R29" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="226.06" x2="104.14" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="226.06" x2="91.44" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="R29" gate="G$1" pin="1"/>
 <pinref part="R38" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="226.06" x2="119.38" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="226.06" x2="104.14" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="R34" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="226.06" x2="121.92" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="223.52" x2="119.38" y2="226.06" width="0.1524" layer="91"/>
-<junction x="119.38" y="226.06"/>
+<wire x1="104.14" y1="226.06" x2="114.3" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="226.06" x2="116.84" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="223.52" x2="114.3" y2="226.06" width="0.1524" layer="91"/>
+<junction x="114.3" y="226.06"/>
+<pinref part="LED13" gate="G$1" pin="A"/>
+<wire x1="104.14" y1="223.52" x2="104.14" y2="226.06" width="0.1524" layer="91"/>
+<junction x="104.14" y="226.06"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="R38" gate="G$1" pin="2"/>
 <pinref part="OK1" gate="A" pin="EMIT"/>
-<wire x1="132.08" y1="226.06" x2="134.62" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="127" y1="226.06" x2="129.54" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="R32" gate="G$1" pin="1"/>
 <pinref part="U5" gate="A" pin="D"/>
-<wire x1="86.36" y1="180.34" x2="93.98" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="180.34" x2="93.98" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="180.34" x2="83.82" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="180.34" x2="83.82" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="182.88" x2="93.98" y2="180.34" width="0.1524" layer="91"/>
-<junction x="93.98" y="180.34"/>
+<wire x1="83.82" y1="182.88" x2="83.82" y2="180.34" width="0.1524" layer="91"/>
+<junction x="83.82" y="180.34"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
 <pinref part="U5" gate="A" pin="G"/>
 <pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="170.18" x2="104.14" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="170.18" x2="91.44" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
 <pinref part="R30" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="170.18" x2="119.38" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="170.18" x2="104.14" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="170.18" x2="121.92" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="167.64" x2="119.38" y2="170.18" width="0.1524" layer="91"/>
-<junction x="119.38" y="170.18"/>
+<wire x1="104.14" y1="170.18" x2="114.3" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="170.18" x2="116.84" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="167.64" x2="114.3" y2="170.18" width="0.1524" layer="91"/>
+<junction x="114.3" y="170.18"/>
+<pinref part="LED14" gate="G$1" pin="A"/>
+<wire x1="104.14" y1="167.64" x2="104.14" y2="170.18" width="0.1524" layer="91"/>
+<junction x="104.14" y="170.18"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
 <pinref part="R30" gate="G$1" pin="2"/>
 <pinref part="OK1" gate="B" pin="EMIT"/>
-<wire x1="132.08" y1="170.18" x2="134.62" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="127" y1="170.18" x2="129.54" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
 <pinref part="R43" gate="G$1" pin="1"/>
 <pinref part="U7" gate="A" pin="D"/>
-<wire x1="86.36" y1="127" x2="93.98" y2="127" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="127" x2="93.98" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="127" x2="83.82" y2="127" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="127" x2="83.82" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R33" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="129.54" x2="93.98" y2="127" width="0.1524" layer="91"/>
-<junction x="93.98" y="127"/>
+<wire x1="83.82" y1="129.54" x2="83.82" y2="127" width="0.1524" layer="91"/>
+<junction x="83.82" y="127"/>
 </segment>
 </net>
 <net name="N$33" class="0">
 <segment>
 <pinref part="U7" gate="A" pin="G"/>
 <pinref part="R39" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="116.84" x2="104.14" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="116.84" x2="91.44" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$34" class="0">
 <segment>
 <pinref part="R39" gate="G$1" pin="1"/>
 <pinref part="R41" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="116.84" x2="119.38" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="116.84" x2="104.14" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="R40" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="116.84" x2="121.92" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="114.3" x2="119.38" y2="116.84" width="0.1524" layer="91"/>
-<junction x="119.38" y="116.84"/>
+<wire x1="104.14" y1="116.84" x2="114.3" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="116.84" x2="116.84" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="114.3" x2="114.3" y2="116.84" width="0.1524" layer="91"/>
+<junction x="114.3" y="116.84"/>
+<pinref part="LED15" gate="G$1" pin="A"/>
+<wire x1="104.14" y1="114.3" x2="104.14" y2="116.84" width="0.1524" layer="91"/>
+<junction x="104.14" y="116.84"/>
 </segment>
 </net>
 <net name="N$35" class="0">
 <segment>
 <pinref part="R48" gate="G$1" pin="1"/>
 <pinref part="U8" gate="A" pin="D"/>
-<wire x1="86.36" y1="73.66" x2="93.98" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="73.66" x2="93.98" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="73.66" x2="83.82" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="73.66" x2="83.82" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="R44" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="76.2" x2="93.98" y2="73.66" width="0.1524" layer="91"/>
-<junction x="93.98" y="73.66"/>
+<wire x1="83.82" y1="76.2" x2="83.82" y2="73.66" width="0.1524" layer="91"/>
+<junction x="83.82" y="73.66"/>
 </segment>
 </net>
 <net name="N$36" class="0">
 <segment>
 <pinref part="U8" gate="A" pin="G"/>
 <pinref part="R45" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="63.5" x2="104.14" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="63.5" x2="91.44" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$37" class="0">
 <segment>
 <pinref part="R45" gate="G$1" pin="1"/>
 <pinref part="R47" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="63.5" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="63.5" x2="104.14" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R46" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="63.5" x2="121.92" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="60.96" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
-<junction x="119.38" y="63.5"/>
+<wire x1="104.14" y1="63.5" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="63.5" x2="116.84" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="60.96" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
+<junction x="114.3" y="63.5"/>
+<pinref part="LED16" gate="G$1" pin="A"/>
+<wire x1="104.14" y1="60.96" x2="104.14" y2="63.5" width="0.1524" layer="91"/>
+<junction x="104.14" y="63.5"/>
 </segment>
 </net>
 <net name="N$38" class="0">
 <segment>
 <pinref part="R41" gate="G$1" pin="2"/>
 <pinref part="OK1" gate="C" pin="EMIT"/>
-<wire x1="134.62" y1="116.84" x2="132.08" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="116.84" x2="127" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$39" class="0">
 <segment>
 <pinref part="R47" gate="G$1" pin="2"/>
 <pinref part="OK1" gate="D" pin="EMIT"/>
-<wire x1="134.62" y1="63.5" x2="132.08" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="63.5" x2="127" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="L_VALIDATION" class="0">
 <segment>
 <pinref part="R32" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="180.34" x2="76.2" y2="180.34" width="0.1524" layer="91"/>
-<label x="71.12" y="180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="60.96" y1="180.34" x2="66.04" y2="180.34" width="0.1524" layer="91"/>
+<label x="60.96" y="180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="25.4" y1="182.88" x2="30.48" y2="182.88" width="0.1524" layer="91"/>
@@ -22796,8 +23074,8 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <net name="BRAKE_CONTROL" class="0">
 <segment>
 <pinref part="R48" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="73.66" x2="71.12" y2="73.66" width="0.1524" layer="91"/>
-<label x="71.12" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="66.04" y1="73.66" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
+<label x="60.96" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="30.48" y1="172.72" x2="25.4" y2="172.72" width="0.1524" layer="91"/>
@@ -22808,8 +23086,8 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <net name="CLUTCH_CONTROL" class="0">
 <segment>
 <pinref part="R43" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="127" x2="71.12" y2="127" width="0.1524" layer="91"/>
-<label x="71.12" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="66.04" y1="127" x2="60.96" y2="127" width="0.1524" layer="91"/>
+<label x="60.96" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="30.48" y1="177.8" x2="25.4" y2="177.8" width="0.1524" layer="91"/>
@@ -22820,8 +23098,8 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <net name="R_VALIDATION" class="0">
 <segment>
 <pinref part="R42" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="236.22" x2="71.12" y2="236.22" width="0.1524" layer="91"/>
-<label x="71.12" y="236.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="66.04" y1="236.22" x2="60.96" y2="236.22" width="0.1524" layer="91"/>
+<label x="60.96" y="236.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="30.48" y1="187.96" x2="25.4" y2="187.96" width="0.1524" layer="91"/>
@@ -22833,56 +23111,56 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <segment>
 <pinref part="OK1" gate="A" pin="A"/>
 <pinref part="R52" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="231.14" x2="154.94" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="231.14" x2="149.86" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="R_VALIDATION_MCU" class="0">
 <segment>
 <pinref part="R52" gate="G$1" pin="2"/>
-<wire x1="165.1" y1="231.14" x2="167.64" y2="231.14" width="0.1524" layer="91"/>
-<label x="167.64" y="231.14" size="1.27" layer="95" xref="yes"/>
+<wire x1="160.02" y1="231.14" x2="162.56" y2="231.14" width="0.1524" layer="91"/>
+<label x="162.56" y="231.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$42" class="0">
 <segment>
 <pinref part="OK1" gate="B" pin="A"/>
 <pinref part="R51" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="175.26" x2="154.94" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="175.26" x2="149.86" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$43" class="0">
 <segment>
 <pinref part="R50" gate="G$1" pin="1"/>
 <pinref part="OK1" gate="D" pin="A"/>
-<wire x1="154.94" y1="68.58" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="68.58" x2="147.32" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$46" class="0">
 <segment>
 <pinref part="OK1" gate="C" pin="A"/>
 <pinref part="R49" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="121.92" x2="154.94" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="121.92" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BRAKE_CONTROL_MCU" class="0">
 <segment>
 <pinref part="R50" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="68.58" x2="165.1" y2="68.58" width="0.1524" layer="91"/>
-<label x="167.64" y="68.58" size="1.27" layer="95" xref="yes"/>
+<wire x1="162.56" y1="68.58" x2="160.02" y2="68.58" width="0.1524" layer="91"/>
+<label x="162.56" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CLUTCH_CONTROL_MCU" class="0">
 <segment>
 <pinref part="R49" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="121.92" x2="165.1" y2="121.92" width="0.1524" layer="91"/>
-<label x="167.64" y="121.92" size="1.27" layer="95" xref="yes"/>
+<wire x1="162.56" y1="121.92" x2="160.02" y2="121.92" width="0.1524" layer="91"/>
+<label x="162.56" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="L_VALIDATION_MCU" class="0">
 <segment>
 <pinref part="R51" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="175.26" x2="165.1" y2="175.26" width="0.1524" layer="91"/>
-<label x="167.64" y="175.26" size="1.27" layer="95" xref="yes"/>
+<wire x1="162.56" y1="175.26" x2="160.02" y2="175.26" width="0.1524" layer="91"/>
+<label x="162.56" y="175.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -22992,6 +23270,12 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="320.04" y1="124.46" x2="322.58" y2="124.46" width="0.1524" layer="91"/>
 <label x="320.04" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="353.06" y1="195.58" x2="355.6" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="LED12" gate="G$1" pin="A"/>
+<wire x1="353.06" y1="193.04" x2="353.06" y2="195.58" width="0.1524" layer="91"/>
+<label x="355.6" y="195.58" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="DRIVE_STATUS_1" class="0">
 <segment>
@@ -23008,6 +23292,12 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="322.58" y1="127" x2="320.04" y2="127" width="0.1524" layer="91"/>
 <label x="320.04" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="355.6" y1="198.12" x2="342.9" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="LED11" gate="G$1" pin="A"/>
+<wire x1="342.9" y1="198.12" x2="342.9" y2="193.04" width="0.1524" layer="91"/>
+<label x="355.6" y="198.12" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="EMERGENCY_STOP" class="0">
 <segment>
@@ -23023,6 +23313,12 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="284.48" y1="185.42" x2="289.56" y2="185.42" width="0.1524" layer="91"/>
 <junction x="284.48" y="185.42"/>
 <label x="289.56" y="185.42" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="355.6" y1="203.2" x2="322.58" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="LED9" gate="G$1" pin="A"/>
+<wire x1="322.58" y1="203.2" x2="322.58" y2="193.04" width="0.1524" layer="91"/>
+<label x="355.6" y="203.2" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="230V_DETECTION" class="0">
@@ -23078,6 +23374,69 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 <pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="337.82" y1="86.36" x2="337.82" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$57" class="1">
+<segment>
+<pinref part="LED9" gate="G$1" pin="C"/>
+<pinref part="R67" gate="G$1" pin="1"/>
+<wire x1="322.58" y1="185.42" x2="322.58" y2="182.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$58" class="1">
+<segment>
+<pinref part="LED10" gate="G$1" pin="C"/>
+<pinref part="R68" gate="G$1" pin="1"/>
+<wire x1="332.74" y1="185.42" x2="332.74" y2="182.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$59" class="1">
+<segment>
+<pinref part="LED11" gate="G$1" pin="C"/>
+<pinref part="R69" gate="G$1" pin="1"/>
+<wire x1="342.9" y1="185.42" x2="342.9" y2="182.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$65" class="1">
+<segment>
+<pinref part="LED12" gate="G$1" pin="C"/>
+<pinref part="R70" gate="G$1" pin="1"/>
+<wire x1="353.06" y1="185.42" x2="353.06" y2="182.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$66" class="1">
+<segment>
+<pinref part="LED13" gate="G$1" pin="C"/>
+<pinref part="R71" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="215.9" x2="104.14" y2="213.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$67" class="1">
+<segment>
+<pinref part="LED14" gate="G$1" pin="C"/>
+<pinref part="R72" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="160.02" x2="104.14" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$68" class="1">
+<segment>
+<pinref part="LED15" gate="G$1" pin="C"/>
+<pinref part="R73" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="106.68" x2="104.14" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$69" class="1">
+<segment>
+<pinref part="LED16" gate="G$1" pin="C"/>
+<pinref part="R74" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="53.34" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$56" class="1">
+<segment>
+<pinref part="LED8" gate="G$1" pin="C"/>
+<pinref part="R66" gate="G$1" pin="1"/>
+<wire x1="312.42" y1="185.42" x2="312.42" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
