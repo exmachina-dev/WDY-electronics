@@ -14093,14 +14093,6 @@ SOurce: www.abracon.com</description>
 <packages>
 </packages>
 <symbols>
-<symbol name="AVDD">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.905" x2="0" y2="1.27" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="AVDD" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 <symbol name="+24V">
 <wire x1="1.27" y1="-0.635" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-0.635" width="0.254" layer="94"/>
@@ -14111,18 +14103,6 @@ SOurce: www.abracon.com</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="AVDD" prefix="S">
-<gates>
-<gate name="A" symbol="AVDD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="+24V" prefix="P+">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
@@ -14289,58 +14269,6 @@ SOurce: www.abracon.com</description>
 <attribute name="PACKAGE" value="8SOIC" constant="no"/>
 <attribute name="SUPPLIER" value="ATMEL" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="coilcraft">
-<packages>
-<package name="0603">
-<smd name="P$1" x="-0.64" y="0" dx="1.02" dy="0.64" layer="1" rot="R90"/>
-<smd name="P$2" x="0.64" y="0" dx="1.02" dy="0.64" layer="1" rot="R90"/>
-<wire x1="-1.295" y1="1.04" x2="1.295" y2="1.04" width="0.127" layer="21"/>
-<wire x1="1.295" y1="1.04" x2="1.295" y2="-1.04" width="0.127" layer="21"/>
-<wire x1="1.295" y1="-1.04" x2="-1.295" y2="-1.04" width="0.127" layer="21"/>
-<wire x1="-1.295" y1="-1.04" x2="-1.295" y2="1.04" width="0.127" layer="21"/>
-<wire x1="-0.76" y1="0.38" x2="-0.76" y2="-0.38" width="0.127" layer="21"/>
-<wire x1="-0.76" y1="-0.38" x2="0.76" y2="-0.38" width="0.127" layer="21"/>
-<wire x1="0.76" y1="-0.38" x2="0.76" y2="0.38" width="0.127" layer="21"/>
-<wire x1="0.76" y1="0.38" x2="-0.76" y2="0.38" width="0.127" layer="21"/>
-<text x="-1.27" y="1.27" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="0.8128" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="L-US">
-<wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90"/>
-<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90"/>
-<wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90"/>
-<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90"/>
-<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="-90"/>
-<wire x1="0" y1="-2.54" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90"/>
-<wire x1="0" y1="-2.54" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="-90"/>
-<wire x1="0" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="90"/>
-<text x="-1.27" y="-5.08" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="3.81" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="0603PS" prefix="L">
-<gates>
-<gate name="G$1" symbol="L-US" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -16358,82 +16286,6 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <connect gate="G$1" pin="P$7" pad="7"/>
 <connect gate="G$1" pin="P$8" pad="8"/>
 <connect gate="G$1" pin="P$9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="con-GlobalConnectorTechnology">
-<packages>
-<package name="USB_MICROB_SMT">
-<wire x1="-3.7" y1="-2.75" x2="3.7" y2="-2.75" width="0.127" layer="21"/>
-<wire x1="3.7" y1="-2.75" x2="3.7" y2="2.75" width="0.127" layer="21"/>
-<wire x1="-3.7" y1="2.75" x2="-3.7" y2="-2.75" width="0.127" layer="21"/>
-<smd name="8" x="2.8" y="2.23" dx="1.15" dy="1.45" layer="1"/>
-<smd name="7" x="-2.7" y="2.23" dx="1.45" dy="1.15" layer="1" rot="R90"/>
-<smd name="1" x="-1.3" y="2.65" dx="0.4" dy="1.4" layer="1"/>
-<smd name="2" x="-0.65" y="2.65" dx="0.4" dy="1.4" layer="1"/>
-<smd name="3" x="0" y="2.65" dx="0.4" dy="1.4" layer="1"/>
-<smd name="4" x="0.65" y="2.65" dx="0.4" dy="1.4" layer="1"/>
-<smd name="5" x="1.3" y="2.65" dx="0.4" dy="1.4" layer="1"/>
-<wire x1="-3.7" y1="2.75" x2="3.7" y2="2.75" width="0.127" layer="21"/>
-<smd name="9" x="-1.125" y="0" dx="1.75" dy="1.9" layer="1"/>
-<smd name="10" x="1.125" y="0" dx="1.75" dy="1.9" layer="1"/>
-<wire x1="-3.7" y1="-1.45" x2="3.7" y2="-1.45" width="0.127" layer="51" style="shortdash"/>
-<pad name="11" x="-3.575" y="0" drill="1.25" diameter="1.9" rot="R270"/>
-<pad name="12" x="3.575" y="0" drill="1.25" diameter="1.9" rot="R270"/>
-</package>
-</packages>
-<symbols>
-<symbol name="MINI-USB-5">
-<wire x1="-2.54" y1="6.35" x2="-2.54" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-6.35" x2="-1.27" y2="-7.62" width="0.254" layer="94" curve="90"/>
-<wire x1="-1.27" y1="-7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="-7.62" x2="1.016" y2="-8.128" width="0.254" layer="94" curve="-53.130102"/>
-<wire x1="1.016" y1="-8.128" x2="2.54" y2="-8.89" width="0.254" layer="94" curve="53.130102"/>
-<wire x1="2.54" y1="-8.89" x2="5.08" y2="-8.89" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-8.89" x2="6.35" y2="-7.62" width="0.254" layer="94" curve="90"/>
-<wire x1="6.35" y1="-7.62" x2="6.35" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="6.35" x2="-1.27" y2="7.62" width="0.254" layer="94" curve="-90"/>
-<wire x1="-1.27" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="7.62" x2="1.016" y2="8.128" width="0.254" layer="94" curve="53.130102"/>
-<wire x1="1.016" y1="8.128" x2="2.54" y2="8.89" width="0.254" layer="94" curve="-53.130102"/>
-<wire x1="2.54" y1="8.89" x2="5.08" y2="8.89" width="0.254" layer="94"/>
-<wire x1="5.08" y1="8.89" x2="6.35" y2="7.62" width="0.254" layer="94" curve="-90"/>
-<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="1.27" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-6.35" x2="3.81" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-6.35" x2="3.81" y2="6.35" width="0.254" layer="94"/>
-<wire x1="3.81" y1="6.35" x2="1.27" y2="6.35" width="0.254" layer="94"/>
-<wire x1="1.27" y1="6.35" x2="0" y2="5.08" width="0.254" layer="94"/>
-<text x="-2.54" y="11.43" size="1.778" layer="95">&gt;NAME</text>
-<text x="10.16" y="-7.62" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="1" x="-5.08" y="5.08" visible="pin" direction="pas"/>
-<pin name="2" x="-5.08" y="2.54" visible="pin" direction="pas"/>
-<pin name="3" x="-5.08" y="0" visible="pin" direction="pas"/>
-<pin name="4" x="-5.08" y="-2.54" visible="pin" direction="pas"/>
-<pin name="5" x="-5.08" y="-5.08" visible="pin" direction="pas"/>
-<pin name="S" x="0" y="-12.7" visible="pad" length="middle" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="USB3075-30-A" prefix="J">
-<gates>
-<gate name="J$1" symbol="MINI-USB-5" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="USB_MICROB_SMT">
-<connects>
-<connect gate="J$1" pin="1" pad="1"/>
-<connect gate="J$1" pin="2" pad="2"/>
-<connect gate="J$1" pin="3" pad="3"/>
-<connect gate="J$1" pin="4" pad="4"/>
-<connect gate="J$1" pin="5" pad="5"/>
-<connect gate="J$1" pin="S" pad="7 8 9 10 11 12"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -19765,6 +19617,66 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </deviceset>
 </devicesets>
 </library>
+<library name="con-multicomp">
+<packages>
+<package name="USB-B-S-RA">
+<pad name="2" x="-1.2446" y="4.7244" drill="0.9144"/>
+<pad name="1" x="1.2446" y="4.7244" drill="0.9144"/>
+<pad name="4" x="1.2446" y="2.7178" drill="0.9144"/>
+<pad name="3" x="-1.2446" y="2.7178" drill="0.9144"/>
+<pad name="SHL1" x="-6.0198" y="0" drill="2.286"/>
+<pad name="SHL" x="6.0198" y="0" drill="2.286"/>
+<wire x1="-6.4008" y1="-10.287" x2="-6.4008" y2="5.8166" width="0.4064" layer="21"/>
+<wire x1="-6.4008" y1="-10.287" x2="-6.4008" y2="5.8166" width="0.4064" layer="41"/>
+<wire x1="-6.4008" y1="5.8166" x2="6.4008" y2="5.8166" width="0.4064" layer="21"/>
+<wire x1="6.4008" y1="5.8166" x2="6.4008" y2="-10.287" width="0.4064" layer="21"/>
+<wire x1="6.4008" y1="5.8166" x2="6.4008" y2="-10.287" width="0.4064" layer="41"/>
+<wire x1="-6.4008" y1="5.8166" x2="6.4008" y2="5.8166" width="0.4064" layer="41"/>
+<wire x1="6.4008" y1="-10.287" x2="-6.4008" y2="-10.287" width="0.4064" layer="21"/>
+<wire x1="6.4008" y1="-10.287" x2="-6.4008" y2="-10.287" width="0.4064" layer="41"/>
+<text x="-6.35" y="6.35" size="1.27" layer="25">&gt;NAME</text>
+<text x="0" y="6.35" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-6.35" y1="-4.318" x2="6.35" y2="-4.318" width="0.4064" layer="21" style="shortdash"/>
+</package>
+</packages>
+<symbols>
+<symbol name="USB">
+<wire x1="0" y1="-7.62" x2="0" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="0" y1="7.62" x2="10.16" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="0" y2="-7.62" width="0.4064" layer="94"/>
+<pin name="VUSB" x="-5.08" y="5.08" length="middle"/>
+<pin name="DATA-" x="-5.08" y="2.54" length="middle"/>
+<pin name="DATA+" x="-5.08" y="0" length="middle"/>
+<pin name="GND" x="-5.08" y="-2.54" length="middle"/>
+<pin name="SHL" x="-5.08" y="-5.08" length="middle"/>
+<text x="0" y="10.16" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="USB-B-S-RA" prefix="J">
+<description>MULTICOMP  USB-B-S-RA  USB Connector, USB Type B, USB 2.0, Receptacle, 4 Positions, Through Hole Mount, Right Angle</description>
+<gates>
+<gate name="G$1" symbol="USB" x="-5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="USB-B-S-RA">
+<connects>
+<connect gate="G$1" pin="DATA+" pad="3"/>
+<connect gate="G$1" pin="DATA-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="SHL" pad="SHL SHL1"/>
+<connect gate="G$1" pin="VUSB" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -19836,20 +19748,6 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="L1" library="coilcraft" deviceset="0603PS" device="" value="0603PS-103KLB">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="MC0603B104K160CT"/>
-<attribute name="OC_NEWARK" value="06R4923"/>
-</part>
-<part name="+3V31" library="supply1" deviceset="+3V3" device=""/>
-<part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="P1" library="supply3" deviceset="AVDD" device=""/>
-<part name="P2" library="supply3" deviceset="AVDD" device=""/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="MC0603B104K160CT"/>
@@ -19962,11 +19860,6 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </part>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="J2" library="con-GlobalConnectorTechnology" deviceset="USB3075-30-A" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="USB3075-30-A"/>
-<attribute name="OC_NEWARK" value="58T0863"/>
-</part>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="33">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="MCMR06X33R0FTL"/>
@@ -20490,6 +20383,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <part name="C21" library="rcl" deviceset="C-EU" device="C0603" value="0.1Uf"/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND69" library="supply1" deviceset="GND" device=""/>
+<part name="J2" library="con-multicomp" deviceset="USB-B-S-RA" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20526,7 +20420,6 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <text x="5.08" y="118.11" size="1.778" layer="97">RTC</text>
 <text x="5.08" y="154.94" size="1.778" layer="97">12MHz CLOCK</text>
 <text x="5.08" y="215.9" size="1.778" layer="97">DECOUPLING</text>
-<text x="5.08" y="254" size="1.778" layer="97">ADC DECOUPLING</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -20586,20 +20479,6 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </instance>
 <instance part="GND5" gate="1" x="16.51" y="92.71"/>
 <instance part="GND9" gate="1" x="39.37" y="92.71"/>
-<instance part="L1" gate="G$1" x="29.21" y="240.03" rot="R90">
-<attribute name="OC_NEWARK" x="29.21" y="240.03" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="29.21" y="240.03" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="29.21" y="240.03" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C9" gate="G$1" x="39.37" y="234.95">
-<attribute name="OC_NEWARK" x="39.37" y="234.95" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="39.37" y="234.95" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="39.37" y="234.95" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="+3V31" gate="G$1" x="11.43" y="250.19"/>
-<instance part="GND8" gate="1" x="39.37" y="224.79"/>
-<instance part="P1" gate="A" x="39.37" y="247.65"/>
-<instance part="P2" gate="A" x="100.33" y="248.92"/>
 <instance part="C6" gate="G$1" x="19.05" y="203.2">
 <attribute name="OC_NEWARK" x="19.05" y="203.2" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="19.05" y="203.2" size="1.778" layer="96" display="off"/>
@@ -20710,24 +20589,19 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </instance>
 <instance part="+3V1" gate="G$1" x="231.14" y="71.12"/>
 <instance part="GND16" gate="1" x="231.14" y="27.94"/>
-<instance part="J2" gate="J$1" x="196.85" y="43.18">
-<attribute name="OC_NEWARK" x="196.85" y="43.18" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="196.85" y="43.18" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="196.85" y="43.18" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R11" gate="G$1" x="176.53" y="45.72" smashed="yes" rot="R180">
-<attribute name="NAME" x="173.99" y="48.0314" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="182.626" y="48.006" size="1.778" layer="96" rot="R180"/>
-<attribute name="OC_NEWARK" x="176.53" y="45.72" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="176.53" y="45.72" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="176.53" y="45.72" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R12" gate="G$1" x="176.53" y="43.18" smashed="yes" rot="R180">
-<attribute name="NAME" x="173.99" y="45.2374" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="182.88" y="45.212" size="1.778" layer="96" rot="R180"/>
+<instance part="R11" gate="G$1" x="176.53" y="43.18" smashed="yes" rot="R180">
+<attribute name="NAME" x="173.99" y="45.4914" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="182.626" y="45.466" size="1.778" layer="96" rot="R180"/>
 <attribute name="OC_NEWARK" x="176.53" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="176.53" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="176.53" y="43.18" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R12" gate="G$1" x="176.53" y="45.72" smashed="yes" rot="R180">
+<attribute name="NAME" x="173.99" y="47.7774" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="182.88" y="47.752" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_NEWARK" x="176.53" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="176.53" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="176.53" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND17" gate="1" x="184.15" y="30.48"/>
 <instance part="R13" gate="G$1" x="184.15" y="55.88" rot="R270">
@@ -20754,6 +20628,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <instance part="J3" gate="-6" x="121.92" y="38.1" rot="MR0"/>
 <instance part="GND18" gate="1" x="128.778" y="32.258"/>
 <instance part="GND20" gate="1" x="370.84" y="33.02"/>
+<instance part="J2" gate="G$1" x="195.58" y="43.18"/>
 </instances>
 <busses>
 </busses>
@@ -20811,12 +20686,6 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="+3V35" gate="G$1" pin="+3V3"/>
 <wire x1="11.43" y1="55.88" x2="11.43" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="11.43" y1="240.03" x2="21.59" y2="240.03" width="0.1524" layer="91"/>
-<wire x1="11.43" y1="240.03" x2="11.43" y2="247.65" width="0.1524" layer="91"/>
-<pinref part="+3V31" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
@@ -20937,12 +20806,16 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <junction x="31.75" y="20.32"/>
 <pinref part="U1" gate="A" pin="A1"/>
 <wire x1="31.75" y1="33.02" x2="31.75" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="31.75" y1="30.48" x2="31.75" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="31.75" y1="30.48" x2="31.75" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="31.75" y1="25.4" x2="31.75" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="41.91" y1="33.02" x2="31.75" y2="33.02" width="0.1524" layer="91"/>
 <junction x="31.75" y="33.02"/>
 <pinref part="U1" gate="A" pin="A2"/>
 <wire x1="41.91" y1="30.48" x2="31.75" y2="30.48" width="0.1524" layer="91"/>
 <junction x="31.75" y="30.48"/>
+<pinref part="U1" gate="A" pin="WP"/>
+<wire x1="41.91" y1="25.4" x2="31.75" y2="25.4" width="0.1524" layer="91"/>
+<junction x="31.75" y="25.4"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
@@ -20958,11 +20831,6 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="39.37" y1="97.79" x2="39.37" y2="95.25" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="39.37" y1="229.87" x2="39.37" y2="227.33" width="0.1524" layer="91"/>
-<pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -21034,10 +20902,10 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="231.14" y1="58.42" x2="231.14" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J2" gate="J$1" pin="5"/>
 <pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="191.77" y1="38.1" x2="184.15" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="184.15" y1="38.1" x2="184.15" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="184.15" y1="40.64" x2="184.15" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="GND"/>
+<wire x1="190.5" y1="40.64" x2="184.15" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J3" gate="-1" pin="S"/>
@@ -21107,8 +20975,8 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="171.45" y1="45.72" x2="166.37" y2="45.72" width="0.1524" layer="91"/>
-<label x="166.37" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="171.45" y1="43.18" x2="166.37" y2="43.18" width="0.1524" layer="91"/>
+<label x="166.37" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="USB_D_N" class="1">
@@ -21119,8 +20987,8 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </segment>
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="171.45" y1="43.18" x2="166.37" y2="43.18" width="0.1524" layer="91"/>
-<label x="166.37" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="171.45" y1="45.72" x2="166.37" y2="45.72" width="0.1524" layer="91"/>
+<label x="166.37" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="USB_V_BUS" class="1">
@@ -21130,9 +20998,9 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <label x="125.73" y="182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="J$1" pin="1"/>
-<wire x1="191.77" y1="48.26" x2="166.37" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="48.26" x2="166.37" y2="48.26" width="0.1524" layer="91"/>
 <label x="166.37" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="VUSB"/>
 </segment>
 </net>
 <net name="USB_UP_LED" class="1">
@@ -21254,27 +21122,6 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="57.15" y1="140.97" x2="64.77" y2="140.97" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="AVDD" class="0">
-<segment>
-<pinref part="L1" gate="G$1" pin="2"/>
-<pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="36.83" y1="240.03" x2="39.37" y2="240.03" width="0.1524" layer="91"/>
-<wire x1="39.37" y1="240.03" x2="39.37" y2="237.49" width="0.1524" layer="91"/>
-<pinref part="P1" gate="A" pin="AVDD"/>
-<wire x1="39.37" y1="240.03" x2="39.37" y2="245.11" width="0.1524" layer="91"/>
-<junction x="39.37" y="240.03"/>
-</segment>
-<segment>
-<pinref part="U2" gate="A" pin="VDDA"/>
-<wire x1="100.33" y1="246.38" x2="100.33" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="100.33" y1="210.82" x2="133.35" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="P2" gate="A" pin="AVDD"/>
-<wire x1="133.35" y1="205.74" x2="100.33" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="100.33" y1="205.74" x2="100.33" y2="210.82" width="0.1524" layer="91"/>
-<junction x="100.33" y="210.82"/>
-<pinref part="U2" gate="A" pin="VREFP"/>
-</segment>
-</net>
 <net name="VBAT+" class="0">
 <segment>
 <pinref part="X3" gate="A" pin="VBAT+"/>
@@ -21378,19 +21225,19 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <net name="N$1" class="1">
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
-<pinref part="J2" gate="J$1" pin="2"/>
-<wire x1="181.61" y1="45.72" x2="184.15" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="43.18" x2="184.15" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="184.15" y1="45.72" x2="191.77" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="184.15" y1="45.72" x2="184.15" y2="50.8" width="0.1524" layer="91"/>
-<junction x="184.15" y="45.72"/>
+<wire x1="184.15" y1="43.18" x2="190.5" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="184.15" y1="43.18" x2="184.15" y2="50.8" width="0.1524" layer="91"/>
+<junction x="184.15" y="43.18"/>
+<pinref part="J2" gate="G$1" pin="DATA+"/>
 </segment>
 </net>
 <net name="N$2" class="1">
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
-<pinref part="J2" gate="J$1" pin="3"/>
-<wire x1="181.61" y1="43.18" x2="191.77" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="45.72" x2="190.5" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="DATA-"/>
 </segment>
 </net>
 <net name="N$3" class="1">
@@ -21414,7 +21261,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <label x="125.984" y="142.24" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$58" class="1">
+<net name="MOTOR_CONTROL_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P1[26]/MCOB1/PWM1[6]/CAP0[0]"/>
 <wire x1="133.35" y1="134.62" x2="125.984" y2="134.62" width="0.1524" layer="91"/>
@@ -21665,10 +21512,10 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <instance part="GND47" gate="1" x="304.8" y="27.94"/>
 <instance part="GND48" gate="1" x="317.5" y="27.94"/>
 <instance part="GND49" gate="1" x="330.2" y="27.94"/>
-<instance part="SJ1" gate="1" x="292.1" y="38.1" rot="R90"/>
-<instance part="SJ2" gate="1" x="304.8" y="38.1" rot="R90"/>
-<instance part="SJ4" gate="1" x="330.2" y="38.1" rot="R90"/>
-<instance part="SJ5" gate="1" x="317.5" y="38.1" rot="R90"/>
+<instance part="SJ1" gate="1" x="330.2" y="38.1" rot="R90"/>
+<instance part="SJ2" gate="1" x="292.1" y="38.1" rot="R90"/>
+<instance part="SJ4" gate="1" x="317.5" y="38.1" rot="R90"/>
+<instance part="SJ5" gate="1" x="304.8" y="38.1" rot="R90"/>
 <instance part="MP1" gate="1" x="292.1" y="50.8" rot="R180"/>
 <instance part="MP2" gate="1" x="304.8" y="50.8" rot="R180"/>
 <instance part="MP3" gate="1" x="317.5" y="50.8" rot="R180"/>
@@ -21802,23 +21649,23 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="184.15" y1="48.26" x2="184.15" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="SJ2" gate="1" pin="1"/>
 <pinref part="GND46" gate="1" pin="GND"/>
-<pinref part="SJ1" gate="1" pin="1"/>
 <wire x1="292.1" y1="33.02" x2="292.1" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND47" gate="1" pin="GND"/>
-<pinref part="SJ2" gate="1" pin="1"/>
-<wire x1="304.8" y1="33.02" x2="304.8" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND49" gate="1" pin="GND"/>
-<pinref part="SJ4" gate="1" pin="1"/>
+<pinref part="SJ1" gate="1" pin="1"/>
 <wire x1="330.2" y1="33.02" x2="330.2" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND48" gate="1" pin="GND"/>
+<pinref part="GND47" gate="1" pin="GND"/>
 <pinref part="SJ5" gate="1" pin="1"/>
+<wire x1="304.8" y1="33.02" x2="304.8" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND48" gate="1" pin="GND"/>
+<pinref part="SJ4" gate="1" pin="1"/>
 <wire x1="317.5" y1="33.02" x2="317.5" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -22040,24 +21887,30 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </net>
 <net name="1" class="0">
 <segment>
-<pinref part="SJ1" gate="1" pin="2"/>
-<wire x1="292.1" y1="45.72" x2="292.1" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="MP1" gate="1" pin="1"/>
-</segment>
-<segment>
 <pinref part="SJ2" gate="1" pin="2"/>
-<wire x1="304.8" y1="45.72" x2="304.8" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="MP2" gate="1" pin="1"/>
+<wire x1="292.1" y1="45.72" x2="292.1" y2="43.18" width="0.1524" layer="91"/>
 </segment>
+</net>
+<net name="4" class="0">
 <segment>
-<pinref part="SJ5" gate="1" pin="2"/>
-<wire x1="317.5" y1="45.72" x2="317.5" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="MP3" gate="1" pin="1"/>
-</segment>
-<segment>
-<pinref part="SJ4" gate="1" pin="2"/>
-<wire x1="330.2" y1="45.72" x2="330.2" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="MP4" gate="1" pin="1"/>
+<pinref part="SJ1" gate="1" pin="2"/>
+<wire x1="330.2" y1="43.18" x2="330.2" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="2" class="0">
+<segment>
+<pinref part="MP2" gate="1" pin="1"/>
+<pinref part="SJ5" gate="1" pin="2"/>
+<wire x1="304.8" y1="43.18" x2="304.8" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="3" class="0">
+<segment>
+<pinref part="MP3" gate="1" pin="1"/>
+<pinref part="SJ4" gate="1" pin="2"/>
+<wire x1="317.5" y1="43.18" x2="317.5" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -22115,27 +21968,27 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MF" x="254" y="224.79" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
-<instance part="U6" gate="A" x="248.92" y="22.86" rot="MR0"/>
-<instance part="R35" gate="G$1" x="248.92" y="38.1" rot="MR90">
-<attribute name="OC_NEWARK" x="248.92" y="38.1" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MF" x="248.92" y="38.1" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MPN" x="248.92" y="38.1" size="1.778" layer="96" rot="MR90" display="off"/>
+<instance part="U6" gate="A" x="236.22" y="22.86" rot="MR0"/>
+<instance part="R35" gate="G$1" x="236.22" y="38.1" rot="MR90">
+<attribute name="OC_NEWARK" x="236.22" y="38.1" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MF" x="236.22" y="38.1" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MPN" x="236.22" y="38.1" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
-<instance part="R36" gate="G$1" x="266.7" y="20.32" rot="MR180">
-<attribute name="OC_NEWARK" x="266.7" y="20.32" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MF" x="266.7" y="20.32" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="266.7" y="20.32" size="1.778" layer="96" rot="MR180" display="off"/>
+<instance part="R36" gate="G$1" x="248.92" y="20.32" rot="MR180">
+<attribute name="OC_NEWARK" x="248.92" y="20.32" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MF" x="248.92" y="20.32" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MPN" x="248.92" y="20.32" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
-<instance part="R37" gate="G$1" x="220.98" y="30.48" rot="MR180">
-<attribute name="OC_NEWARK" x="220.98" y="30.48" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MF" x="220.98" y="30.48" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="220.98" y="30.48" size="1.778" layer="96" rot="MR180" display="off"/>
+<instance part="R37" gate="G$1" x="228.6" y="30.48" rot="MR180">
+<attribute name="OC_NEWARK" x="228.6" y="30.48" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MF" x="228.6" y="30.48" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MPN" x="228.6" y="30.48" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
-<instance part="GND54" gate="1" x="248.92" y="7.62" rot="MR0"/>
-<instance part="P+14" gate="1" x="248.92" y="50.8" rot="MR0"/>
-<instance part="J5" gate="-1" x="205.74" y="30.48" rot="MR0"/>
-<instance part="J5" gate="-2" x="205.74" y="25.4" rot="MR0"/>
-<instance part="GND55" gate="1" x="213.36" y="20.32" rot="MR0"/>
+<instance part="GND54" gate="1" x="236.22" y="7.62" rot="MR0"/>
+<instance part="P+14" gate="1" x="236.22" y="50.8" rot="MR0"/>
+<instance part="J5" gate="-1" x="208.28" y="30.48" rot="MR0"/>
+<instance part="J5" gate="-2" x="208.28" y="25.4" rot="MR0"/>
+<instance part="GND55" gate="1" x="215.9" y="20.32" rot="MR0"/>
 <instance part="OK1" gate="A" x="142.24" y="228.6" rot="MR0"/>
 <instance part="OK1" gate="B" x="142.24" y="172.72" rot="MR0"/>
 <instance part="OK1" gate="C" x="142.24" y="119.38" rot="MR0"/>
@@ -22410,14 +22263,14 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </segment>
 <segment>
 <pinref part="U6" gate="A" pin="S"/>
-<wire x1="248.92" y1="17.78" x2="248.92" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="17.78" x2="236.22" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="GND54" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND55" gate="1" pin="GND"/>
 <pinref part="J5" gate="-2" pin="S"/>
-<wire x1="213.36" y1="22.86" x2="213.36" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="25.4" x2="208.28" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="22.86" x2="215.9" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="25.4" x2="210.82" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND37" gate="1" pin="GND"/>
@@ -22560,7 +22413,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </segment>
 <segment>
 <pinref part="R35" gate="G$1" pin="2"/>
-<wire x1="248.92" y1="43.18" x2="248.92" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="43.18" x2="236.22" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="P+14" gate="1" pin="+24V"/>
 </segment>
 <segment>
@@ -22726,32 +22579,32 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <segment>
 <pinref part="R36" gate="G$1" pin="1"/>
 <pinref part="U6" gate="A" pin="G"/>
-<wire x1="261.62" y1="20.32" x2="254" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="20.32" x2="241.3" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
 <pinref part="U6" gate="A" pin="D"/>
 <pinref part="R35" gate="G$1" pin="1"/>
-<wire x1="248.92" y1="27.94" x2="248.92" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="27.94" x2="236.22" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="R37" gate="G$1" pin="2"/>
-<wire x1="248.92" y1="30.48" x2="248.92" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="30.48" x2="248.92" y2="30.48" width="0.1524" layer="91"/>
-<junction x="248.92" y="30.48"/>
+<wire x1="236.22" y1="30.48" x2="236.22" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="30.48" x2="236.22" y2="30.48" width="0.1524" layer="91"/>
+<junction x="236.22" y="30.48"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="R37" gate="G$1" pin="1"/>
-<wire x1="215.9" y1="30.48" x2="208.28" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="30.48" x2="210.82" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="J5" gate="-1" pin="S"/>
 </segment>
 </net>
-<net name="N$27" class="0">
+<net name="MOTOR_CONTROL_MCU" class="0">
 <segment>
 <pinref part="R36" gate="G$1" pin="2"/>
-<wire x1="271.78" y1="20.32" x2="279.4" y2="20.32" width="0.1524" layer="91"/>
-<label x="279.4" y="20.32" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<wire x1="254" y1="20.32" x2="256.54" y2="20.32" width="0.1524" layer="91"/>
+<label x="256.54" y="20.32" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
 </net>
 <net name="230V-DETECTION" class="0">
