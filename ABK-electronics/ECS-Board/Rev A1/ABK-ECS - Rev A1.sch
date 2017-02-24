@@ -20581,6 +20581,8 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="OC_NEWARK" value="86T3542"/>
 </part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
+<part name="SJ3" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NC"/>
+<part name="GND78" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20824,7 +20826,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MF" x="176.53" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="176.53" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND17" gate="1" x="184.15" y="30.48"/>
+<instance part="GND17" gate="1" x="181.61" y="20.32"/>
 <instance part="R13" gate="G$1" x="184.15" y="55.88" rot="R270">
 <attribute name="OC_NEWARK" x="184.15" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="184.15" y="55.88" size="1.778" layer="96" display="off"/>
@@ -20859,6 +20861,8 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MF" x="24.13" y="17.78" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MPN" x="24.13" y="17.78" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
+<instance part="SJ3" gate="1" x="187.96" y="30.48" rot="R90"/>
+<instance part="GND78" gate="1" x="187.96" y="20.32"/>
 </instances>
 <busses>
 </busses>
@@ -21134,9 +21138,9 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </segment>
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="184.15" y1="40.64" x2="184.15" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="40.64" x2="181.61" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="GND"/>
-<wire x1="190.5" y1="40.64" x2="184.15" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="40.64" x2="181.61" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J3" gate="-1" pin="S"/>
@@ -21148,6 +21152,11 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="GND20" gate="1" pin="GND"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="370.84" y1="35.56" x2="370.84" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SJ3" gate="1" pin="1"/>
+<wire x1="187.96" y1="22.86" x2="187.96" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="GND78" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="JTAG_TDO" class="1">
@@ -21561,6 +21570,14 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="U2" gate="A" pin="P1[27]/CLKOUT/*USB_OVRCR/CAP0[1]"/>
 <wire x1="133.35" y1="127" x2="125.984" y2="127" width="0.1524" layer="91"/>
 <label x="125.984" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$70" class="0">
+<segment>
+<pinref part="SJ3" gate="1" pin="2"/>
+<pinref part="J2" gate="G$1" pin="SHL"/>
+<wire x1="187.96" y1="35.56" x2="187.96" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="38.1" x2="190.5" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
