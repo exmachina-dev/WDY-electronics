@@ -21216,11 +21216,6 @@ High-density Mounting</description>
 <attribute name="OC_NEWARK" value="86T3542"/>
 </part>
 <part name="GND87" library="supply1" deviceset="GND" device=""/>
-<part name="JP6" library="SparkFun" deviceset="FIDUCIAL" device="1X2">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
 <part name="J12" library="con-molex" deviceset="22-?-06" device="27-2061">
 <attribute name="MF" value="MOLEX"/>
 <attribute name="MPN" value="22-27-2061"/>
@@ -22304,11 +22299,6 @@ High-density Mounting</description>
 <attribute name="MPN" x="358.14" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND87" gate="1" x="358.14" y="35.56"/>
-<instance part="JP6" gate="G$1" x="352.044" y="19.05">
-<attribute name="OC_NEWARK" x="352.044" y="19.05" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="352.044" y="19.05" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="352.044" y="19.05" size="1.778" layer="96" display="off"/>
-</instance>
 </instances>
 <busses>
 </busses>
