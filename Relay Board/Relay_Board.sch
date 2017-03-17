@@ -7623,7 +7623,7 @@ DIN A3, landscape with location and doc. field</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MSTBA2" prefix="X">
+<deviceset name="MSTBA2" prefix="J">
 <description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
 <gates>
 <gate name="-1" symbol="SK-1" x="0" y="5.08" addlevel="always"/>
