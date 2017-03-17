@@ -21215,7 +21215,6 @@ High-density Mounting</description>
 <attribute name="MPN" value="MCMR06X1501FTL"/>
 <attribute name="OC_NEWARK" value="86T3542"/>
 </part>
-<part name="GND87" library="supply1" deviceset="GND" device=""/>
 <part name="J12" library="con-molex" deviceset="22-?-06" device="27-2061">
 <attribute name="MF" value="MOLEX"/>
 <attribute name="MPN" value="22-27-2061"/>
@@ -21342,6 +21341,7 @@ High-density Mounting</description>
 <part name="+3V27" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND97" library="supply1" deviceset="GND" device=""/>
 <part name="+3V28" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22298,7 +22298,7 @@ High-density Mounting</description>
 <attribute name="MF" x="358.14" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="358.14" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND87" gate="1" x="358.14" y="35.56"/>
+<instance part="+3V14" gate="G$1" x="358.14" y="66.04"/>
 </instances>
 <busses>
 </busses>
@@ -22475,6 +22475,11 @@ High-density Mounting</description>
 <pinref part="+3V16" gate="G$1" pin="+3V3"/>
 <wire x1="60.96" y1="137.16" x2="60.96" y2="152.4" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="LED10" gate="G$1" pin="A"/>
+<pinref part="+3V14" gate="G$1" pin="+3V3"/>
+<wire x1="358.14" y1="60.96" x2="358.14" y2="63.5" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="2">
 <segment>
@@ -22615,11 +22620,6 @@ High-density Mounting</description>
 <wire x1="60.96" y1="96.52" x2="60.96" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="GND86" gate="1" pin="GND"/>
 </segment>
-<segment>
-<pinref part="R70" gate="G$1" pin="2"/>
-<wire x1="358.14" y1="40.64" x2="358.14" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="GND87" gate="1" pin="GND"/>
-</segment>
 </net>
 <net name="ETH_CLK_EN" class="1">
 <segment>
@@ -22630,16 +22630,16 @@ High-density Mounting</description>
 </net>
 <net name="ADC_TEMP_0" class="1">
 <segment>
-<pinref part="U6" gate="A" pin="P0[23]/AD0[0]/I2SRX_CLK/CAP3[0]"/>
-<wire x1="134.62" y1="210.82" x2="127" y2="210.82" width="0.1524" layer="91"/>
-<label x="127" y="210.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="134.62" y1="215.9" x2="124.46" y2="215.9" width="0.1524" layer="91"/>
+<label x="124.46" y="215.9" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U6" gate="A" pin="P0[25]/AD0[2]/I2SRX_SDA/TXD3"/>
 </segment>
 </net>
 <net name="ADC_TEMP_1" class="1">
 <segment>
+<wire x1="134.62" y1="213.36" x2="124.46" y2="213.36" width="0.1524" layer="91"/>
+<label x="124.46" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U6" gate="A" pin="P0[24]/AD0[1]/I2SRX_WS/CAP3[1]"/>
-<wire x1="134.62" y1="213.36" x2="127" y2="213.36" width="0.1524" layer="91"/>
-<label x="127" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="FAN_1_PWM" class="1">
@@ -22803,9 +22803,9 @@ High-density Mounting</description>
 </net>
 <net name="ADC_SLACK_DETECTION" class="1">
 <segment>
-<pinref part="U6" gate="A" pin="P0[25]/AD0[2]/I2SRX_SDA/TXD3"/>
-<wire x1="134.62" y1="215.9" x2="127" y2="215.9" width="0.1524" layer="91"/>
-<label x="127" y="215.9" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="134.62" y1="210.82" x2="124.46" y2="210.82" width="0.1524" layer="91"/>
+<label x="124.46" y="210.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U6" gate="A" pin="P0[23]/AD0[0]/I2SRX_CLK/CAP3[0]"/>
 </segment>
 </net>
 <net name="DRIVE_EN" class="0">
@@ -23110,15 +23110,15 @@ High-density Mounting</description>
 </net>
 <net name="LED_DEBUG" class="1">
 <segment>
-<pinref part="LED10" gate="G$1" pin="A"/>
-<wire x1="358.14" y1="63.5" x2="358.14" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="358.14" y1="63.5" x2="348.996" y2="63.5" width="0.1524" layer="91"/>
-<label x="348.996" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <wire x1="134.62" y1="144.78" x2="127.254" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="U6" gate="A" pin="P1[21]/*MCABORT/PWM1[3]/SSEL0"/>
 <label x="127" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="358.14" y1="38.1" x2="343.916" y2="38.1" width="0.1524" layer="91"/>
+<label x="343.916" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R70" gate="G$1" pin="2"/>
+<wire x1="358.14" y1="40.64" x2="358.14" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!JTAG_TRST" class="0">
