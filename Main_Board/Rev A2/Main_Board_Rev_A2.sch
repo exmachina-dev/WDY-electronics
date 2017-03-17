@@ -22685,13 +22685,6 @@ High-density Mounting</description>
 <label x="127" y="220.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="USB_D_P" class="1">
-<segment>
-<pinref part="U6" gate="A" pin="P0[29]/USB_D+"/>
-<wire x1="134.62" y1="160.02" x2="127" y2="160.02" width="0.1524" layer="91"/>
-<label x="127" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="USB_D_N" class="0">
 <segment>
 <pinref part="U6" gate="A" pin="P0[30]/USB_D?"/>
@@ -23133,6 +23126,13 @@ High-density Mounting</description>
 <pinref part="U6" gate="A" pin="*TRST"/>
 <wire x1="134.62" y1="223.52" x2="127" y2="223.52" width="0.1524" layer="91"/>
 <label x="127" y="223.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="USB_D_P" class="1">
+<segment>
+<pinref part="U6" gate="A" pin="P0[29]/USB_D+"/>
+<wire x1="134.62" y1="160.02" x2="127" y2="160.02" width="0.1524" layer="91"/>
+<label x="127" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

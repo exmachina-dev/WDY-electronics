@@ -9,19 +9,19 @@
 <grid distance="0.5" unitdist="mm" unit="mil" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="17" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="17" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="19" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="19" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="21" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="18" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="38" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="55" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="54" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="54" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="55" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="54" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="53" fill="1" visible="no" active="yes"/>
@@ -49,7 +49,7 @@
 <layer number="49" name="Reference" color="48" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="55" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="54" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="54" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="yes"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="yes"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="yes"/>
@@ -2601,17 +2601,17 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="14.535" y="13.505" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="X6" library="con-GlobalConnectorTechnology" package="USB_MICROB_SMT" value="USB3075-30-A" x="43.85" y="1.55" smashed="yes"/>
-<element name="R36" library="rcl" package="R0603" value="33" x="42" y="7.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="41.365" y="7.265" size="0.6096" layer="25" rot="R90"/>
-<attribute name="VALUE" x="43.905" y="7.265" size="1.27" layer="27" rot="R90"/>
+<element name="R36" library="rcl" package="R0603" value="33" x="42.5" y="7.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="41.865" y="7.265" size="0.6096" layer="25" rot="R90"/>
+<attribute name="VALUE" x="44.405" y="7.265" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R35" library="rcl" package="R0603" value="33" x="43.9" y="7.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="43.265" y="7.265" size="0.6096" layer="25" rot="R90"/>
-<attribute name="VALUE" x="45.805" y="7.265" size="1.27" layer="27" rot="R90"/>
+<element name="R35" library="rcl" package="R0603" value="33" x="44.4" y="7.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="43.765" y="7.265" size="0.6096" layer="25" rot="R90"/>
+<attribute name="VALUE" x="46.305" y="7.265" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R38" library="rcl" package="R0603" value="1K5" x="45.8" y="7.9" smashed="yes" rot="R270">
-<attribute name="NAME" x="46.435" y="8.535" size="0.6096" layer="25" rot="R270"/>
-<attribute name="VALUE" x="43.895" y="8.535" size="1.27" layer="27" rot="R270"/>
+<element name="R38" library="rcl" package="R0603" value="1K5" x="46.3" y="7.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="46.935" y="8.535" size="0.6096" layer="25" rot="R270"/>
+<attribute name="VALUE" x="44.395" y="8.535" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="LED5" library="led" package="CHIPLED_0603" value="" x="47.15" y="69.45" smashed="yes">
 <attribute name="NAME" x="46.515" y="68.18" size="0.6096" layer="25" rot="R90"/>
@@ -3064,10 +3064,10 @@ Your Eurocircuits Team
 <attribute name="MF" value="" x="-7.8" y="89.2" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="OC_NEWARK" value="06R4925" x="-7.8" y="89.2" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C15" library="rcl" package="CT3216" value="10uF" x="32" y="48.5" rot="MR270">
-<attribute name="MPN" value="F931A106MAA" x="83" y="48.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MF" value="" x="83" y="48.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="OC_NEWARK" value="58R3260" x="83" y="48.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="C15" library="rcl" package="CT3216" value="10uF" x="32" y="50" rot="MR270">
+<attribute name="MPN" value="F931A106MAA" x="83" y="50" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="" x="83" y="50" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OC_NEWARK" value="58R3260" x="83" y="50" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R24" library="rcl" package="R0603" value="4K7" x="27" y="39" rot="R270">
 <attribute name="MPN" value="MCMR06X4701FTL" x="-19" y="80" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3084,10 +3084,10 @@ Your Eurocircuits Team
 <attribute name="MF" value="" x="18" y="114.5" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="OC_NEWARK" value="58R3260" x="18" y="114.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C18" library="rcl" package="C0603" value="100nF" x="34.5" y="47.5" rot="MR270">
-<attribute name="MPN" value="MC0603B104K250CT" x="101.5" y="56" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MF" value="" x="101.5" y="56" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="OC_NEWARK" value="06R4925" x="101.5" y="56" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="C18" library="rcl" package="C0603" value="100nF" x="28.5" y="49.5" rot="MR0">
+<attribute name="MPN" value="MC0603B104K250CT" x="37" y="-17.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="" x="37" y="-17.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_NEWARK" value="06R4925" x="37" y="-17.5" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C19" library="rcl" package="C0603" value="100nF" x="32" y="40" rot="MR90">
 <attribute name="MPN" value="MC0603B104K250CT" x="-40" y="23" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -3099,11 +3099,11 @@ Your Eurocircuits Team
 <attribute name="MF" value="" x="2.7" y="118.9" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="OC_NEWARK" value="06R4925" x="2.7" y="118.9" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="X1" library="crystal" package="ASE" value="ASE_50" x="34.2" y="36.3" rot="R90">
-<attribute name="OC_FARNELL" value="unknown" x="135.7" y="7.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="ASE-50.000MHZ-LC-T" x="135.7" y="7.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="135.7" y="7.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="84R2105" x="135.7" y="7.3" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="X1" library="crystal" package="ASE" value="ASE_50" x="34.1" y="36.3" rot="R90">
+<attribute name="OC_FARNELL" value="unknown" x="135.6" y="7.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="ASE-50.000MHZ-LC-T" x="135.6" y="7.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="135.6" y="7.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="84R2105" x="135.6" y="7.3" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C21" library="rcl" package="C0603" value="100nF" x="34.5" y="40" rot="MR90">
 <attribute name="MPN" value="MC0603B104K250CT" x="-54.5" y="6" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -3115,10 +3115,10 @@ Your Eurocircuits Team
 <attribute name="MF" value="" x="125.8" y="36.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="06R4925" x="125.8" y="36.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R28" library="rcl" package="R0603" value="2K2" x="38.5" y="41.5" rot="MR180">
-<attribute name="MPN" value="MCMR06X2201FTL" x="38.5" y="130.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MF" value="" x="38.5" y="130.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="OC_NEWARK" value="86T3578" x="38.5" y="130.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="R28" library="rcl" package="R0603" value="2K2" x="38.5" y="41" rot="MR0">
+<attribute name="MPN" value="MCMR06X2201FTL" x="38.5" y="-48" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="" x="38.5" y="-48" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_NEWARK" value="86T3578" x="38.5" y="-48" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="U11" library="Microchip_By_element14_Batch_1" package="SOIC127P600X175-8N" value="MCP2561-E/SN" x="52" y="79.5" rot="R90">
 <attribute name="PACKAGE" value="SOIC-8" x="4" y="61.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3302,13 +3302,13 @@ Your Eurocircuits Team
 <attribute name="MF" value="" x="34.5" y="4" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="23T7233" x="34.5" y="4" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U6" library="NXP" package="SOT407-1" value="LPC1768FBD100" x="50" y="50" rot="R90">
-<attribute name="MANUFACTURER_PART_NUMBER" value="lpc1768fbd100" x="50" y="50" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="LPC1768FBD100" x="50" y="50" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="50" y="50" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="50" y="50" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="15R1840" x="50" y="50" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VENDOR" value="NXP" x="50" y="50" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="U6" library="NXP" package="SOT407-1" value="LPC1768FBD100" x="52.5" y="50" rot="R90">
+<attribute name="MANUFACTURER_PART_NUMBER" value="lpc1768fbd100" x="52.5" y="50" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="LPC1768FBD100" x="52.5" y="50" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="52.5" y="50" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="52.5" y="50" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="15R1840" x="52.5" y="50" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="NXP" x="52.5" y="50" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U7" library="atmel" package="SOIC127P600X175-8N" value="AT24C512C-SSHM-B" x="56.5" y="26.8" rot="R90">
 <attribute name="OC_FARNELL" value="1971995 " x="56.5" y="26.8" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3866,15 +3866,19 @@ Your Eurocircuits Team
 <wire x1="54.95" y1="31.7" x2="54.275" y2="34.95" width="0" layer="19" extent="1-1"/>
 <wire x1="54.595" y1="29.1622" x2="54.95" y2="31.7" width="0" layer="19" extent="1-1"/>
 <wire x1="53" y1="28.85" x2="54.595" y2="29.1622" width="0" layer="19" extent="1-1"/>
-<wire x1="50" y1="42.38" x2="52" y2="36.15" width="0" layer="19" extent="1-16"/>
-<wire x1="57.62" y1="45" x2="50" y2="42.38" width="0" layer="19" extent="1-1"/>
-<wire x1="57.62" y1="52" x2="57.62" y2="45" width="0" layer="19" extent="1-1"/>
-<wire x1="54.5" y1="57.62" x2="57.62" y2="52" width="0" layer="19" extent="1-1"/>
-<wire x1="42.38" y1="46" x2="50" y2="42.38" width="0" layer="19" extent="1-1"/>
-<wire x1="42.38" y1="52" x2="42.38" y2="46" width="0" layer="19" extent="1-1"/>
-<wire x1="37.65" y1="41.5" x2="42.38" y2="46" width="0" layer="19" extent="1-16"/>
-<wire x1="32.25" y1="41.0536" x2="37.65" y2="41.5" width="0" layer="19" extent="1-16"/>
-<wire x1="32" y1="39.15" x2="32.25" y2="41.0536" width="0" layer="19" extent="1-16"/>
+<wire x1="52.5" y1="42.38" x2="52" y2="36.15" width="0" layer="19" extent="1-16"/>
+<wire x1="60.12" y1="45" x2="52.5" y2="42.38" width="0" layer="19" extent="1-1"/>
+<wire x1="60.12" y1="52" x2="60.12" y2="45" width="0" layer="19" extent="1-1"/>
+<wire x1="57" y1="57.62" x2="60.12" y2="52" width="0" layer="19" extent="1-1"/>
+<wire x1="44.88" y1="46" x2="52.5" y2="42.38" width="0" layer="19" extent="1-1"/>
+<wire x1="44.88" y1="52" x2="44.88" y2="46" width="0" layer="19" extent="1-1"/>
+<wire x1="48.5" y1="57.62" x2="44.88" y2="52" width="0" layer="19" extent="1-1"/>
+<wire x1="39.35" y1="41" x2="44.88" y2="46" width="0" layer="19" extent="1-16"/>
+<wire x1="36.8" y1="35.55" x2="39.35" y2="41" width="0" layer="19" extent="1-16"/>
+<wire x1="34.925" y1="35.25" x2="36.8" y2="35.55" width="0" layer="19" extent="1-1"/>
+<wire x1="33.275" y1="35.25" x2="34.925" y2="35.25" width="0" layer="19" extent="1-1"/>
+<wire x1="32" y1="39.15" x2="33.275" y2="35.25" width="0" layer="19" extent="1-16"/>
+<wire x1="32.25" y1="41.0536" x2="32" y2="39.15" width="0" layer="19" extent="1-16"/>
 <wire x1="29.0536" y1="42.75" x2="32.25" y2="41.0536" width="0" layer="19" extent="1-1"/>
 <wire x1="27.35" y1="43.2" x2="29.0536" y2="42.75" width="0" layer="19" extent="1-16"/>
 <wire x1="24.35" y1="43" x2="27.35" y2="43.2" width="0" layer="19" extent="1-16"/>
@@ -3883,16 +3887,14 @@ Your Eurocircuits Team
 <wire x1="24.35" y1="50" x2="24.35" y2="48" width="0" layer="19" extent="1-1"/>
 <wire x1="24.35" y1="40" x2="24.35" y2="43" width="0" layer="19" extent="1-1"/>
 <wire x1="24.35" y1="38" x2="24.35" y2="40" width="0" layer="19" extent="1-1"/>
-<wire x1="33.375" y1="35.25" x2="32" y2="39.15" width="0" layer="19" extent="1-16"/>
-<wire x1="35.025" y1="35.25" x2="33.375" y2="35.25" width="0" layer="19" extent="1-1"/>
-<wire x1="36.8" y1="35.55" x2="35.025" y2="35.25" width="0" layer="19" extent="1-1"/>
-<wire x1="34.25" y1="46.9464" x2="32.25" y2="41.0536" width="0" layer="19" extent="1-1"/>
-<wire x1="34.5" y1="48.35" x2="34.25" y2="46.9464" width="0" layer="19" extent="1-16"/>
-<wire x1="32" y1="49.9" x2="34.5" y2="48.35" width="0" layer="19" extent="16-16"/>
-<wire x1="46" y1="57.62" x2="42.38" y2="52" width="0" layer="19" extent="1-1"/>
+<wire x1="29.35" y1="49.5" x2="24.35" y2="50" width="0" layer="19" extent="1-16"/>
+<wire x1="32" y1="51.4" x2="29.35" y2="49.5" width="0" layer="19" extent="16-16"/>
+<wire x1="34.25" y1="46.9464" x2="32" y2="51.4" width="0" layer="19" extent="1-16"/>
 <wire x1="17.348959375" y1="42.094209375" x2="24.35" y2="43" width="0" layer="19" extent="1-1"/>
 <wire x1="11" y1="42.6" x2="17.348959375" y2="42.094209375" width="0" layer="19" extent="1-1"/>
 <wire x1="3.95" y1="40.2" x2="11" y2="42.6" width="0" layer="19" extent="1-1"/>
+<wire x1="69.7046" y1="48" x2="60.12" y2="45" width="0" layer="19" extent="1-1"/>
+<wire x1="70.35" y1="48" x2="69.7046" y2="48" width="0" layer="19" extent="1-16"/>
 <wire x1="3.95" y1="50.3" x2="3.95" y2="40.2" width="0" layer="19" extent="1-1"/>
 <wire x1="9.475" y1="57.025" x2="3.95" y2="50.3" width="0" layer="19" extent="1-1"/>
 <wire x1="20.1" y1="72.15" x2="9.475" y2="71.555" width="0" layer="19" extent="1-16"/>
@@ -3901,17 +3903,15 @@ Your Eurocircuits Team
 <wire x1="22.0348" y1="81.8288" x2="25.4" y2="79.05" width="0" layer="19" extent="1-1"/>
 <wire x1="32.35" y1="86" x2="25.4" y2="79.05" width="0" layer="19" extent="1-1"/>
 <wire x1="32.35" y1="88.15" x2="32.35" y2="86" width="0" layer="19" extent="1-1"/>
-<wire x1="47.15" y1="68.7" x2="46" y2="57.62" width="0" layer="19" extent="1-1"/>
-<wire x1="69.7046" y1="48" x2="57.62" y2="45" width="0" layer="19" extent="1-1"/>
-<wire x1="70.35" y1="48" x2="69.7046" y2="48" width="0" layer="19" extent="1-16"/>
+<wire x1="47.15" y1="68.7" x2="48.5" y2="57.62" width="0" layer="19" extent="1-1"/>
 <wire x1="60" y1="71.65" x2="47.15" y2="68.7" width="0" layer="19" extent="1-1"/>
 <wire x1="72.5" y1="68.575" x2="60" y2="71.65" width="0" layer="19" extent="1-1"/>
 <wire x1="77.05" y1="68.5" x2="72.5" y2="68.575" width="0" layer="19" extent="1-1"/>
 <wire x1="82.492" y1="68.0522" x2="77.05" y2="68.5" width="0" layer="19" extent="1-1"/>
 <wire x1="81.15" y1="63" x2="82.492" y2="68.0522" width="0" layer="19" extent="1-1"/>
 <wire x1="61.9348" y1="16.1288" x2="69.6046" y2="27.9" width="0" layer="19" extent="1-1"/>
-<wire x1="45.8" y1="8.75" x2="61.9348" y2="16.1288" width="0" layer="19" extent="1-1"/>
-<wire x1="30.55" y1="15.3" x2="45.8" y2="8.75" width="0" layer="19" extent="1-1"/>
+<wire x1="46.3" y1="8.75" x2="61.9348" y2="16.1288" width="0" layer="19" extent="1-1"/>
+<wire x1="30.55" y1="15.3" x2="46.3" y2="8.75" width="0" layer="19" extent="1-1"/>
 <wire x1="4.5" y1="18.92" x2="3.95" y2="40.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PFBOUT" class="1">
@@ -3932,45 +3932,84 @@ Your Eurocircuits Team
 <signal name="ETH_RX_ER" class="1">
 <contactref element="GND" pad="34"/>
 <contactref element="U6" pad="89"/>
-<wire x1="34.9464" y1="43.25" x2="42.38" y2="49.5" width="0" layer="19" extent="1-1"/>
+<via x="39.1" y="51.2" extent="1-16" drill="0.35"/>
+<wire x1="44.88" y1="49.5" x2="41.5" y2="49.5" width="0.1778" layer="1"/>
+<wire x1="41.5" y1="49.5" x2="39.8" y2="51.2" width="0.1778" layer="1"/>
+<wire x1="39.8" y1="51.2" x2="39.1" y2="51.2" width="0.1778" layer="1"/>
+<wire x1="34.9464" y1="43.25" x2="36.25" y2="43.25" width="0.1778" layer="1"/>
+<wire x1="36.25" y1="43.25" x2="36.5" y2="43.5" width="0.1778" layer="1"/>
+<wire x1="36.5" y1="43.5" x2="41.4" y2="43.5" width="0.1778" layer="1"/>
+<via x="41.4" y="43.5" extent="1-16" drill="0.35"/>
+<wire x1="41.4" y1="43.5" x2="41.4" y2="49.6" width="0.1778" layer="16"/>
+<wire x1="41.4" y1="49.6" x2="39.8" y2="51.2" width="0.1778" layer="16"/>
+<wire x1="39.8" y1="51.2" x2="39.1" y2="51.2" width="0.1778" layer="16"/>
 </signal>
 <signal name="ETH_CRS" class="1">
 <contactref element="GND" pad="33"/>
 <contactref element="U6" pad="92"/>
-<wire x1="42.38" y1="48" x2="38.3" y2="48" width="0.1778" layer="1"/>
-<via x="37" y="49.3" extent="1-16" drill="0.35"/>
-<wire x1="37" y1="49.3" x2="36.4" y2="49.3" width="0.1778" layer="16"/>
-<wire x1="38.3" y1="48" x2="37" y2="49.3" width="0.1778" layer="1"/>
-<wire x1="34.9464" y1="42.75" x2="38.3" y2="48" width="0" layer="19" extent="1-1"/>
+<wire x1="44.88" y1="48" x2="39.3" y2="48" width="0.1778" layer="1"/>
+<via x="38" y="49.3" extent="1-16" drill="0.35"/>
+<wire x1="39.3" y1="48" x2="38" y2="49.3" width="0.1778" layer="1"/>
+<wire x1="34.9464" y1="42.75" x2="38.05" y2="42.75" width="0.1778" layer="1"/>
+<wire x1="38.05" y1="42.75" x2="38.2" y2="42.9" width="0.1778" layer="1"/>
+<via x="38.2" y="42.9" extent="1-16" drill="0.35"/>
+<wire x1="38.2" y1="42.9" x2="38.9" y2="43.6" width="0.1778" layer="16"/>
+<wire x1="38.9" y1="43.6" x2="38.9" y2="48.4" width="0.1778" layer="16"/>
+<wire x1="38.9" y1="48.4" x2="38" y2="49.3" width="0.1778" layer="16"/>
 </signal>
 <signal name="ETH_MDC" class="1">
 <contactref element="GND" pad="25"/>
 <contactref element="U6" pad="87"/>
-<wire x1="31.75" y1="41.0536" x2="42.38" y2="50.5" width="0" layer="19" extent="1-1"/>
+<via x="39" y="52.7" extent="1-16" drill="0.35"/>
+<wire x1="39" y1="52.7" x2="40.3" y2="52.7" width="0.1778" layer="1"/>
+<wire x1="40.3" y1="52.7" x2="42.5" y2="50.5" width="0.1778" layer="1"/>
+<wire x1="42.5" y1="50.5" x2="44.88" y2="50.5" width="0.1778" layer="1"/>
+<wire x1="39" y1="52.7" x2="43.3" y2="52.7" width="0.1778" layer="16"/>
+<wire x1="43.3" y1="52.7" x2="43.5" y2="52.5" width="0.1778" layer="16"/>
+<wire x1="43.5" y1="52.5" x2="43.5" y2="37.8" width="0.1778" layer="16"/>
+<wire x1="43.5" y1="37.8" x2="42.5" y2="36.8" width="0.1778" layer="16"/>
+<wire x1="42.5" y1="36.8" x2="32.2" y2="36.8" width="0.1778" layer="16"/>
+<wire x1="32.2" y1="36.8" x2="31.8" y2="37.2" width="0.1778" layer="16"/>
+<via x="31.8" y="37.2" extent="1-16" drill="0.35"/>
+<wire x1="31.8" y1="37.2" x2="31.75" y2="37.25" width="0.1778" layer="1"/>
+<wire x1="31.75" y1="37.25" x2="31.75" y2="41.0536" width="0.1778" layer="1"/>
 </signal>
 <signal name="ETH_MDIO" class="1">
 <contactref element="GND" pad="24"/>
 <contactref element="U6" pad="86"/>
-<wire x1="31.25" y1="41.0536" x2="42.38" y2="51" width="0" layer="19" extent="1-1"/>
+<via x="38" y="53.5" extent="1-16" drill="0.35"/>
+<wire x1="38" y1="53.5" x2="40.5" y2="53.5" width="0.1778" layer="1"/>
+<wire x1="40.5" y1="53.5" x2="43" y2="51" width="0.1778" layer="1"/>
+<wire x1="43" y1="51" x2="44.88" y2="51" width="0.1778" layer="1"/>
+<wire x1="38" y1="53.5" x2="44" y2="53.5" width="0.1778" layer="16"/>
+<wire x1="44" y1="53.5" x2="44.5" y2="53" width="0.1778" layer="16"/>
+<wire x1="44.5" y1="53" x2="44.5" y2="37" width="0.1778" layer="16"/>
+<wire x1="44.5" y1="37" x2="43.5" y2="36" width="0.1778" layer="16"/>
+<wire x1="43.5" y1="36" x2="32.2" y2="36" width="0.1778" layer="16"/>
+<via x="32.2" y="36" extent="1-16" drill="0.35"/>
+<wire x1="32.2" y1="36" x2="31.25" y2="36.95" width="0.1778" layer="1"/>
+<wire x1="31.25" y1="36.95" x2="31.25" y2="41.0536" width="0.1778" layer="1"/>
 </signal>
 <signal name="CAN_RX" class="1">
 <contactref element="U11" pad="4"/>
 <contactref element="U6" pad="46"/>
-<wire x1="57.62" y1="54" x2="53.905" y2="77.1378" width="0" layer="19" extent="1-1"/>
+<wire x1="60.12" y1="54" x2="53.905" y2="77.1378" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN_TX" class="1">
 <contactref element="U11" pad="1"/>
 <contactref element="U6" pad="47"/>
-<wire x1="57.62" y1="54.5" x2="50.095" y2="77.1378" width="0" layer="19" extent="1-1"/>
+<wire x1="60.12" y1="54.5" x2="50.095" y2="77.1378" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ETH_TXD_EN" class="1">
 <contactref element="GND" pad="3"/>
 <contactref element="U6" pad="93"/>
-<wire x1="42.38" y1="47.5" x2="37.5" y2="47.5" width="0.1778" layer="1"/>
-<wire x1="37.5" y1="47.5" x2="37" y2="48" width="0.1778" layer="1"/>
-<via x="37" y="48" extent="1-16" drill="0.35"/>
-<wire x1="37" y1="48" x2="36.5" y2="48" width="0.1778" layer="16"/>
-<wire x1="33.25" y1="46.9464" x2="36.5" y2="48" width="0" layer="19" extent="1-16"/>
+<wire x1="44.88" y1="47.5" x2="38.5" y2="47.5" width="0.1778" layer="1"/>
+<wire x1="38.5" y1="47.5" x2="38" y2="48" width="0.1778" layer="1"/>
+<via x="38" y="48" extent="1-16" drill="0.35"/>
+<wire x1="33.25" y1="46.9464" x2="33.25" y2="47.55" width="0.1778" layer="1"/>
+<wire x1="33.25" y1="47.55" x2="33.7" y2="48" width="0.1778" layer="1"/>
+<via x="33.7" y="48" extent="1-16" drill="0.35"/>
+<wire x1="33.7" y1="48" x2="38" y2="48" width="0.1778" layer="16"/>
 </signal>
 <signal name="ADC_TEMP_0" class="1">
 <contactref element="R40" pad="1"/>
@@ -3978,7 +4017,7 @@ Your Eurocircuits Team
 <wire x1="21.8" y1="9.65" x2="21.8" y2="11.45" width="0.1778" layer="1"/>
 <wire x1="21.8" y1="11.45" x2="21.85" y2="11.5" width="0.1778" layer="1"/>
 <contactref element="U6" pad="9"/>
-<wire x1="21.85" y1="11.5" x2="48" y2="42.38" width="0" layer="19" extent="1-1"/>
+<wire x1="21.85" y1="11.5" x2="50.5" y2="42.38" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ADC_TEMP_1" class="1">
 <contactref element="C10" pad="1"/>
@@ -3986,7 +4025,7 @@ Your Eurocircuits Team
 <wire x1="14.8" y1="9.65" x2="14.8" y2="11.55" width="0.1778" layer="1"/>
 <wire x1="14.8" y1="11.55" x2="14.75" y2="11.6" width="0.1778" layer="1"/>
 <contactref element="U6" pad="8"/>
-<wire x1="14.75" y1="11.6" x2="47.5" y2="42.38" width="0" layer="19" extent="1-1"/>
+<wire x1="14.8" y1="11.55" x2="50" y2="42.38" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+24V">
 <contactref element="X14" pad="1"/>
@@ -4030,34 +4069,33 @@ Your Eurocircuits Team
 <signal name="FAN_1_PWM" class="1">
 <contactref element="R58" pad="2"/>
 <contactref element="U6" pad="27"/>
-<wire x1="86.3" y1="9.85" x2="57.62" y2="44.5" width="0" layer="19" extent="1-1"/>
+<wire x1="86.3" y1="9.85" x2="60.12" y2="44.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FAN_2_PWM" class="1">
 <contactref element="R59" pad="2"/>
 <contactref element="U6" pad="26"/>
-<wire x1="73.8" y1="9.85" x2="57.62" y2="44" width="0" layer="19" extent="1-1"/>
+<wire x1="73.8" y1="9.85" x2="60.12" y2="44" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15" class="1">
 <contactref element="R36" pad="1"/>
 <contactref element="X6" pad="2"/>
-<wire x1="43.2" y1="4.2" x2="42" y2="7.05" width="0" layer="19" extent="1-1"/>
+<wire x1="43.2" y1="4.2" x2="43.2" y2="5.3" width="0.1778" layer="1"/>
+<wire x1="43.2" y1="5.3" x2="42.5" y2="6" width="0.1778" layer="1"/>
+<wire x1="42.5" y1="6" x2="42.5" y2="7.05" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$16" class="1">
 <contactref element="R35" pad="1"/>
 <contactref element="X6" pad="3"/>
 <contactref element="R38" pad="2"/>
-<wire x1="43.9" y1="7.05" x2="45.8" y2="7.05" width="0" layer="19" extent="1-1"/>
-<wire x1="43.85" y1="4.2" x2="43.9" y2="7.05" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="USB_D_P" class="1">
-<contactref element="R35" pad="2"/>
-<contactref element="U6" pad="29"/>
-<wire x1="43.9" y1="8.75" x2="57.62" y2="45.5" width="0" layer="19" extent="1-1"/>
+<wire x1="43.85" y1="4.2" x2="43.85" y2="5.45" width="0.1778" layer="1"/>
+<wire x1="43.85" y1="5.45" x2="44.4" y2="6" width="0.1778" layer="1"/>
+<wire x1="44.4" y1="6" x2="44.4" y2="7.05" width="0.1778" layer="1"/>
+<wire x1="46.3" y1="7.05" x2="44.4" y2="7.05" width="0.1778" layer="1"/>
 </signal>
 <signal name="USB_V_BUS" class="1">
 <contactref element="X6" pad="1"/>
 <contactref element="U6" pad="21"/>
-<wire x1="42.55" y1="4.2" x2="54" y2="42.38" width="0" layer="19" extent="1-1"/>
+<wire x1="42.55" y1="4.2" x2="56.5" y2="42.38" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18" class="1">
 <contactref element="LED5" pad="C"/>
@@ -4067,7 +4105,7 @@ Your Eurocircuits Team
 <signal name="USB_UP_LED" class="1">
 <contactref element="R39" pad="2"/>
 <contactref element="U6" pad="32"/>
-<wire x1="57.62" y1="47" x2="47.15" y2="73.55" width="0" layer="19" extent="1-1"/>
+<wire x1="60.12" y1="47" x2="47.15" y2="73.55" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="HMI_LCD_SCL" class="1">
 <contactref element="R14" pad="2"/>
@@ -4076,7 +4114,7 @@ Your Eurocircuits Team
 <contactref element="U6" pad="49"/>
 <wire x1="27.15" y1="85.9" x2="21.305" y2="97.0194" width="0" layer="19" extent="1-1"/>
 <wire x1="30.65" y1="86" x2="27.15" y2="85.9" width="0" layer="19" extent="1-1"/>
-<wire x1="57.62" y1="55.5" x2="30.65" y2="86" width="0" layer="19" extent="1-1"/>
+<wire x1="60.12" y1="55.5" x2="30.65" y2="86" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="HMI_LCD_SDA" class="1">
 <contactref element="R2" pad="2"/>
@@ -4086,7 +4124,7 @@ Your Eurocircuits Team
 <contactref element="U6" pad="48"/>
 <wire x1="27.2" y1="88.15" x2="30.65" y2="88.15" width="0" layer="19" extent="1-1"/>
 <wire x1="20.035" y1="91.025" x2="27.15" y2="88.1" width="0" layer="19" extent="1-1"/>
-<wire x1="57.62" y1="55" x2="30.65" y2="88.15" width="0" layer="19" extent="1-1"/>
+<wire x1="60.12" y1="55" x2="30.65" y2="88.15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="HMI_BUTTON_2" class="1">
 <contactref element="J3" pad="3"/>
@@ -4156,46 +4194,46 @@ Your Eurocircuits Team
 <signal name="HMI_LED_2" class="1">
 <contactref element="R6" pad="2"/>
 <contactref element="U6" pad="70"/>
-<wire x1="46.5" y1="57.62" x2="46.5" y2="59" width="0.1778" layer="1"/>
-<wire x1="45" y1="60.5" x2="18" y2="60.5" width="0.1778" layer="16"/>
+<wire x1="49" y1="57.62" x2="49" y2="59" width="0.1778" layer="1"/>
+<wire x1="47.5" y1="60.5" x2="18" y2="60.5" width="0.1778" layer="16"/>
 <wire x1="18" y1="60.5" x2="16.5" y2="59" width="0.1778" layer="1"/>
 <wire x1="16.5" y1="59" x2="14.35" y2="59" width="0.1778" layer="1"/>
-<via x="45" y="60.5" extent="1-16" drill="0.35"/>
+<via x="47.5" y="60.5" extent="1-16" drill="0.35"/>
 <via x="18" y="60.5" extent="1-16" drill="0.35"/>
-<wire x1="46.5" y1="59" x2="45" y2="60.5" width="0.1778" layer="1"/>
+<wire x1="49" y1="59" x2="47.5" y2="60.5" width="0.1778" layer="1"/>
 </signal>
 <signal name="HMI_LED_4" class="1">
 <contactref element="R4" pad="2"/>
 <contactref element="U6" pad="68"/>
-<wire x1="47.5" y1="57.62" x2="47.5" y2="62" width="0.1778" layer="1"/>
-<wire x1="47.5" y1="62" x2="47" y2="62.5" width="0.1778" layer="1"/>
-<wire x1="47" y1="62.5" x2="18" y2="62.5" width="0.1778" layer="16"/>
+<wire x1="50" y1="57.62" x2="50" y2="62" width="0.1778" layer="1"/>
+<wire x1="50" y1="62" x2="49.5" y2="62.5" width="0.1778" layer="1"/>
+<wire x1="49.5" y1="62.5" x2="18" y2="62.5" width="0.1778" layer="16"/>
 <wire x1="18" y1="62.5" x2="17" y2="63.5" width="0.1778" layer="16"/>
 <wire x1="17" y1="63.5" x2="16.5" y2="64" width="0.1778" layer="1"/>
 <wire x1="16.5" y1="64" x2="14.35" y2="64" width="0.1778" layer="1"/>
-<via x="47" y="62.5" extent="1-16" drill="0.35"/>
+<via x="49.5" y="62.5" extent="1-16" drill="0.35"/>
 <via x="17" y="63.5" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="HMI_LED_1" class="1">
 <contactref element="R7" pad="1"/>
 <contactref element="U6" pad="73"/>
-<wire x1="45" y1="57.62" x2="45" y2="58.5" width="0.1778" layer="1"/>
-<wire x1="45" y1="58.5" x2="44" y2="59.5" width="0.1778" layer="1"/>
-<wire x1="44" y1="59.5" x2="20" y2="59.5" width="0.1778" layer="16"/>
+<wire x1="47.5" y1="57.62" x2="47.5" y2="58.5" width="0.1778" layer="1"/>
+<wire x1="47.5" y1="58.5" x2="46.5" y2="59.5" width="0.1778" layer="1"/>
+<wire x1="46.5" y1="59.5" x2="20" y2="59.5" width="0.1778" layer="16"/>
 <wire x1="14.35" y1="56.4" x2="16.9" y2="56.4" width="0.1778" layer="1"/>
 <wire x1="16.9" y1="56.4" x2="20" y2="59.5" width="0.1778" layer="1"/>
-<via x="44" y="59.5" extent="1-16" drill="0.35"/>
+<via x="46.5" y="59.5" extent="1-16" drill="0.35"/>
 <via x="20" y="59.5" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="HMI_LED_3" class="1">
 <contactref element="R5" pad="1"/>
 <contactref element="U6" pad="69"/>
-<wire x1="47" y1="57.62" x2="47" y2="60.5" width="0.1778" layer="1"/>
-<wire x1="46" y1="61.5" x2="17" y2="61.5" width="0.1778" layer="16"/>
+<wire x1="49.5" y1="57.62" x2="49.5" y2="60.5" width="0.1778" layer="1"/>
+<wire x1="48.5" y1="61.5" x2="17" y2="61.5" width="0.1778" layer="16"/>
 <wire x1="17" y1="61.5" x2="14.35" y2="61.5" width="0.1778" layer="1"/>
-<via x="46" y="61.5" extent="1-16" drill="0.35"/>
+<via x="48.5" y="61.5" extent="1-16" drill="0.35"/>
 <via x="17" y="61.5" extent="1-16" drill="0.35"/>
-<wire x1="47" y1="60.5" x2="46" y2="61.5" width="0.1778" layer="1"/>
+<wire x1="49.5" y1="60.5" x2="48.5" y2="61.5" width="0.1778" layer="1"/>
 </signal>
 <signal name="HMI_LCD_LED+">
 <contactref element="J1" pad="1"/>
@@ -4276,12 +4314,12 @@ Your Eurocircuits Team
 <signal name="HMI_BUTTON_CPU_4">
 <contactref element="U3" pad="1"/>
 <contactref element="U6" pad="60"/>
-<wire x1="22.0348" y1="78.1712" x2="51.5" y2="57.62" width="0" layer="19" extent="1-1"/>
+<wire x1="22.0348" y1="78.1712" x2="54" y2="57.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="HMI_BUTTON_CPU_5">
 <contactref element="U3" pad="3"/>
 <contactref element="U6" pad="59"/>
-<wire x1="23.3302" y1="78.1712" x2="52" y2="57.62" width="0" layer="19" extent="1-1"/>
+<wire x1="23.3302" y1="78.1712" x2="54.5" y2="57.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="HMI_BUTTON_CPU_6">
 <contactref element="U3" pad="6"/>
@@ -4293,10 +4331,10 @@ Your Eurocircuits Team
 <signal name="HMI_BUTTON_CPU_1">
 <contactref element="U4" pad="1"/>
 <contactref element="U6" pad="63"/>
-<wire x1="50" y1="57.62" x2="50" y2="61.5" width="0.1778" layer="1"/>
-<wire x1="50" y1="61.5" x2="48" y2="63.5" width="0.1778" layer="1"/>
-<via x="48" y="63.5" extent="1-16" drill="0.35"/>
-<wire x1="48" y1="63.5" x2="22.5" y2="63.5" width="0.1778" layer="16"/>
+<wire x1="52.5" y1="57.62" x2="52.5" y2="61.5" width="0.1778" layer="1"/>
+<wire x1="52.5" y1="61.5" x2="50.5" y2="63.5" width="0.1778" layer="1"/>
+<via x="50.5" y="63.5" extent="1-16" drill="0.35"/>
+<wire x1="50.5" y1="63.5" x2="22.5" y2="63.5" width="0.1778" layer="16"/>
 <via x="22.5" y="63.5" extent="1-16" drill="0.35"/>
 <wire x1="22.5" y1="63.5" x2="21.8348" y2="64.1652" width="0.1778" layer="1"/>
 <wire x1="21.8348" y1="64.1652" x2="21.8348" y2="68.3712" width="0.1778" layer="1"/>
@@ -4304,10 +4342,10 @@ Your Eurocircuits Team
 <signal name="HMI_BUTTON_CPU_2">
 <contactref element="U4" pad="3"/>
 <contactref element="U6" pad="62"/>
-<wire x1="50.5" y1="57.62" x2="50.5" y2="63" width="0.1778" layer="1"/>
-<wire x1="50.5" y1="63" x2="49" y2="64.5" width="0.1778" layer="1"/>
-<via x="49" y="64.5" extent="1-16" drill="0.35"/>
-<wire x1="49" y1="64.5" x2="24.5" y2="64.5" width="0.1778" layer="16"/>
+<wire x1="53" y1="57.62" x2="53" y2="63" width="0.1778" layer="1"/>
+<wire x1="53" y1="63" x2="51.5" y2="64.5" width="0.1778" layer="1"/>
+<via x="51.5" y="64.5" extent="1-16" drill="0.35"/>
+<wire x1="51.5" y1="64.5" x2="24.5" y2="64.5" width="0.1778" layer="16"/>
 <via x="24.5" y="64.5" extent="1-16" drill="0.35"/>
 <wire x1="24.5" y1="64.5" x2="23.1302" y2="65.8698" width="0.1778" layer="1"/>
 <wire x1="23.1302" y1="65.8698" x2="23.1302" y2="68.3712" width="0.1778" layer="1"/>
@@ -4321,10 +4359,10 @@ Your Eurocircuits Team
 <wire x1="24.5" y1="70" x2="25" y2="69.5" width="0.1778" layer="16"/>
 <wire x1="25" y1="69.5" x2="25" y2="67" width="0.1778" layer="16"/>
 <wire x1="25" y1="67" x2="26.5" y2="65.5" width="0.1778" layer="16"/>
-<wire x1="26.5" y1="65.5" x2="50" y2="65.5" width="0.1778" layer="16"/>
-<via x="50" y="65.5" extent="1-16" drill="0.35"/>
-<wire x1="50" y1="65.5" x2="51" y2="64.5" width="0.1778" layer="1"/>
-<wire x1="51" y1="64.5" x2="51" y2="57.62" width="0.1778" layer="1"/>
+<wire x1="26.5" y1="65.5" x2="52.5" y2="65.5" width="0.1778" layer="16"/>
+<via x="52.5" y="65.5" extent="1-16" drill="0.35"/>
+<wire x1="52.5" y1="65.5" x2="53.5" y2="64.5" width="0.1778" layer="1"/>
+<wire x1="53.5" y1="64.5" x2="53.5" y2="57.62" width="0.1778" layer="1"/>
 </signal>
 <signal name="+5V" class="2">
 <contactref element="J1" pad="4"/>
@@ -4421,12 +4459,12 @@ Your Eurocircuits Team
 <signal name="BRAKE_SENSOR_1">
 <contactref element="U10" pad="6"/>
 <contactref element="U6" pad="81"/>
-<wire x1="42.38" y1="53.5" x2="69.6046" y2="26.9602" width="0" layer="19" extent="1-1"/>
+<wire x1="69.6046" y1="26.9602" x2="44.88" y2="53.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BRAKE_SENSOR_2">
 <contactref element="U10" pad="4"/>
 <contactref element="U6" pad="80"/>
-<wire x1="42.38" y1="54" x2="69.6046" y2="28.8398" width="0" layer="19" extent="1-1"/>
+<wire x1="44.88" y1="54" x2="69.6046" y2="28.8398" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$41">
 <contactref element="C134" pad="1"/>
@@ -4445,12 +4483,12 @@ Your Eurocircuits Team
 <signal name="DRIVE_EN">
 <contactref element="U9" pad="6"/>
 <contactref element="U6" pad="79"/>
-<wire x1="42.38" y1="54.5" x2="69.7046" y2="47.0602" width="0" layer="19" extent="1-1"/>
+<wire x1="44.88" y1="54.5" x2="69.7046" y2="47.0602" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DRIVE_ERR">
 <contactref element="U9" pad="4"/>
 <contactref element="U6" pad="78"/>
-<wire x1="42.38" y1="55" x2="69.7046" y2="48.9398" width="0" layer="19" extent="1-1"/>
+<wire x1="44.88" y1="55" x2="69.7046" y2="48.9398" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AVDD">
 <contactref element="X5" pad="1"/>
@@ -4460,9 +4498,9 @@ Your Eurocircuits Team
 <contactref element="U6" pad="10"/>
 <contactref element="U6" pad="12"/>
 <wire x1="147.35" y1="42" x2="147.14" y2="44" width="0" layer="19" extent="1-1"/>
-<wire x1="49.5" y1="42.38" x2="147.14" y2="44" width="0" layer="19" extent="1-1"/>
-<wire x1="48.5" y1="42.38" x2="49.5" y2="42.38" width="0" layer="19" extent="1-1"/>
-<wire x1="21.77" y1="5" x2="48.5" y2="42.38" width="0" layer="19" extent="1-1"/>
+<wire x1="52" y1="42.38" x2="147.14" y2="44" width="0" layer="19" extent="1-1"/>
+<wire x1="51" y1="42.38" x2="52" y2="42.38" width="0" layer="19" extent="1-1"/>
+<wire x1="21.77" y1="5" x2="51" y2="42.38" width="0" layer="19" extent="1-1"/>
 <wire x1="14.77" y1="5" x2="21.77" y2="5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VIN">
@@ -4592,7 +4630,7 @@ Your Eurocircuits Team
 <signal name="HMI_LCD_BACKLIGHT">
 <contactref element="R15" pad="2"/>
 <contactref element="U6" pad="56"/>
-<wire x1="15.9" y1="86.45" x2="53.5" y2="57.62" width="0" layer="19" extent="1-1"/>
+<wire x1="15.9" y1="86.45" x2="56" y2="57.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="T1" pad="1"/>
@@ -4651,39 +4689,69 @@ Your Eurocircuits Team
 <contactref element="P1" pad="R1"/>
 <contactref element="R20" pad="2"/>
 <contactref element="GND" pad="15"/>
-<wire x1="22.65" y1="40" x2="29.0536" y2="44.25" width="0" layer="19" extent="1-1"/>
-<wire x1="17.348959375" y1="39.554209375" x2="22.65" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="29.0536" y1="44.25" x2="27.48179375" y2="44.25" width="0.1778" layer="1"/>
+<wire x1="27.48179375" y1="44.25" x2="26.6639" y2="43.43210625" width="0.1778" layer="1"/>
+<wire x1="26.6639" y1="43.43210625" x2="26.6639" y2="41.93210625" width="0.1778" layer="1"/>
+<wire x1="26.6639" y1="41.93210625" x2="26.06789375" y2="41.3361" width="0.1778" layer="1"/>
+<wire x1="26.06789375" y1="41.3361" x2="23" y2="41.3361" width="0.1778" layer="1"/>
+<wire x1="23" y1="41.3361" x2="22.3361" y2="41.3361" width="0.1778" layer="1"/>
+<wire x1="17.348959375" y1="39.554209375" x2="17.40316875" y2="39.5" width="0.1778" layer="1"/>
+<wire x1="17.40316875" y1="39.5" x2="20.5" y2="39.5" width="0.1778" layer="1"/>
+<wire x1="20.5" y1="39.5" x2="22.3361" y2="41.3361" width="0.1778" layer="1"/>
+<wire x1="22.65" y1="40" x2="22.65" y2="40.9861" width="0.1778" layer="1"/>
+<wire x1="22.65" y1="40.9861" x2="23" y2="41.3361" width="0.1778" layer="1"/>
 </signal>
 <signal name="ETH_TX_N" class="1">
 <contactref element="P1" pad="R2"/>
 <contactref element="R21" pad="2"/>
 <contactref element="GND" pad="14"/>
-<wire x1="22.65" y1="43" x2="29.0536" y2="44.75" width="0" layer="19" extent="1-1"/>
-<wire x1="19.888959375" y1="40.824209375" x2="22.65" y2="43" width="0" layer="19" extent="1-1"/>
+<wire x1="29.0536" y1="44.75" x2="27.51820625" y2="44.75" width="0.1778" layer="1"/>
+<wire x1="27.51820625" y1="44.75" x2="26.3361" y2="43.56789375" width="0.1778" layer="1"/>
+<wire x1="26.3361" y1="43.56789375" x2="26.3361" y2="42.06789375" width="0.1778" layer="1"/>
+<wire x1="26.3361" y1="42.06789375" x2="25.93210625" y2="41.6639" width="0.1778" layer="1"/>
+<wire x1="25.93210625" y1="41.6639" x2="23" y2="41.6639" width="0.1778" layer="1"/>
+<wire x1="23" y1="41.6639" x2="20.72865" y2="41.6639" width="0.1778" layer="1"/>
+<wire x1="19.888959375" y1="40.824209375" x2="20.72865" y2="41.6639" width="0.1778" layer="1"/>
+<wire x1="22.65" y1="43" x2="22.65" y2="42.0139" width="0.1778" layer="1"/>
+<wire x1="22.65" y1="42.0139" x2="23" y2="41.6639" width="0.1778" layer="1"/>
 </signal>
 <signal name="ETH_RX_P" class="1">
 <contactref element="P1" pad="R7"/>
 <contactref element="R22" pad="2"/>
 <contactref element="GND" pad="12"/>
-<wire x1="22.65" y1="45" x2="29.0536" y2="45.75" width="0" layer="19" extent="1-1"/>
-<wire x1="17.348959375" y1="47.174209375" x2="22.65" y2="45" width="0" layer="19" extent="1-1"/>
+<wire x1="29.0536" y1="45.75" x2="26.51820625" y2="45.75" width="0.1778" layer="1"/>
+<wire x1="26.51820625" y1="45.75" x2="25.93210625" y2="46.3361" width="0.1778" layer="1"/>
+<wire x1="25.93210625" y1="46.3361" x2="23" y2="46.3361" width="0.1778" layer="1"/>
+<wire x1="23" y1="46.3361" x2="21.43210625" y2="46.3361" width="0.1778" layer="1"/>
+<wire x1="21.43210625" y1="46.3361" x2="20.593996875" y2="47.174209375" width="0.1778" layer="1"/>
+<wire x1="20.593996875" y1="47.174209375" x2="17.348959375" y2="47.174209375" width="0.1778" layer="1"/>
+<wire x1="22.65" y1="45" x2="22.65" y2="45.9861" width="0.1778" layer="1"/>
+<wire x1="22.65" y1="45.9861" x2="23" y2="46.3361" width="0.1778" layer="1"/>
 </signal>
 <signal name="ETH_RX_N" class="1">
 <contactref element="P1" pad="R8"/>
 <contactref element="R23" pad="2"/>
 <contactref element="GND" pad="11"/>
-<wire x1="22.65" y1="48" x2="29.0536" y2="46.25" width="0" layer="19" extent="1-1"/>
-<wire x1="19.888959375" y1="48.444209375" x2="22.65" y2="48" width="0" layer="19" extent="1-1"/>
+<wire x1="29.0536" y1="46.25" x2="26.48179375" y2="46.25" width="0.1778" layer="1"/>
+<wire x1="26.48179375" y1="46.25" x2="26.06789375" y2="46.6639" width="0.1778" layer="1"/>
+<wire x1="26.06789375" y1="46.6639" x2="23" y2="46.6639" width="0.1778" layer="1"/>
+<wire x1="23" y1="46.6639" x2="21.56789375" y2="46.6639" width="0.1778" layer="1"/>
+<wire x1="21.56789375" y1="46.6639" x2="19.888959375" y2="48.342834375" width="0.1778" layer="1"/>
+<wire x1="19.888959375" y1="48.342834375" x2="19.888959375" y2="48.444209375" width="0.1778" layer="1"/>
+<wire x1="22.65" y1="48" x2="22.65" y2="47.0139" width="0.1778" layer="1"/>
+<wire x1="22.65" y1="47.0139" x2="23" y2="46.6639" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$8" class="1">
 <contactref element="R19" pad="1"/>
 <contactref element="P1" pad="L1"/>
-<wire x1="5.65" y1="50.3" x2="7.62036875" y2="50.32546875" width="0" layer="19" extent="1-1"/>
+<wire x1="5.65" y1="50.3" x2="7.5949" y2="50.3" width="0.1778" layer="1"/>
+<wire x1="7.5949" y1="50.3" x2="7.62036875" y2="50.32546875" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$9" class="1">
 <contactref element="P1" pad="L3"/>
 <contactref element="R18" pad="1"/>
-<wire x1="5.65" y1="40.2" x2="7.62086875" y2="40.21361875" width="0" layer="19" extent="1-1"/>
+<wire x1="7.62086875" y1="40.21361875" x2="5.66361875" y2="40.21361875" width="0.1778" layer="1"/>
+<wire x1="5.66361875" y1="40.21361875" x2="5.65" y2="40.2" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="GND" pad="20"/>
@@ -4693,58 +4761,112 @@ Your Eurocircuits Team
 <signal name="MII_MODE" class="1">
 <contactref element="GND" pad="32"/>
 <contactref element="R28" pad="2"/>
-<wire x1="34.9464" y1="42.25" x2="39.35" y2="41.5" width="0" layer="19" extent="1-16"/>
+<wire x1="34.9464" y1="42.25" x2="37.45" y2="42.25" width="0.1778" layer="1"/>
+<wire x1="37.45" y1="42.25" x2="37.6" y2="42.1" width="0.1778" layer="1"/>
+<via x="37.6" y="42.1" extent="1-16" drill="0.35"/>
+<wire x1="37.6" y1="42.1" x2="37.65" y2="42.05" width="0.1778" layer="16"/>
+<wire x1="37.65" y1="42.05" x2="37.65" y2="41" width="0.1778" layer="16"/>
 </signal>
 <signal name="L1_1" class="1">
 <contactref element="GND" pad="22"/>
 <contactref element="P1" pad="L2"/>
-<wire x1="6.10086875" y1="47.78361875" x2="30.25" y2="41.0536" width="0" layer="19" extent="1-1"/>
+<wire x1="30.25" y1="41.0536" x2="30.25" y2="34.25" width="0.1778" layer="1"/>
+<wire x1="30.25" y1="34.25" x2="29" y2="33" width="0.1778" layer="1"/>
+<wire x1="29" y1="33" x2="8" y2="33" width="0.1778" layer="1"/>
+<wire x1="8" y1="33" x2="4.5" y2="36.5" width="0.1778" layer="1"/>
+<via x="4.5" y="36.5" extent="1-16" drill="0.35"/>
+<wire x1="4.5" y1="36.5" x2="4.5" y2="46.18275" width="0.1778" layer="16"/>
+<wire x1="4.5" y1="46.18275" x2="6.10086875" y2="47.78361875" width="0.1778" layer="16"/>
 </signal>
 <signal name="L1_2" class="1">
 <contactref element="GND" pad="21"/>
 <contactref element="P1" pad="L4"/>
-<wire x1="6.10036875" y1="37.67546875" x2="29.75" y2="41.0536" width="0" layer="19" extent="1-1"/>
+<wire x1="6.10036875" y1="37.67546875" x2="6.10036875" y2="36.39963125" width="0.1778" layer="1"/>
+<wire x1="6.10036875" y1="36.39963125" x2="8.5" y2="34" width="0.1778" layer="1"/>
+<wire x1="8.5" y1="34" x2="28.5" y2="34" width="0.1778" layer="1"/>
+<wire x1="28.5" y1="34" x2="29.75" y2="35.25" width="0.1778" layer="1"/>
+<wire x1="29.75" y1="35.25" x2="29.75" y2="41.0536" width="0.1778" layer="1"/>
 </signal>
 <signal name="ETH_X1" class="1">
 <contactref element="X1" pad="3"/>
 <contactref element="GND" pad="28"/>
 <contactref element="U6" pad="88"/>
-<wire x1="33.25" y1="41.0536" x2="42.38" y2="50" width="0" layer="19" extent="1-1"/>
-<wire x1="33.375" y1="37.35" x2="33.25" y2="41.0536" width="0" layer="19" extent="1-1"/>
+<via x="38" y="51.9" extent="1-16" drill="0.35"/>
+<wire x1="38" y1="51.9" x2="40.1" y2="51.9" width="0.1778" layer="1"/>
+<wire x1="40.1" y1="51.9" x2="42" y2="50" width="0.1778" layer="1"/>
+<wire x1="42" y1="50" x2="44.88" y2="50" width="0.1778" layer="1"/>
+<wire x1="38" y1="51.9" x2="42.1" y2="51.9" width="0.1778" layer="16"/>
+<wire x1="42.1" y1="51.9" x2="42.5" y2="51.5" width="0.1778" layer="16"/>
+<wire x1="42.5" y1="51.5" x2="42.5" y2="38.5" width="0.1778" layer="16"/>
+<wire x1="42.5" y1="38.5" x2="41.6" y2="37.6" width="0.1778" layer="16"/>
+<wire x1="41.6" y1="37.6" x2="34.65" y2="37.6" width="0.1778" layer="16"/>
+<wire x1="33.25" y1="41.0536" x2="33.25" y2="37.375" width="0.1778" layer="1"/>
+<wire x1="33.25" y1="37.375" x2="33.275" y2="37.35" width="0.1778" layer="1"/>
+<wire x1="34.65" y1="37.6" x2="33.25" y2="39" width="0.1778" layer="16"/>
+<wire x1="34.65" y1="37.6" x2="33.275" y2="37.35" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="ETH_RST" class="1">
 <contactref element="GND" pad="23"/>
 <contactref element="U6" pad="44"/>
-<wire x1="30.75" y1="41.0536" x2="57.62" y2="53" width="0" layer="19" extent="1-1"/>
+<wire x1="30.75" y1="41.0536" x2="30.75" y2="35.75" width="0.1778" layer="1"/>
+<wire x1="30.75" y1="35.75" x2="32" y2="34.5" width="0.1778" layer="1"/>
+<via x="32" y="34.5" extent="1-16" drill="0.35"/>
+<wire x1="32" y1="34.5" x2="66" y2="34.5" width="0.1778" layer="16"/>
+<wire x1="66" y1="34.5" x2="67" y2="35.5" width="0.1778" layer="16"/>
+<via x="67" y="35.5" extent="1-16" drill="0.35"/>
+<wire x1="67" y1="35.5" x2="67" y2="52.3" width="0.1778" layer="1"/>
+<wire x1="67" y1="52.3" x2="66.3" y2="53" width="0.1778" layer="1"/>
+<wire x1="66.3" y1="53" x2="60.12" y2="53" width="0.1778" layer="1"/>
 </signal>
 <signal name="ETH_TXD_0" class="1">
 <contactref element="GND" pad="4"/>
 <contactref element="U6" pad="95"/>
-<wire x1="32.75" y1="46.9464" x2="32.75" y2="47.75" width="0.1778" layer="1"/>
-<wire x1="32.75" y1="47.75" x2="33" y2="48" width="0.1778" layer="1"/>
-<wire x1="33" y1="48" x2="35.5" y2="48" width="0.1778" layer="1"/>
-<wire x1="35.5" y1="48" x2="37" y2="46.5" width="0.1778" layer="1"/>
-<wire x1="37" y1="46.5" x2="42.38" y2="46.5" width="0.1778" layer="1"/>
+<wire x1="32.75" y1="46.9464" x2="32.75" y2="49.25" width="0.1778" layer="1"/>
+<wire x1="32.75" y1="49.25" x2="33" y2="49.5" width="0.1778" layer="1"/>
+<wire x1="33" y1="49.5" x2="35.5" y2="49.5" width="0.1778" layer="1"/>
+<wire x1="37" y1="46.5" x2="44.88" y2="46.5" width="0.1778" layer="1"/>
+<wire x1="37" y1="46.5" x2="36" y2="47.5" width="0.1778" layer="1"/>
+<wire x1="36" y1="47.5" x2="36" y2="49" width="0.1778" layer="1"/>
+<wire x1="36" y1="49" x2="35.5" y2="49.5" width="0.1778" layer="1"/>
 </signal>
 <signal name="ETH_TXD_1" class="1">
 <contactref element="GND" pad="5"/>
 <contactref element="U6" pad="94"/>
-<wire x1="32.25" y1="46.9464" x2="32.25" y2="48.25" width="0.1778" layer="1"/>
-<wire x1="32.25" y1="48.25" x2="32.5" y2="48.5" width="0.1778" layer="1"/>
-<wire x1="32.5" y1="48.5" x2="35.5" y2="48.5" width="0.1778" layer="1"/>
-<wire x1="35.5" y1="48.5" x2="37" y2="47" width="0.1778" layer="1"/>
-<wire x1="37" y1="47" x2="42.38" y2="47" width="0.1778" layer="1"/>
+<wire x1="32.25" y1="46.9464" x2="32.25" y2="49.75" width="0.1778" layer="1"/>
+<wire x1="32.25" y1="49.75" x2="32.5" y2="50" width="0.1778" layer="1"/>
+<wire x1="32.5" y1="50" x2="35" y2="50" width="0.1778" layer="1"/>
+<wire x1="35" y1="50" x2="35.5" y2="50" width="0.1778" layer="1"/>
+<wire x1="37" y1="47" x2="44.88" y2="47" width="0.1778" layer="1"/>
+<wire x1="37" y1="47" x2="36.5" y2="47.5" width="0.1778" layer="1"/>
+<wire x1="36.5" y1="47.5" x2="36.5" y2="49.5" width="0.1778" layer="1"/>
+<wire x1="36.5" y1="49.5" x2="36" y2="50" width="0.1778" layer="1"/>
+<wire x1="36" y1="50" x2="35.5" y2="50" width="0.1778" layer="1"/>
 </signal>
 <signal name="ETH_RXD_1" class="1">
 <contactref element="GND" pad="37"/>
 <contactref element="U6" pad="90"/>
-<wire x1="34.9464" y1="44.75" x2="42.38" y2="49" width="0" layer="19" extent="1-1"/>
+<via x="38" y="50.6" extent="1-16" drill="0.35"/>
+<wire x1="44.88" y1="49" x2="41" y2="49" width="0.1778" layer="1"/>
+<wire x1="41" y1="49" x2="39.4" y2="50.6" width="0.1778" layer="1"/>
+<wire x1="39.4" y1="50.6" x2="38" y2="50.6" width="0.1778" layer="1"/>
+<wire x1="34.9464" y1="44.75" x2="38.75" y2="44.75" width="0.1778" layer="1"/>
+<wire x1="39.5" y1="45.5" x2="39.5" y2="48.6" width="0.1778" layer="16"/>
+<wire x1="39.5" y1="48.6" x2="38" y2="50.1" width="0.1778" layer="16"/>
+<wire x1="38" y1="50.1" x2="38" y2="50.6" width="0.1778" layer="16"/>
+<via x="39.5" y="45.5" extent="1-16" drill="0.35"/>
+<wire x1="38.75" y1="44.75" x2="39.5" y2="45.5" width="0.1778" layer="1"/>
 </signal>
 <signal name="ETH_RXD_0" class="1">
 <contactref element="GND" pad="36"/>
 <contactref element="U6" pad="91"/>
-<wire x1="42.38" y1="48.5" x2="38.5" y2="48.5" width="0.1778" layer="1"/>
-<wire x1="34.9464" y1="44.25" x2="38.5" y2="48.5" width="0" layer="19" extent="1-1"/>
+<wire x1="44.88" y1="48.5" x2="40.4" y2="48.5" width="0.1778" layer="1"/>
+<via x="39.1" y="49.8" extent="1-16" drill="0.35"/>
+<wire x1="39.1" y1="49.8" x2="40.4" y2="48.5" width="0.1778" layer="1"/>
+<wire x1="34.9464" y1="44.25" x2="40.35" y2="44.25" width="0.1778" layer="1"/>
+<wire x1="40.35" y1="44.25" x2="40.4" y2="44.3" width="0.1778" layer="1"/>
+<via x="40.4" y="44.3" extent="1-16" drill="0.35"/>
+<wire x1="40.4" y1="44.3" x2="40.4" y2="48.5" width="0.1778" layer="16"/>
+<wire x1="40.4" y1="48.5" x2="39.1" y2="49.8" width="0.1778" layer="16"/>
 </signal>
 <signal name="CAN_N" class="1">
 <contactref element="U11" pad="6"/>
@@ -4778,7 +4900,16 @@ Your Eurocircuits Team
 <signal name="USB_D_N">
 <contactref element="R36" pad="2"/>
 <contactref element="U6" pad="30"/>
-<wire x1="42" y1="8.75" x2="57.62" y2="46" width="0" layer="19" extent="1-1"/>
+<wire x1="60.12" y1="46" x2="65.1" y2="46" width="0.1778" layer="1"/>
+<wire x1="65.1" y1="46" x2="66" y2="45.1" width="0.1778" layer="1"/>
+<wire x1="66" y1="45.1" x2="66" y2="20.5" width="0.1778" layer="1"/>
+<wire x1="66" y1="20.5" x2="65.5" y2="20" width="0.1778" layer="1"/>
+<wire x1="65.5" y1="20" x2="45" y2="20" width="0.1778" layer="1"/>
+<via x="45" y="20" extent="1-16" drill="0.35"/>
+<wire x1="45" y1="20" x2="43" y2="20" width="0.1778" layer="16"/>
+<wire x1="43" y1="20" x2="42.5" y2="19.5" width="0.1778" layer="16"/>
+<via x="42.5" y="19.5" extent="1-16" drill="0.35"/>
+<wire x1="42.5" y1="19.5" x2="42.5" y2="8.75" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$50">
 <contactref element="LED4" pad="A"/>
@@ -4868,22 +4999,22 @@ Your Eurocircuits Team
 <signal name="JTAG_TDO" class="1">
 <contactref element="U6" pad="1"/>
 <contactref element="J15" pad="9"/>
-<wire x1="4.5" y1="29.08" x2="44" y2="42.38" width="0" layer="19" extent="1-1"/>
+<wire x1="4.5" y1="29.08" x2="46.5" y2="42.38" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="JTAG_TDI" class="1">
 <contactref element="U6" pad="2"/>
 <contactref element="J15" pad="7"/>
-<wire x1="4.5" y1="26.54" x2="44.5" y2="42.38" width="0" layer="19" extent="1-1"/>
+<wire x1="4.5" y1="26.54" x2="47" y2="42.38" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="JTAG_TMS" class="1">
 <contactref element="U6" pad="3"/>
 <contactref element="J15" pad="10"/>
-<wire x1="9.5" y1="29.08" x2="45" y2="42.38" width="0" layer="19" extent="1-1"/>
+<wire x1="9.5" y1="29.08" x2="47.5" y2="42.38" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="JTAG_TCK" class="1">
 <contactref element="U6" pad="5"/>
 <contactref element="J15" pad="8"/>
-<wire x1="9.5" y1="26.54" x2="46" y2="42.38" width="0" layer="19" extent="1-1"/>
+<wire x1="9.5" y1="26.54" x2="48.5" y2="42.38" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ISP_RXDO" class="1">
 <contactref element="U6" pad="99"/>
@@ -4895,7 +5026,7 @@ Your Eurocircuits Team
 <wire x1="15" y1="21.5" x2="15" y2="24.5" width="0.1778" layer="1"/>
 <wire x1="15" y1="24.5" x2="15.77" y2="25.27" width="0.1778" layer="1"/>
 <wire x1="15.77" y1="25.27" x2="18" y2="25.27" width="0.1778" layer="1"/>
-<wire x1="18" y1="25.27" x2="42.38" y2="44.5" width="0" layer="19" extent="1-1"/>
+<wire x1="18" y1="25.27" x2="44.88" y2="44.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ISP_TXDO" class="1">
 <contactref element="U6" pad="98"/>
@@ -4906,62 +5037,62 @@ Your Eurocircuits Team
 <wire x1="13.5" y1="23" x2="13.5" y2="26" width="0.1778" layer="1"/>
 <wire x1="13.5" y1="26" x2="15.31" y2="27.81" width="0.1778" layer="1"/>
 <wire x1="15.31" y1="27.81" x2="18" y2="27.81" width="0.1778" layer="1"/>
-<wire x1="18" y1="27.81" x2="42.38" y2="45" width="0" layer="19" extent="1-1"/>
+<wire x1="18" y1="27.81" x2="44.88" y2="45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="EEPROM_SDA">
 <contactref element="U7" pad="5"/>
 <contactref element="R17" pad="1"/>
 <contactref element="U6" pad="25"/>
-<wire x1="58.85" y1="31.7" x2="56" y2="42.38" width="0" layer="19" extent="1-1"/>
+<wire x1="58.85" y1="31.7" x2="58.5" y2="42.38" width="0" layer="19" extent="1-1"/>
 <wire x1="58.405" y1="29.1622" x2="58.85" y2="31.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="EEPROM_SCL">
 <contactref element="U7" pad="6"/>
 <contactref element="R27" pad="1"/>
 <contactref element="U6" pad="24"/>
-<wire x1="56.65" y1="31.7" x2="55.5" y2="42.38" width="0" layer="19" extent="1-1"/>
+<wire x1="56.65" y1="31.7" x2="58" y2="42.38" width="0" layer="19" extent="1-1"/>
 <wire x1="57.135" y1="29.1622" x2="56.65" y2="31.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ADC_SLACK_DETECTION" class="1">
 <contactref element="U6" pad="7"/>
 <contactref element="U12" pad="1"/>
 <contactref element="R80" pad="1"/>
-<wire x1="28.6" y1="14.95" x2="47" y2="42.38" width="0" layer="19" extent="1-1"/>
+<wire x1="28.6" y1="14.95" x2="49.5" y2="42.38" width="0" layer="19" extent="1-1"/>
 <wire x1="30.55" y1="12.7" x2="28.6" y2="14.95" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RTCX1">
 <contactref element="C26" pad="1"/>
 <contactref element="X2" pad="1"/>
 <contactref element="U6" pad="16"/>
-<wire x1="48.25" y1="36.5" x2="51.5" y2="42.38" width="0" layer="19" extent="1-1"/>
+<wire x1="48.25" y1="36.5" x2="54" y2="42.38" width="0" layer="19" extent="1-1"/>
 <wire x1="46.4" y1="37.35" x2="48.25" y2="36.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RTCX2">
 <contactref element="C27" pad="1"/>
 <contactref element="X2" pad="2"/>
 <contactref element="U6" pad="18"/>
-<wire x1="52.6" y1="37.35" x2="52.5" y2="42.38" width="0" layer="19" extent="1-1"/>
+<wire x1="52.6" y1="37.35" x2="55" y2="42.38" width="0" layer="19" extent="1-1"/>
 <wire x1="50.75" y1="36.5" x2="52.6" y2="37.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="XTAL1">
 <contactref element="U6" pad="22"/>
 <contactref element="X3" pad="3"/>
-<wire x1="54.275" y1="37.05" x2="54.5" y2="42.38" width="0" layer="19" extent="1-1"/>
+<wire x1="54.275" y1="37.05" x2="57" y2="42.38" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ENCODER_A">
 <contactref element="U6" pad="34"/>
 <contactref element="U8" pad="7"/>
-<wire x1="62.5698" y1="16.1288" x2="57.62" y2="48" width="0" layer="19" extent="1-1"/>
+<wire x1="62.5698" y1="16.1288" x2="60.12" y2="48" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ENCODER_B">
 <contactref element="U6" pad="37"/>
 <contactref element="U8" pad="5"/>
-<wire x1="63.8652" y1="16.1288" x2="57.62" y2="49.5" width="0" layer="19" extent="1-1"/>
+<wire x1="63.8652" y1="16.1288" x2="60.12" y2="49.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ENCODER_Z">
 <contactref element="U6" pad="38"/>
 <contactref element="U8" pad="2"/>
-<wire x1="62.5698" y1="12.4712" x2="57.62" y2="50" width="0" layer="19" extent="1-1"/>
+<wire x1="62.5698" y1="12.4712" x2="60.12" y2="50" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$47">
 <contactref element="R57" pad="1"/>
@@ -4974,13 +5105,13 @@ Your Eurocircuits Team
 <contactref element="X7" pad="+2"/>
 <contactref element="X7" pad="+1"/>
 <contactref element="U6" pad="19"/>
-<wire x1="6" y1="32.874" x2="53" y2="42.38" width="0" layer="19" extent="1-16"/>
+<wire x1="6" y1="32.874" x2="55.5" y2="42.38" width="0" layer="19" extent="1-16"/>
 <wire x1="6" y1="16.999" x2="6" y2="32.874" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="HMI_BUTTON_MCU_FCT_6">
 <contactref element="U6" pad="58"/>
 <contactref element="R67" pad="2"/>
-<wire x1="52.5" y1="57.62" x2="38.85" y2="75.2" width="0" layer="19" extent="1-1"/>
+<wire x1="55" y1="57.62" x2="38.85" y2="75.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$48" class="1">
 <contactref element="SW2" pad="3"/>
@@ -4996,12 +5127,12 @@ Your Eurocircuits Team
 <signal name="BOOT_SELECT_P2_12" class="1">
 <contactref element="R69" pad="1"/>
 <contactref element="U6" pad="51"/>
-<wire x1="56" y1="57.62" x2="63.85" y2="73.5" width="0" layer="19" extent="1-1"/>
+<wire x1="58.5" y1="57.62" x2="63.85" y2="73.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BOOT_SELECT_P2_10" class="1">
 <contactref element="R68" pad="1"/>
 <contactref element="U6" pad="53"/>
-<wire x1="55" y1="57.62" x2="63.85" y2="71.5" width="0" layer="19" extent="1-1"/>
+<wire x1="57.5" y1="57.62" x2="63.85" y2="71.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!RESET">
 <contactref element="U6" pad="17"/>
@@ -5011,8 +5142,8 @@ Your Eurocircuits Team
 <contactref element="R65" pad="1"/>
 <wire x1="34.5" y1="77.75" x2="42.5" y2="77.75" width="0" layer="19" extent="1-1"/>
 <wire x1="34.05" y1="75.2" x2="34.5" y2="77.75" width="0" layer="19" extent="1-1"/>
-<wire x1="52" y1="42.38" x2="42.5" y2="77.75" width="0" layer="19" extent="1-1"/>
-<wire x1="52" y1="37.85" x2="52" y2="42.38" width="0" layer="19" extent="1-16"/>
+<wire x1="54.5" y1="42.38" x2="42.5" y2="77.75" width="0" layer="19" extent="1-1"/>
+<wire x1="52" y1="37.85" x2="54.5" y2="42.38" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$49" class="1">
 <contactref element="LED10" pad="C"/>
@@ -5022,12 +5153,12 @@ Your Eurocircuits Team
 <signal name="LED_DEBUG" class="1">
 <contactref element="LED10" pad="A"/>
 <contactref element="U6" pad="35"/>
-<wire x1="57.62" y1="48.5" x2="49.5" y2="68.65" width="0" layer="19" extent="1-1"/>
+<wire x1="60.12" y1="48.5" x2="49.5" y2="68.65" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!JTAG_TRST">
 <contactref element="U6" pad="4"/>
 <contactref element="J15" pad="5"/>
-<wire x1="4.5" y1="24" x2="45.5" y2="42.38" width="0" layer="19" extent="1-1"/>
+<wire x1="4.5" y1="24" x2="48" y2="42.38" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11" class="1">
 <contactref element="J5" pad="2"/>
@@ -5099,15 +5230,18 @@ Your Eurocircuits Team
 <wire x1="28.6" y1="13.25" x2="32.45" y2="15.3" width="0" layer="19" extent="1-1"/>
 <wire x1="29.2" y1="9.75" x2="28.6" y2="13.25" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$67">
-<via x="37" y="50.6" extent="1-16" drill="0.35"/>
-<via x="37" y="51.9" extent="1-16" drill="0.35"/>
-<wire x1="37" y1="50.6" x2="37" y2="51.9" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$68">
-<via x="37" y="53.2" extent="1-16" drill="0.35"/>
-<via x="37" y="54.5" extent="1-16" drill="0.35"/>
-<wire x1="37" y1="53.2" x2="37" y2="54.5" width="0" layer="19" extent="1-1"/>
+<signal name="USB_D_P" class="1">
+<contactref element="U6" pad="29"/>
+<contactref element="R35" pad="2"/>
+<wire x1="60.12" y1="45.5" x2="65" y2="45.5" width="0.1778" layer="1"/>
+<wire x1="65" y1="45.5" x2="65.5" y2="45" width="0.1778" layer="1"/>
+<wire x1="65.5" y1="45" x2="65.5" y2="21.5" width="0.1778" layer="1"/>
+<wire x1="44.4" y1="8.75" x2="44.4" y2="9.3" width="0.1778" layer="1"/>
+<wire x1="44.4" y1="9.3" x2="43.6" y2="10.1" width="0.1778" layer="1"/>
+<wire x1="65.5" y1="21.5" x2="65" y2="21" width="0.1778" layer="1"/>
+<wire x1="65" y1="21" x2="44.5" y2="21" width="0.1778" layer="1"/>
+<wire x1="44.5" y1="21" x2="43.6" y2="20.1" width="0.1778" layer="1"/>
+<wire x1="43.6" y1="20.1" x2="43.6" y2="10.1" width="0.1778" layer="1"/>
 </signal>
 </signals>
 <errors>
@@ -5125,6 +5259,9 @@ Your Eurocircuits Team
 <approved hash="3,2,99fa65ec82d97ecf"/>
 <approved hash="3,15,e3361f2094a568b3"/>
 <approved hash="3,16,ed7211649d616177"/>
+<approved hash="6,16,52b3955396745194"/>
+<approved hash="6,16,5e70ee48ee515e69"/>
+<approved hash="6,16,efd061f84ca3d4ef"/>
 </errors>
 </board>
 </drawing>
