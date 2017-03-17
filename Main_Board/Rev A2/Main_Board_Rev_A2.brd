@@ -3990,15 +3990,32 @@ Your Eurocircuits Team
 <wire x1="32.2" y1="36" x2="31.25" y2="36.95" width="0.1778" layer="1"/>
 <wire x1="31.25" y1="36.95" x2="31.25" y2="41.0536" width="0.1778" layer="1"/>
 </signal>
-<signal name="CAN_RX" class="1">
+<signal name="CAN_X_N" class="1">
 <contactref element="U11" pad="4"/>
 <contactref element="U6" pad="46"/>
-<wire x1="60.12" y1="54" x2="53.905" y2="77.1378" width="0" layer="19" extent="1-1"/>
+<wire x1="60.12" y1="54" x2="64.73179375" y2="54" width="0.1778" layer="1"/>
+<wire x1="64.73179375" y1="54" x2="66.1639" y2="55.43210625" width="0.1778" layer="1"/>
+<wire x1="66.1639" y1="55.43210625" x2="66.1639" y2="65.06789375" width="0.1778" layer="1"/>
+<wire x1="66.1639" y1="65.06789375" x2="62.56789375" y2="68.6639" width="0.1778" layer="1"/>
+<wire x1="62.56789375" y1="68.6639" x2="53.56789375" y2="68.6639" width="0.1778" layer="1"/>
+<wire x1="53.56789375" y1="68.6639" x2="52.1639" y2="70.06789375" width="0.1778" layer="1"/>
+<wire x1="52.1639" y1="70.06789375" x2="52.1639" y2="74" width="0.1778" layer="1"/>
+<wire x1="52.1639" y1="74" x2="53.905" y2="75.7411" width="0.1778" layer="1"/>
+<wire x1="53.905" y1="75.7411" x2="53.905" y2="77.1378" width="0.1778" layer="1"/>
 </signal>
-<signal name="CAN_TX" class="1">
+<signal name="CAN_X_P" class="1">
 <contactref element="U11" pad="1"/>
 <contactref element="U6" pad="47"/>
-<wire x1="60.12" y1="54.5" x2="50.095" y2="77.1378" width="0" layer="19" extent="1-1"/>
+<wire x1="50.095" y1="77.1378" x2="50" y2="77.0428" width="0.15" layer="1"/>
+<wire x1="60.12" y1="54.5" x2="64.76820625" y2="54.5" width="0.1778" layer="1"/>
+<wire x1="64.76820625" y1="54.5" x2="65.8361" y2="55.56789375" width="0.1778" layer="1"/>
+<wire x1="65.8361" y1="55.56789375" x2="65.8361" y2="64.93210625" width="0.1778" layer="1"/>
+<wire x1="65.8361" y1="64.93210625" x2="62.43210625" y2="68.3361" width="0.1778" layer="1"/>
+<wire x1="62.43210625" y1="68.3361" x2="53.43210625" y2="68.3361" width="0.1778" layer="1"/>
+<wire x1="53.43210625" y1="68.3361" x2="51.8361" y2="69.93210625" width="0.1778" layer="1"/>
+<wire x1="51.8361" y1="69.93210625" x2="51.8361" y2="74" width="0.1778" layer="1"/>
+<wire x1="51.8361" y1="74" x2="50.095" y2="75.7411" width="0.1778" layer="1"/>
+<wire x1="50.095" y1="75.7411" x2="50.095" y2="77.1378" width="0.1778" layer="1"/>
 </signal>
 <signal name="ETH_TXD_EN" class="1">
 <contactref element="GND" pad="3"/>
@@ -4872,27 +4889,47 @@ Your Eurocircuits Team
 <contactref element="U11" pad="6"/>
 <contactref element="R55" pad="1"/>
 <contactref element="J4" pad="2"/>
-<wire x1="53.5" y1="86.35" x2="52.77" y2="89.08" width="0" layer="19" extent="1-1"/>
-<wire x1="52.635" y1="81.8622" x2="53.5" y2="86.35" width="0" layer="19" extent="1-1"/>
+<wire x1="52.77" y1="89.08" x2="52.77" y2="88.1061" width="0.1778" layer="1"/>
+<wire x1="52.77" y1="88.1061" x2="52.1639" y2="87.5" width="0.1778" layer="1"/>
+<wire x1="52.1639" y1="87.5" x2="52.1639" y2="86" width="0.1778" layer="1"/>
+<wire x1="52.1639" y1="86" x2="52.1639" y2="84" width="0.1778" layer="1"/>
+<wire x1="52.1639" y1="84" x2="52.635" y2="83.5289" width="0.1778" layer="1"/>
+<wire x1="52.635" y1="83.5289" x2="52.635" y2="81.8622" width="0.1778" layer="1"/>
+<wire x1="53.5" y1="86.35" x2="52.5139" y2="86.35" width="0.1778" layer="1"/>
+<wire x1="52.5139" y1="86.35" x2="52.1639" y2="86" width="0.1778" layer="1"/>
 </signal>
 <signal name="CAN_P" class="1">
 <contactref element="U11" pad="7"/>
 <contactref element="R54" pad="2"/>
 <contactref element="J4" pad="7"/>
-<wire x1="50.5" y1="86.35" x2="51.385" y2="91.92" width="0" layer="19" extent="1-1"/>
-<wire x1="51.365" y1="81.8622" x2="50.5" y2="86.35" width="0" layer="19" extent="1-1"/>
+<wire x1="51.385" y1="91.92" x2="51.385" y2="87.9511" width="0.1778" layer="1"/>
+<wire x1="51.385" y1="87.9511" x2="51.8361" y2="87.5" width="0.1778" layer="1"/>
+<wire x1="51.8361" y1="87.5" x2="51.8361" y2="86" width="0.1778" layer="1"/>
+<wire x1="51.8361" y1="86" x2="51.8361" y2="84" width="0.1778" layer="1"/>
+<wire x1="51.8361" y1="84" x2="51.365" y2="83.5289" width="0.1778" layer="1"/>
+<wire x1="51.365" y1="83.5289" x2="51.365" y2="81.8622" width="0.1778" layer="1"/>
+<wire x1="50.5" y1="86.35" x2="51.4861" y2="86.35" width="0.1778" layer="1"/>
+<wire x1="51.4861" y1="86.35" x2="51.8361" y2="86" width="0.1778" layer="1"/>
 </signal>
 <signal name="CAN_SPLIT" class="1">
 <contactref element="U11" pad="5"/>
 <contactref element="C23" pad="2"/>
-<wire x1="53.905" y1="81.8622" x2="56" y2="81.65" width="0" layer="19" extent="1-1"/>
+<wire x1="53.905" y1="81.8622" x2="54.1172" y2="81.65" width="0.15" layer="1"/>
+<wire x1="54.1172" y1="81.65" x2="56" y2="81.65" width="0.15" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="R55" pad="2"/>
 <contactref element="R54" pad="1"/>
 <contactref element="C23" pad="1"/>
-<wire x1="56" y1="83.35" x2="53.5" y2="84.65" width="0" layer="19" extent="1-1"/>
-<wire x1="50.5" y1="84.65" x2="53.5" y2="84.65" width="0" layer="19" extent="1-1"/>
+<wire x1="50.5" y1="84.65" x2="49.65" y2="84.65" width="0.15" layer="1"/>
+<wire x1="49.65" y1="84.65" x2="49.5" y2="84.5" width="0.15" layer="1"/>
+<via x="49.5" y="84.5" extent="1-16" drill="0.35"/>
+<wire x1="49.5" y1="84.5" x2="55.5" y2="84.5" width="0.15" layer="16"/>
+<via x="55.5" y="84.5" extent="1-16" drill="0.35"/>
+<wire x1="55.5" y1="84.5" x2="56" y2="84" width="0.15" layer="1"/>
+<wire x1="56" y1="84" x2="56" y2="83.35" width="0.15" layer="1"/>
+<wire x1="53.5" y1="84.65" x2="53.65" y2="84.5" width="0.15" layer="1"/>
+<wire x1="53.65" y1="84.5" x2="55.5" y2="84.5" width="0.15" layer="1"/>
 </signal>
 <signal name="CAN_SHLD">
 <contactref element="J4" pad="5"/>

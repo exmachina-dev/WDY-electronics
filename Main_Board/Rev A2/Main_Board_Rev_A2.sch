@@ -22018,14 +22018,14 @@ High-density Mounting</description>
 <pinref part="C13" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="CAN_RX" class="1">
+<net name="CAN_X_N" class="1">
 <segment>
 <pinref part="U11" gate="G$1" pin="RXD"/>
 <wire x1="314.96" y1="71.12" x2="322.58" y2="71.12" width="0.1524" layer="91"/>
 <label x="322.58" y="71.12" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="CAN_TX" class="1">
+<net name="CAN_X_P" class="1">
 <segment>
 <pinref part="U11" gate="G$1" pin="TXD"/>
 <wire x1="314.96" y1="73.66" x2="322.58" y2="73.66" width="0.1524" layer="91"/>
@@ -22303,14 +22303,14 @@ High-density Mounting</description>
 <busses>
 </busses>
 <nets>
-<net name="CAN_RX" class="1">
+<net name="CAN_X_N" class="1">
 <segment>
 <pinref part="U6" gate="A" pin="P0[0]/RD1/TXD3/SDA1"/>
 <wire x1="134.62" y1="116.84" x2="127" y2="116.84" width="0.1524" layer="91"/>
 <label x="127" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="CAN_TX" class="1">
+<net name="CAN_X_P" class="1">
 <segment>
 <pinref part="U6" gate="A" pin="P0[1]/TD1/RXD3/SCL1"/>
 <wire x1="134.62" y1="114.3" x2="127" y2="114.3" width="0.1524" layer="91"/>
