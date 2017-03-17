@@ -22644,17 +22644,17 @@ High-density Mounting</description>
 </net>
 <net name="FAN_1_PWM" class="1">
 <segment>
-<pinref part="U6" gate="A" pin="P2[0]/PWM1[1]/TXD1"/>
-<wire x1="317.5" y1="167.64" x2="322.58" y2="167.64" width="0.1524" layer="91"/>
-<label x="322.58" y="167.64" size="1.27" layer="95" xref="yes"/>
+<wire x1="134.62" y1="165.1" x2="127" y2="165.1" width="0.1524" layer="91"/>
+<label x="127" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U6" gate="A" pin="P3[25]/MAT0[0]/PWM1[2]"/>
 </segment>
 </net>
 <net name="FAN_2_PWM" class="1">
 <segment>
-<pinref part="U6" gate="A" pin="P2[1]/PWM1[2]/RXD1"/>
-<wire x1="317.5" y1="165.1" x2="322.58" y2="165.1" width="0.1524" layer="91"/>
-<label x="322.58" y="165.1" size="1.27" layer="95" xref="yes"/>
-<wire x1="317.5" y1="165.1" x2="322.58" y2="165.1" width="0.1524" layer="91"/>
+<label x="127" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="132.08" y1="167.64" x2="127" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="U6" gate="A" pin="P3[26]/STCLK/MAT0[1]/PWM1[3]"/>
+<wire x1="132.08" y1="167.64" x2="134.62" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="JTAG_TDO" class="1">
@@ -23074,20 +23074,6 @@ High-density Mounting</description>
 <pinref part="U6" gate="A" pin="P1[10]/ENET_RXD1"/>
 <wire x1="317.5" y1="205.74" x2="322.58" y2="205.74" width="0.1524" layer="91"/>
 <label x="322.58" y="205.74" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="FAN_1_SENSOR" class="1">
-<segment>
-<pinref part="U6" gate="A" pin="P0[8]/I2STX_WS/MISO1/MAT2[2]"/>
-<wire x1="317.5" y1="172.72" x2="322.58" y2="172.72" width="0.1524" layer="91"/>
-<label x="322.58" y="172.72" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="FAN_2_SENSOR" class="1">
-<segment>
-<pinref part="U6" gate="A" pin="P0[9]/I2STX_SDA/MOSI1/MAT2[3]"/>
-<wire x1="317.5" y1="170.18" x2="322.58" y2="170.18" width="0.1524" layer="91"/>
-<label x="322.58" y="170.18" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_X1" class="1">
