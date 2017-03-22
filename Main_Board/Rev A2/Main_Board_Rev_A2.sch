@@ -22789,16 +22789,16 @@ High-density Mounting</description>
 </net>
 <net name="BRAKE_SENSOR_1" class="0">
 <segment>
-<pinref part="U6" gate="A" pin="P0[4]/I2SRX_CLK/RD2/CAP2[0]"/>
-<wire x1="317.5" y1="182.88" x2="322.58" y2="182.88" width="0.1524" layer="91"/>
-<label x="322.58" y="182.88" size="1.27" layer="95" xref="yes"/>
+<label x="127" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U6" gate="A" pin="P1[22]/MCOB0/USB_PWRD/MAT1[0]"/>
+<wire x1="127" y1="142.24" x2="134.62" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BRAKE_SENSOR_2" class="0">
 <segment>
-<pinref part="U6" gate="A" pin="P0[5]/I2SRX_WS/TD2/CAP2[1]"/>
-<wire x1="317.5" y1="180.34" x2="322.58" y2="180.34" width="0.1524" layer="91"/>
-<label x="322.58" y="180.34" size="1.27" layer="95" xref="yes"/>
+<label x="127" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U6" gate="A" pin="P1[25]/MCOA1/MAT1[1]"/>
+<wire x1="127" y1="134.62" x2="134.62" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADC_SLACK_DETECTION" class="1">
@@ -22810,16 +22810,16 @@ High-density Mounting</description>
 </net>
 <net name="DRIVE_EN" class="0">
 <segment>
-<pinref part="U6" gate="A" pin="P0[6]/I2SRX_SDA/SSEL1/MAT2[0]"/>
-<wire x1="317.5" y1="177.8" x2="322.58" y2="177.8" width="0.1524" layer="91"/>
-<label x="322.58" y="177.8" size="1.27" layer="95" xref="yes"/>
+<label x="127" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U6" gate="A" pin="P1[26]/MCOB1/PWM1[6]/CAP0[0]"/>
+<wire x1="127" y1="132.08" x2="134.62" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DRIVE_ERR" class="0">
 <segment>
-<pinref part="U6" gate="A" pin="P0[7]/I2STX_CLK/SCK1/MAT2[1]"/>
-<wire x1="317.5" y1="175.26" x2="322.58" y2="175.26" width="0.1524" layer="91"/>
-<label x="322.58" y="175.26" size="1.27" layer="95" xref="yes"/>
+<label x="127" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U6" gate="A" pin="P1[29]/MCOB2/PCAP1[1]/MAT0[1]"/>
+<wire x1="127" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="HMI_LED_1" class="1">
@@ -23110,15 +23110,15 @@ High-density Mounting</description>
 </net>
 <net name="LED_DEBUG" class="1">
 <segment>
-<wire x1="134.62" y1="144.78" x2="127.254" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="U6" gate="A" pin="P1[21]/*MCABORT/PWM1[3]/SSEL0"/>
-<label x="127" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <wire x1="358.14" y1="38.1" x2="343.916" y2="38.1" width="0.1524" layer="91"/>
 <label x="343.916" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R70" gate="G$1" pin="2"/>
 <wire x1="358.14" y1="40.64" x2="358.14" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="322.58" y="170.18" size="1.27" layer="95" xref="yes"/>
+<pinref part="U6" gate="A" pin="P0[9]/I2STX_SDA/MOSI1/MAT2[3]"/>
+<wire x1="317.5" y1="170.18" x2="322.58" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!JTAG_TRST" class="0">
