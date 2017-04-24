@@ -11464,6 +11464,12 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 </symbol>
+<symbol name="AGND">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.0922" y1="-0.508" x2="1.0922" y2="-0.508" width="0.254" layer="94"/>
+<pin name="AGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="GND">
@@ -11496,6 +11502,19 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="+5V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AGND" prefix="AGND">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="VR1" symbol="AGND" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -17991,7 +18010,7 @@ Various fiducial points for machine vision alignment.</description>
 <text x="19.05" y="-13.462" size="1.524" layer="94">7</text>
 <text x="19.05" y="-16.002" size="1.524" layer="94">8</text>
 <text x="-17.78" y="39.37" size="1.778" layer="95">&gt;NAME</text>
-<text x="-17.78" y="-40.64" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-7.62" y="-40.64" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-1.397" y="-6.223" size="1.016" layer="94" rot="R90">75R</text>
 <text x="2.413" y="-6.35" size="1.016" layer="94" rot="R90">75R</text>
 <text x="8.89" y="-6.223" size="1.016" layer="94">75R</text>
@@ -18049,6 +18068,7 @@ Various fiducial points for machine vision alignment.</description>
 <pin name="R6" x="-20.32" y="-15.24" length="short" direction="in"/>
 <pin name="CT" x="-20.32" y="-5.08" length="short" direction="in"/>
 <pin name="R5" x="-20.32" y="-12.7" length="short" direction="in"/>
+<pin name="P$1" x="-12.7" y="-40.64" visible="pad" length="short" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -18065,6 +18085,7 @@ Various fiducial points for machine vision alignment.</description>
 <connect gate="G$1" pin="L2" pad="L2"/>
 <connect gate="G$1" pin="L3" pad="L3"/>
 <connect gate="G$1" pin="L4" pad="L4"/>
+<connect gate="G$1" pin="P$1" pad="S1 S2"/>
 <connect gate="G$1" pin="R4" pad="R4"/>
 <connect gate="G$1" pin="R5" pad="R5"/>
 <connect gate="G$1" pin="R6" pad="R6"/>
@@ -20460,6 +20481,8 @@ High-density Mounting</description>
 <wire x1="6.35" y1="2.5" x2="6.35" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="6.35" y1="-2.5" x2="-6.35" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="-6.35" y1="-2.5" x2="-6.35" y2="2.5" width="0.127" layer="21"/>
+<text x="-6.985" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="8.255" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -21342,6 +21365,10 @@ High-density Mounting</description>
 <part name="GND97" library="supply1" deviceset="GND" device=""/>
 <part name="+3V28" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
+<part name="AGND1" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND2" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND3" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND4" library="supply1" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21349,9 +21376,9 @@ High-density Mounting</description>
 <plain>
 <wire x1="165.1" y1="256.54" x2="165.1" y2="104.14" width="0.1524" layer="97"/>
 <wire x1="165.1" y1="104.14" x2="3.81" y2="104.14" width="0.1524" layer="97"/>
-<wire x1="165.1" y1="104.14" x2="261.62" y2="104.14" width="0.1524" layer="97"/>
-<wire x1="261.62" y1="104.14" x2="383.54" y2="104.14" width="0.1524" layer="97"/>
-<wire x1="261.874" y1="3.81" x2="261.62" y2="104.14" width="0.1524" layer="97"/>
+<wire x1="165.1" y1="104.14" x2="254" y2="104.14" width="0.1524" layer="97"/>
+<wire x1="254" y1="104.14" x2="383.54" y2="104.14" width="0.1524" layer="97"/>
+<wire x1="254.254" y1="3.81" x2="254" y2="104.14" width="0.1524" layer="97"/>
 <wire x1="165.354" y1="3.81" x2="165.1" y2="104.14" width="0.1524" layer="97"/>
 <text x="7.62" y="251.46" size="1.778" layer="97">ETHERNET INPUT</text>
 <text x="167.64" y="251.46" size="1.778" layer="97">ETHERNETPHI</text>
@@ -21534,6 +21561,8 @@ High-density Mounting</description>
 <instance part="J4" gate="S" x="96.52" y="55.88" rot="R90"/>
 <instance part="P+15" gate="1" x="111.76" y="93.98"/>
 <instance part="GND19" gate="1" x="88.9" y="66.04"/>
+<instance part="AGND2" gate="VR1" x="109.22" y="45.72"/>
+<instance part="AGND4" gate="VR1" x="45.72" y="154.94"/>
 </instances>
 <busses>
 </busses>
@@ -22102,6 +22131,19 @@ High-density Mounting</description>
 <pinref part="P+15" gate="1" pin="+24V"/>
 <wire x1="106.68" y1="76.2" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="76.2" x2="111.76" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="AGND" class="0">
+<segment>
+<pinref part="J4" gate="S" pin="SHIELD"/>
+<pinref part="AGND2" gate="VR1" pin="AGND"/>
+<wire x1="99.06" y1="55.88" x2="109.22" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="55.88" x2="109.22" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P1" gate="G$1" pin="P$1"/>
+<pinref part="AGND4" gate="VR1" pin="AGND"/>
+<wire x1="45.72" y1="165.1" x2="45.72" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -24784,10 +24826,10 @@ High-density Mounting</description>
 <instance part="GND64" gate="1" x="38.1" y="213.36"/>
 <instance part="TP1" gate="G$1" x="114.3" y="236.22"/>
 <instance part="P+16" gate="1" x="106.68" y="236.22"/>
-<instance part="MP2" gate="1" x="274.32" y="236.22"/>
-<instance part="MP1" gate="1" x="302.26" y="236.22"/>
-<instance part="MP4" gate="1" x="327.66" y="236.22"/>
-<instance part="MP3" gate="1" x="355.6" y="236.22"/>
+<instance part="MP2" gate="1" x="264.16" y="195.58"/>
+<instance part="MP1" gate="1" x="292.1" y="195.58"/>
+<instance part="MP4" gate="1" x="317.5" y="195.58"/>
+<instance part="MP3" gate="1" x="345.44" y="195.58"/>
 <instance part="TP4" gate="G$1" x="106.68" y="195.58" rot="R180"/>
 <instance part="P+17" gate="1" x="25.4" y="177.8"/>
 <instance part="GND20" gate="1" x="25.4" y="132.08"/>
@@ -24945,6 +24987,7 @@ High-density Mounting</description>
 <attribute name="MF" x="170.18" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="170.18" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="AGND1" gate="VR1" x="251.46" y="198.12"/>
 </instances>
 <busses>
 </busses>
@@ -25302,6 +25345,27 @@ High-density Mounting</description>
 <wire x1="114.3" y1="66.04" x2="116.84" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="AGND" class="0">
+<segment>
+<pinref part="AGND1" gate="VR1" pin="AGND"/>
+<wire x1="251.46" y1="200.66" x2="251.46" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="210.82" x2="264.16" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="MP3" gate="1" pin="1"/>
+<wire x1="264.16" y1="210.82" x2="292.1" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="210.82" x2="317.5" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="210.82" x2="345.44" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="210.82" x2="345.44" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="MP4" gate="1" pin="1"/>
+<wire x1="317.5" y1="200.66" x2="317.5" y2="210.82" width="0.1524" layer="91"/>
+<junction x="317.5" y="210.82"/>
+<pinref part="MP1" gate="1" pin="1"/>
+<wire x1="292.1" y1="200.66" x2="292.1" y2="210.82" width="0.1524" layer="91"/>
+<junction x="292.1" y="210.82"/>
+<pinref part="MP2" gate="1" pin="1"/>
+<wire x1="264.16" y1="200.66" x2="264.16" y2="210.82" width="0.1524" layer="91"/>
+<junction x="264.16" y="210.82"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -25340,6 +25404,7 @@ High-density Mounting</description>
 </instance>
 <instance part="+3V324" gate="G$1" x="312.42" y="233.68"/>
 <instance part="GND90" gate="1" x="312.42" y="190.5"/>
+<instance part="AGND3" gate="VR1" x="167.64" y="190.5"/>
 </instances>
 <busses>
 </busses>
@@ -25493,6 +25558,13 @@ High-density Mounting</description>
 <pinref part="J15" gate="G$1" pin="P$5"/>
 <wire x1="317.5" y1="213.36" x2="307.34" y2="213.36" width="0.1524" layer="91"/>
 <label x="307.34" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="AGND" class="0">
+<segment>
+<pinref part="X6" gate="J$1" pin="S"/>
+<pinref part="AGND3" gate="VR1" pin="AGND"/>
+<wire x1="167.64" y1="200.66" x2="167.64" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
