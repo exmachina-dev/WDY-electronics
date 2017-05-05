@@ -4417,8 +4417,8 @@ Your Eurocircuits Team
 <contactref element="J6" pad="1"/>
 <contactref element="J5" pad="1"/>
 <polygon width="0.1778" layer="15">
-<vertex x="42.5" y="93.5"/>
-<vertex x="98.5" y="93.5"/>
+<vertex x="52.5" y="94.5"/>
+<vertex x="98.5" y="94.5"/>
 <vertex x="98.5" y="17"/>
 <vertex x="93" y="17"/>
 <vertex x="93" y="2.5"/>
@@ -4426,7 +4426,7 @@ Your Eurocircuits Team
 <vertex x="75.2" y="7"/>
 <vertex x="90" y="7"/>
 <vertex x="90" y="90.7"/>
-<vertex x="42.5" y="90.7"/>
+<vertex x="52.5" y="90.7"/>
 </polygon>
 <via x="91.5" y="16.5" extent="1-16" drill="0.5"/>
 <polygon width="0.254" layer="1" rank="2">
