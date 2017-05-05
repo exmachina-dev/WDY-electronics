@@ -4470,7 +4470,6 @@ Your Eurocircuits Team
 </polygon>
 <wire x1="85.5" y1="71.5" x2="90.5" y2="71.5" width="0.4064" layer="15"/>
 <wire x1="90.5" y1="71.5" x2="91" y2="71" width="0.4064" layer="15"/>
-<wire x1="93.5" y1="69.4948" x2="91.7982" y2="67.793" width="0.4064" layer="16"/>
 <wire x1="88" y1="15.85" x2="88.65" y2="16.5" width="0.4064" layer="1"/>
 <wire x1="88.65" y1="16.5" x2="91.5" y2="16.5" width="0.4064" layer="1"/>
 </signal>
