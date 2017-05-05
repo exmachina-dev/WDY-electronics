@@ -220,68 +220,6 @@ DIN A3, landscape with location and doc. field</description>
 </polygon>
 <text x="3.81" y="0.889" size="1.27" layer="21" font="vector" ratio="10" rot="SR0">ExMachina</text>
 </package>
-<package name="BC-2-P">
-<smd name="1" x="-1" y="-0.75" dx="1" dy="2.5" layer="1" cream="no"/>
-<smd name="2" x="1" y="-0.75" dx="1" dy="2.5" layer="1" cream="no"/>
-<wire x1="-2" y1="1.5" x2="-2" y2="1.25" width="0" layer="20"/>
-<wire x1="-2" y1="1.25" x2="-2.25" y2="1" width="0" layer="20" curve="-90"/>
-<wire x1="-2.25" y1="1" x2="-2.25" y2="-1.75" width="0" layer="20"/>
-<wire x1="-2.25" y1="-1.75" x2="-2.5" y2="-2" width="0" layer="20" curve="-90"/>
-<wire x1="-2.5" y1="-2" x2="-3.5" y2="-2" width="0" layer="20"/>
-<wire x1="-3.5" y1="-2" x2="-3.75" y2="-1.75" width="0" layer="20" curve="-90"/>
-<wire x1="-3.75" y1="-1.75" x2="-3.75" y2="1" width="0" layer="20"/>
-<wire x1="-3.75" y1="1" x2="-4" y2="1.25" width="0" layer="20" curve="-90"/>
-<wire x1="-4" y1="1.25" x2="-4" y2="1.5" width="0" layer="20"/>
-<wire x1="-4" y1="1.5" x2="-2" y2="1.5" width="0" layer="20"/>
-<hole x="-2" y="-3" drill="0.7"/>
-<hole x="2" y="-3" drill="0.7"/>
-<wire x1="-3.5" y1="1" x2="-3.5" y2="-4" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="-4" x2="3.5" y2="-4" width="0.127" layer="21"/>
-<wire x1="3.5" y1="-4" x2="3.5" y2="1" width="0.127" layer="21"/>
-<wire x1="4.75" y1="1" x2="4" y2="1" width="0.127" layer="51"/>
-<wire x1="-3.5" y1="1" x2="3.5" y2="1" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-3.865" y1="1" x2="-3.865" y2="-4.25" width="0.127" layer="39" style="shortdash"/>
-<wire x1="-3.865" y1="-4.25" x2="3.865" y2="-4.25" width="0.127" layer="39" style="shortdash"/>
-<wire x1="3.865" y1="-4.25" x2="3.865" y2="1" width="0.127" layer="39" style="shortdash"/>
-<wire x1="3.865" y1="1" x2="-3.865" y2="1" width="0.127" layer="39" style="shortdash"/>
-<wire x1="-3.865" y1="1" x2="-3.865" y2="-4.25" width="0.127" layer="40" style="shortdash"/>
-<wire x1="-3.865" y1="-4.25" x2="3.865" y2="-4.25" width="0.127" layer="40" style="shortdash"/>
-<wire x1="3.865" y1="-4.25" x2="3.865" y2="1" width="0.127" layer="40" style="shortdash"/>
-<wire x1="3.865" y1="1" x2="-3.865" y2="1" width="0.127" layer="40" style="shortdash"/>
-<text x="5.5" y="2" size="0.8128" layer="51">Board edge</text>
-<wire x1="4.75" y1="1" x2="5.5" y2="1.75" width="0.127" layer="51"/>
-<wire x1="5.5" y1="1.75" x2="12.5" y2="1.75" width="0.127" layer="51"/>
-<text x="-4" y="-4" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="5.5" y="-4" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-1.25" y1="-1.75" x2="-0.75" y2="1" layer="51"/>
-<rectangle x1="0.75" y1="-1.75" x2="1.25" y2="1" layer="51"/>
-</package>
-<package name="BC-2">
-<smd name="1" x="-1" y="-0.75" dx="1" dy="2.5" layer="1" cream="no"/>
-<smd name="2" x="1" y="-0.75" dx="1" dy="2.5" layer="1" cream="no"/>
-<hole x="-2" y="-3" drill="0.7"/>
-<hole x="2" y="-3" drill="0.7"/>
-<wire x1="-3.5" y1="1" x2="-3.5" y2="-4" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="-4" x2="3.5" y2="-4" width="0.127" layer="21"/>
-<wire x1="3.5" y1="-4" x2="3.5" y2="1" width="0.127" layer="21"/>
-<wire x1="4.75" y1="1" x2="4" y2="1" width="0.127" layer="51"/>
-<wire x1="-3.5" y1="1" x2="3.5" y2="1" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-3.865" y1="1" x2="-3.865" y2="-4.25" width="0.127" layer="39" style="shortdash"/>
-<wire x1="-3.865" y1="-4.25" x2="3.865" y2="-4.25" width="0.127" layer="39" style="shortdash"/>
-<wire x1="3.865" y1="-4.25" x2="3.865" y2="1" width="0.127" layer="39" style="shortdash"/>
-<wire x1="3.865" y1="1" x2="-3.865" y2="1" width="0.127" layer="39" style="shortdash"/>
-<wire x1="-3.865" y1="1" x2="-3.865" y2="-4.25" width="0.127" layer="40" style="shortdash"/>
-<wire x1="-3.865" y1="-4.25" x2="3.865" y2="-4.25" width="0.127" layer="40" style="shortdash"/>
-<wire x1="3.865" y1="-4.25" x2="3.865" y2="1" width="0.127" layer="40" style="shortdash"/>
-<wire x1="3.865" y1="1" x2="-3.865" y2="1" width="0.127" layer="40" style="shortdash"/>
-<text x="5.5" y="2" size="0.8128" layer="51">Board edge</text>
-<wire x1="4.75" y1="1" x2="5.5" y2="1.75" width="0.127" layer="51"/>
-<wire x1="5.5" y1="1.75" x2="12.5" y2="1.75" width="0.127" layer="51"/>
-<text x="-4" y="-4" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="5.5" y="-4" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-1.25" y1="-1.75" x2="-0.75" y2="1" layer="51"/>
-<rectangle x1="0.75" y1="-1.75" x2="1.25" y2="1" layer="51"/>
-</package>
 </packages>
 <symbols>
 <symbol name="EXMACHINA-LOGO">
@@ -291,18 +229,6 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="22.86" y1="5.08" x2="-22.86" y2="5.08" width="0.254" layer="94"/>
 <text x="0" y="0" size="0.0508" layer="94" font="vector">Replicape Logo</text>
 <text x="-19.558" y="-2.54" size="5.08" layer="94" font="vector">ExMachina</text>
-</symbol>
-<symbol name="BC-2">
-<pin name="1" x="5.08" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="2" x="5.08" y="-2.54" visible="pin" length="short" rot="R180"/>
-<wire x1="2.54" y1="1.524" x2="2.54" y2="-4.064" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-4.064" x2="-3.556" y2="-4.064" width="0.254" layer="94"/>
-<wire x1="-3.556" y1="-4.064" x2="-3.556" y2="1.524" width="0.254" layer="94"/>
-<wire x1="-3.556" y1="1.524" x2="2.54" y2="1.524" width="0.254" layer="94"/>
-<rectangle x1="0" y1="-0.508" x2="2.54" y2="0.508" layer="94"/>
-<text x="-1.016" y="2.286" size="1.778" layer="95">&gt;NAME</text>
-<text x="-1.016" y="-6.604" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="0" y1="-3.048" x2="2.54" y2="-2.032" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -317,31 +243,6 @@ DIN A3, landscape with location and doc. field</description>
 </technologies>
 </device>
 <device name="-NAME" package="EXM-LOGO-BASELINE">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BC-2?" prefix="JP">
-<gates>
-<gate name="G$1" symbol="BC-2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-P" package="BC-2-P">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="" package="BC-2">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -21496,11 +21397,6 @@ High-density Mounting</description>
 <attribute name="OC_NEWARK" value="66F5622"/>
 </part>
 <part name="GND86" library="supply1" deviceset="GND" device=""/>
-<part name="JP3" library="exmachina" deviceset="BC-2?" device="-P">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
 <part name="R68" library="rcl" deviceset="R-EU_" device="R0603" value="0R">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="MCMR06X000 PTL"/>
@@ -21618,22 +21514,22 @@ High-density Mounting</description>
 <attribute name="MPN" value="TLV313IDBVT"/>
 <attribute name="OC_NEWARK" value="95Y0395"/>
 </part>
-<part name="R77" library="rcl" deviceset="R-EU_" device="R0603" value="1K8">
+<part name="R77" library="rcl" deviceset="R-EU_" device="R0603" value="150">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="MCMR06X1801FTL"/>
 <attribute name="OC_NEWARK" value="86T3556"/>
 </part>
-<part name="R78" library="rcl" deviceset="R-EU_" device="R0603" value="1K8">
+<part name="R78" library="rcl" deviceset="R-EU_" device="R0603" value="150">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="MCMR06X1801FTL"/>
 <attribute name="OC_NEWARK" value="86T3556"/>
 </part>
-<part name="R79" library="rcl" deviceset="R-EU_" device="R0603" value="1K2">
+<part name="R79" library="rcl" deviceset="R-EU_" device="R0603" value="100K">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="MCMR06X1201FTL"/>
 <attribute name="OC_NEWARK" value="86T3525"/>
 </part>
-<part name="R80" library="rcl" deviceset="R-EU_" device="R0603" value="1K2">
+<part name="R80" library="rcl" deviceset="R-EU_" device="R0603" value="100K">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="MCMR06X1201FTL"/>
 <attribute name="OC_NEWARK" value="86T3525"/>
@@ -21663,6 +21559,14 @@ High-density Mounting</description>
 <attribute name="MPN" value="OVS-0603"/>
 <attribute name="OC_NEWARK" value="15R2205"/>
 </part>
+<part name="R60" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCMR06X4701FTL"/>
+<attribute name="OC_NEWARK" value="86T3649"/>
+</part>
+<part name="J9" library="con-molex" deviceset="22-?-02" device="05-7028"/>
+<part name="GND87" library="supply1" deviceset="GND" device=""/>
+<part name="+3V15" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21877,6 +21781,10 @@ High-density Mounting</description>
 <instance part="GND19" gate="1" x="88.9" y="66.04"/>
 <instance part="AGND2" gate="VR1" x="109.22" y="45.72"/>
 <instance part="AGND4" gate="VR1" x="45.72" y="154.94"/>
+<instance part="J9" gate="-1" x="27.94" y="137.16" rot="MR0"/>
+<instance part="J9" gate="-2" x="27.94" y="132.08" rot="MR0"/>
+<instance part="GND87" gate="1" x="35.56" y="127"/>
+<instance part="+3V15" gate="1" x="35.56" y="147.32"/>
 </instances>
 <busses>
 </busses>
@@ -22015,6 +21923,12 @@ High-density Mounting</description>
 <wire x1="91.44" y1="81.28" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 <wire x1="88.9" y1="68.58" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J9" gate="-2" pin="S"/>
+<pinref part="GND87" gate="1" pin="GND"/>
+<wire x1="30.48" y1="132.08" x2="35.56" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="132.08" x2="35.56" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="2">
@@ -22360,6 +22274,12 @@ High-density Mounting</description>
 <wire x1="353.06" y1="83.82" x2="353.06" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="J9" gate="-1" pin="S"/>
+<pinref part="+3V15" gate="1" pin="+5V"/>
+<wire x1="30.48" y1="137.16" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="137.16" x2="35.56" y2="144.78" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="CAN_X_N" class="1">
 <segment>
@@ -22628,11 +22548,6 @@ High-density Mounting</description>
 <attribute name="MPN" x="60.96" y="101.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND86" gate="1" x="60.96" y="91.44"/>
-<instance part="JP3" gate="G$1" x="17.78" y="17.78">
-<attribute name="OC_NEWARK" x="17.78" y="17.78" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="17.78" y="17.78" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="17.78" y="17.78" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="R68" gate="G$1" x="281.94" y="68.58" rot="R180">
 <attribute name="OC_NEWARK" x="281.94" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="281.94" y="68.58" size="1.778" layer="96" display="off"/>
@@ -22655,6 +22570,11 @@ High-density Mounting</description>
 <attribute name="MPN" x="358.14" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V14" gate="G$1" x="358.14" y="66.04"/>
+<instance part="R60" gate="G$1" x="25.4" y="17.78" rot="R90">
+<attribute name="OC_NEWARK" x="25.4" y="17.78" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="25.4" y="17.78" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="25.4" y="17.78" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -22893,10 +22813,9 @@ High-density Mounting</description>
 <wire x1="43.18" y1="27.94" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
 <junction x="33.02" y="27.94"/>
 <junction x="33.02" y="10.16"/>
-<pinref part="JP3" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="15.24" x2="25.4" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="15.24" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="10.16" x2="33.02" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="R60" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="12.7" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C25" gate="G$1" pin="2"/>
@@ -23320,10 +23239,8 @@ High-density Mounting</description>
 <pinref part="U7" gate="A" pin="WP"/>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="22.86" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="R60" gate="G$1" pin="2"/>
 <junction x="25.4" y="22.86"/>
-<pinref part="JP3" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="17.78" x2="25.4" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="17.78" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBAT+" class="0">
@@ -25945,6 +25862,7 @@ High-density Mounting</description>
 </nets>
 </sheet>
 <sheet>
+<description>Programation interface</description>
 <plain>
 <text x="86.36" y="246.38" size="1.778" layer="97">USB</text>
 <text x="228.6" y="241.3" size="1.778" layer="97">JTAG</text>
