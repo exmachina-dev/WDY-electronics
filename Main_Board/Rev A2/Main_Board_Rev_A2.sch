@@ -21321,7 +21321,7 @@ High-density Mounting</description>
 <part name="GND71" library="supply1" deviceset="GND" device=""/>
 <part name="GND73" library="supply1" deviceset="GND" device=""/>
 <part name="+3V33" library="supply1" deviceset="+3V3" device=""/>
-<part name="R57" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
+<part name="R57" library="rcl" deviceset="R-EU_" device="R0603" value="10K">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="MCMR06X4701FTL"/>
 <attribute name="OC_NEWARK" value="86T3649"/>
@@ -21541,11 +21541,6 @@ High-density Mounting</description>
 <attribute name="MPN" value="OVS-0603"/>
 <attribute name="OC_NEWARK" value="15R2205"/>
 </part>
-<part name="R60" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X4701FTL"/>
-<attribute name="OC_NEWARK" value="86T3649"/>
-</part>
 <part name="J9" library="con-molex" deviceset="22-?-02" device="05-7028"/>
 <part name="GND87" library="supply1" deviceset="GND" device=""/>
 <part name="+3V15" library="supply1" deviceset="+5V" device=""/>
@@ -21562,6 +21557,8 @@ High-density Mounting</description>
 <attribute name="MPN" value="MCMR06X1000FTL"/>
 <attribute name="OC_NEWARK" value="86T3504"/>
 </part>
+<part name="TP3" library="testpad" deviceset="TP" device="B1,27"/>
+<part name="TP6" library="testpad" deviceset="TP" device="B1,27"/>
 </parts>
 <sheets>
 <sheet>
@@ -22396,7 +22393,7 @@ High-density Mounting</description>
 <attribute name="MF" x="58.42" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V11" gate="G$1" x="33.02" y="58.42"/>
-<instance part="GND66" gate="1" x="33.02" y="5.08"/>
+<instance part="GND66" gate="1" x="33.02" y="7.62"/>
 <instance part="R17" gate="G$1" x="81.28" y="45.72" rot="R90">
 <attribute name="OC_NEWARK" x="81.28" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="81.28" y="45.72" size="1.778" layer="96" display="off"/>
@@ -22565,11 +22562,8 @@ High-density Mounting</description>
 <attribute name="MPN" x="358.14" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V14" gate="G$1" x="358.14" y="66.04"/>
-<instance part="R60" gate="G$1" x="25.4" y="17.78" rot="R90">
-<attribute name="OC_NEWARK" x="25.4" y="17.78" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="25.4" y="17.78" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="25.4" y="17.78" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="TP3" gate="G$1" x="17.78" y="22.86" rot="R90"/>
+<instance part="TP6" gate="G$1" x="17.78" y="12.7" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -22793,9 +22787,9 @@ High-density Mounting</description>
 <pinref part="U7" gate="A" pin="GND"/>
 <pinref part="GND66" gate="1" pin="GND"/>
 <wire x1="43.18" y1="17.78" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="17.78" x2="33.02" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="17.78" x2="33.02" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="U7" gate="A" pin="A0"/>
-<wire x1="33.02" y1="10.16" x2="33.02" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="12.7" x2="33.02" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="33.02" x2="33.02" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="33.02" x2="33.02" y2="30.48" width="0.1524" layer="91"/>
 <junction x="33.02" y="17.78"/>
@@ -22807,10 +22801,9 @@ High-density Mounting</description>
 <pinref part="U7" gate="A" pin="A2"/>
 <wire x1="43.18" y1="27.94" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
 <junction x="33.02" y="27.94"/>
-<junction x="33.02" y="10.16"/>
-<wire x1="25.4" y1="10.16" x2="33.02" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="R60" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="12.7" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
+<junction x="33.02" y="12.7"/>
+<wire x1="20.32" y1="12.7" x2="33.02" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="TP6" gate="G$1" pin="TP"/>
 </segment>
 <segment>
 <pinref part="C25" gate="G$1" pin="2"/>
@@ -23234,7 +23227,8 @@ High-density Mounting</description>
 <pinref part="U7" gate="A" pin="WP"/>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="22.86" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="R60" gate="G$1" pin="2"/>
+<pinref part="TP3" gate="G$1" pin="TP"/>
+<wire x1="20.32" y1="22.86" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <junction x="25.4" y="22.86"/>
 </segment>
 </net>
