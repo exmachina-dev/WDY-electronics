@@ -347,10 +347,10 @@ source Beyschlag</description>
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
 <wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="0.7036" x2="1.473" y2="0.7036" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.7036" x2="1.473" y2="-0.7036" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.7036" x2="-1.473" y2="-0.7036" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.7036" x2="-1.473" y2="0.7036" width="0.0508" layer="39"/>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
@@ -1450,10 +1450,10 @@ grid 2.5 mm + 5 mm, outline 2.4 x 7 mm</description>
 </package>
 <package name="C0603">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="0.729" x2="1.473" y2="0.729" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.729" x2="1.473" y2="-0.729" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.729" x2="-1.473" y2="-0.729" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.729" x2="-1.473" y2="0.729" width="0.0508" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
@@ -1834,10 +1834,10 @@ http://www.bccomponents.com/</description>
 </package>
 <package name="CT3216">
 <description>&lt;b&gt;TANTALUM CAPACITOR&lt;/b&gt;</description>
-<wire x1="-2.973" y1="1.483" x2="2.973" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="2.973" y1="-1.483" x2="-2.973" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="-2.973" y1="-1.483" x2="-2.973" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="2.973" y1="1.483" x2="2.973" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-2.973" y1="1.229" x2="2.973" y2="1.229" width="0.0508" layer="39"/>
+<wire x1="2.973" y1="-1.229" x2="-2.973" y2="-1.229" width="0.0508" layer="39"/>
+<wire x1="-2.973" y1="-1.229" x2="-2.973" y2="1.229" width="0.0508" layer="39"/>
+<wire x1="2.973" y1="1.229" x2="2.973" y2="-1.229" width="0.0508" layer="39"/>
 <wire x1="-1.651" y1="0.559" x2="-1.651" y2="-0.559" width="0.1524" layer="51"/>
 <wire x1="1.651" y1="0.559" x2="1.651" y2="-0.559" width="0.1524" layer="51"/>
 <wire x1="-1.535" y1="0.798" x2="-1.535" y2="-0.798" width="0.2032" layer="51"/>
@@ -16844,21 +16844,6 @@ Wickmann</description>
 </library>
 <library name="holes">
 <packages>
-<package name="P3,0">
-<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.0 mm with drill center</description>
-<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
-<circle x="0" y="0" radius="3.048" width="2.032" layer="39"/>
-<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
-<circle x="0" y="0" radius="3.048" width="2.032" layer="40"/>
-<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
-<circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
-<circle x="0" y="0" radius="1.6" width="0.2032" layer="21"/>
-<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
-<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
-<text x="-1.27" y="-3.81" size="1.27" layer="48">3,0</text>
-<pad name="1" x="0" y="0" drill="3" diameter="6"/>
-</package>
 <package name="P2.5">
 <description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.0 mm with drill center</description>
 <circle x="0" y="0" radius="3" width="0.1524" layer="21"/>
@@ -16873,6 +16858,19 @@ Wickmann</description>
 <wire x1="0" y1="2.159" x2="2.159" y2="0" width="1.6" layer="51" curve="-90" cap="flat"/>
 <text x="-1.27" y="-4.445" size="1.27" layer="47">2.5</text>
 <pad name="1" x="0" y="0" drill="2.7" diameter="5"/>
+</package>
+<package name="P3,0">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.0 mm with drill center</description>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="1.6" width="0.2032" layer="21"/>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<text x="-1.27" y="-3.81" size="1.27" layer="48">3,0</text>
+<pad name="1" x="0" y="0" drill="3" diameter="6"/>
 </package>
 </packages>
 <symbols>
@@ -21559,6 +21557,12 @@ High-density Mounting</description>
 </part>
 <part name="TP3" library="testpad" deviceset="TP" device="B1,27"/>
 <part name="TP6" library="testpad" deviceset="TP" device="B1,27"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="1K5">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCMR06X1501FTL"/>
+<attribute name="OC_NEWARK" value="86T3542"/>
+</part>
+<part name="+3V29" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25859,10 +25863,10 @@ High-density Mounting</description>
 <instance part="J12" gate="-5" x="35.56" y="205.74" rot="MR0"/>
 <instance part="J12" gate="-6" x="35.56" y="200.66" rot="MR0"/>
 <instance part="GND89" gate="1" x="42.418" y="194.818"/>
-<instance part="X6" gate="J$1" x="167.64" y="213.36">
-<attribute name="OC_NEWARK" x="167.64" y="213.36" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="167.64" y="213.36" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="167.64" y="213.36" size="1.778" layer="96" display="off"/>
+<instance part="X6" gate="J$1" x="177.8" y="213.36">
+<attribute name="OC_NEWARK" x="177.8" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="177.8" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="177.8" y="213.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R36" gate="G$1" x="147.32" y="215.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="144.78" y="218.2114" size="1.778" layer="95" rot="R180"/>
@@ -25879,12 +25883,12 @@ High-density Mounting</description>
 <attribute name="MPN" x="147.32" y="213.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND27" gate="1" x="154.94" y="200.66"/>
-<instance part="R38" gate="G$1" x="154.94" y="226.06" rot="R270">
-<attribute name="OC_NEWARK" x="154.94" y="226.06" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="154.94" y="226.06" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="154.94" y="226.06" size="1.778" layer="96" display="off"/>
+<instance part="R38" gate="G$1" x="157.48" y="226.06" rot="R270">
+<attribute name="OC_NEWARK" x="157.48" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="157.48" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="157.48" y="226.06" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="+3V17" gate="G$1" x="154.94" y="236.22"/>
+<instance part="+3V17" gate="G$1" x="157.48" y="238.76"/>
 <instance part="LED5" gate="G$1" x="106.68" y="226.06">
 <attribute name="OC_NEWARK" x="106.68" y="226.06" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="106.68" y="226.06" size="1.778" layer="96" display="off"/>
@@ -25904,7 +25908,13 @@ High-density Mounting</description>
 </instance>
 <instance part="+3V324" gate="G$1" x="312.42" y="233.68"/>
 <instance part="GND90" gate="1" x="312.42" y="190.5"/>
-<instance part="AGND3" gate="VR1" x="167.64" y="190.5"/>
+<instance part="AGND3" gate="VR1" x="177.8" y="193.04"/>
+<instance part="R3" gate="G$1" x="167.64" y="226.06" rot="R270">
+<attribute name="OC_NEWARK" x="167.64" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="167.64" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="167.64" y="226.06" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="+3V29" gate="G$1" x="167.64" y="238.76"/>
 </instances>
 <busses>
 </busses>
@@ -25919,7 +25929,7 @@ High-density Mounting</description>
 <segment>
 <pinref part="X6" gate="J$1" pin="5"/>
 <pinref part="GND27" gate="1" pin="GND"/>
-<wire x1="162.56" y1="208.28" x2="154.94" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="208.28" x2="154.94" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="208.28" x2="154.94" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -25955,9 +25965,14 @@ High-density Mounting</description>
 </net>
 <net name="+3V3" class="2">
 <segment>
-<pinref part="R38" gate="G$1" pin="1"/>
 <pinref part="+3V17" gate="G$1" pin="+3V3"/>
-<wire x1="154.94" y1="231.14" x2="154.94" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="R38" gate="G$1" pin="1"/>
+<wire x1="157.48" y1="231.14" x2="157.48" y2="236.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="+3V29" gate="G$1" pin="+3V3"/>
+<wire x1="167.64" y1="231.14" x2="167.64" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+3V18" gate="G$1" pin="+3V3"/>
@@ -25975,18 +25990,22 @@ High-density Mounting</description>
 <segment>
 <pinref part="R36" gate="G$1" pin="1"/>
 <pinref part="X6" gate="J$1" pin="2"/>
-<wire x1="152.4" y1="215.9" x2="162.56" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="215.9" x2="167.64" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="167.64" y1="215.9" x2="172.72" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="215.9" x2="167.64" y2="220.98" width="0.1524" layer="91"/>
+<junction x="167.64" y="215.9"/>
 </segment>
 </net>
 <net name="N$16" class="1">
 <segment>
 <pinref part="R35" gate="G$1" pin="1"/>
 <pinref part="X6" gate="J$1" pin="3"/>
-<wire x1="152.4" y1="213.36" x2="154.94" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="213.36" x2="157.48" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="R38" gate="G$1" pin="2"/>
-<wire x1="154.94" y1="213.36" x2="162.56" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="220.98" x2="154.94" y2="213.36" width="0.1524" layer="91"/>
-<junction x="154.94" y="213.36"/>
+<wire x1="157.48" y1="213.36" x2="172.72" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="220.98" x2="157.48" y2="213.36" width="0.1524" layer="91"/>
+<junction x="157.48" y="213.36"/>
 </segment>
 </net>
 <net name="USB_D_P" class="1">
@@ -25999,7 +26018,7 @@ High-density Mounting</description>
 <net name="USB_V_BUS" class="1">
 <segment>
 <pinref part="X6" gate="J$1" pin="1"/>
-<wire x1="162.56" y1="218.44" x2="137.16" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="218.44" x2="137.16" y2="218.44" width="0.1524" layer="91"/>
 <label x="137.16" y="218.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -26064,7 +26083,7 @@ High-density Mounting</description>
 <segment>
 <pinref part="X6" gate="J$1" pin="S"/>
 <pinref part="AGND3" gate="VR1" pin="AGND"/>
-<wire x1="167.64" y1="200.66" x2="167.64" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="200.66" x2="177.8" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
