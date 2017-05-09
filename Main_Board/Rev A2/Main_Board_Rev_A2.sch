@@ -23186,42 +23186,42 @@ High-density Mounting</description>
 <wire x1="127" y1="137.16" x2="134.62" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="HMI_BUTTON_CPU_1" class="0">
+<net name="HMI_BUTTON_ISO_1" class="0">
 <segment>
 <pinref part="U6" gate="A" pin="P0[16]/RXD1/SSEL0/SSEL"/>
 <wire x1="317.5" y1="137.16" x2="322.58" y2="137.16" width="0.1524" layer="91"/>
 <label x="322.58" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="HMI_BUTTON_CPU_2" class="0">
+<net name="HMI_BUTTON_ISO_2" class="0">
 <segment>
 <pinref part="U6" gate="A" pin="P0[15]/TXD1/SCK0/SCK"/>
 <wire x1="317.5" y1="134.62" x2="322.58" y2="134.62" width="0.1524" layer="91"/>
 <label x="322.58" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="HMI_BUTTON_CPU_3" class="0">
+<net name="HMI_BUTTON_ISO_3" class="0">
 <segment>
 <pinref part="U6" gate="A" pin="P0[17]/CTS1/MISO0/MISO"/>
 <wire x1="317.5" y1="132.08" x2="322.58" y2="132.08" width="0.1524" layer="91"/>
 <label x="322.58" y="132.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="HMI_BUTTON_CPU_4" class="0">
+<net name="HMI_BUTTON_ISO_4" class="0">
 <segment>
 <pinref part="U6" gate="A" pin="P0[18]/DCD1/MOSI0/MOSI"/>
 <wire x1="317.5" y1="129.54" x2="322.58" y2="129.54" width="0.1524" layer="91"/>
 <label x="322.58" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="HMI_BUTTON_CPU_5" class="0">
+<net name="HMI_BUTTON_ISO_5" class="0">
 <segment>
 <pinref part="U6" gate="A" pin="P0[19]/DSR1/SDA1"/>
 <wire x1="317.5" y1="127" x2="322.58" y2="127" width="0.1524" layer="91"/>
 <label x="322.58" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="HMI_BUTTON_CPU_6" class="0">
+<net name="HMI_BUTTON_ISO_6" class="0">
 <segment>
 <pinref part="R65" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="68.58" x2="149.86" y2="68.58" width="0.1524" layer="91"/>
@@ -25149,42 +25149,42 @@ High-density Mounting</description>
 <pinref part="U3" gate="A" pin="3Y"/>
 </segment>
 </net>
-<net name="HMI_BUTTON_CPU_4" class="0">
+<net name="HMI_BUTTON_ISO_4" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="1A"/>
 <wire x1="144.78" y1="129.54" x2="139.7" y2="129.54" width="0.1524" layer="91"/>
 <label x="139.7" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HMI_BUTTON_CPU_5" class="0">
+<net name="HMI_BUTTON_ISO_5" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="2A"/>
 <wire x1="144.78" y1="127" x2="139.7" y2="127" width="0.1524" layer="91"/>
 <label x="139.7" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HMI_BUTTON_CPU_6" class="0">
+<net name="HMI_BUTTON_ISO_6" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="3A"/>
 <wire x1="144.78" y1="124.46" x2="139.7" y2="124.46" width="0.1524" layer="91"/>
 <label x="139.7" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HMI_BUTTON_CPU_1" class="0">
+<net name="HMI_BUTTON_ISO_1" class="0">
 <segment>
 <pinref part="U4" gate="A" pin="1A"/>
 <wire x1="144.78" y1="167.64" x2="139.7" y2="167.64" width="0.1524" layer="91"/>
 <label x="139.7" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HMI_BUTTON_CPU_2" class="0">
+<net name="HMI_BUTTON_ISO_2" class="0">
 <segment>
 <pinref part="U4" gate="A" pin="2A"/>
 <wire x1="144.78" y1="165.1" x2="139.7" y2="165.1" width="0.1524" layer="91"/>
 <label x="139.7" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HMI_BUTTON_CPU_3" class="0">
+<net name="HMI_BUTTON_ISO_3" class="0">
 <segment>
 <pinref part="U4" gate="A" pin="3A"/>
 <wire x1="144.78" y1="162.56" x2="139.7" y2="162.56" width="0.1524" layer="91"/>
