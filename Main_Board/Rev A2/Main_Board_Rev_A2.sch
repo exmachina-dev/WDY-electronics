@@ -19272,22 +19272,22 @@ High-density Mounting</description>
 <part name="+3V42" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND80" library="supply1" deviceset="GND" device=""/>
 <part name="P+22" library="supply1" deviceset="+5V" device=""/>
-<part name="MP2" library="holes" deviceset="MOUNT-PAD" device="2.5">
+<part name="MP2" library="holes" deviceset="MOUNT-PAD" device="3,0" value="MOUNT-PAD3,0">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="MP1" library="holes" deviceset="MOUNT-PAD" device="2.5">
+<part name="MP1" library="holes" deviceset="MOUNT-PAD" device="3,0" value="MOUNT-PAD3,0">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="MP4" library="holes" deviceset="MOUNT-PAD" device="2.5">
+<part name="MP4" library="holes" deviceset="MOUNT-PAD" device="3,0" value="MOUNT-PAD3,0">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="MP3" library="holes" deviceset="MOUNT-PAD" device="2.5">
+<part name="MP3" library="holes" deviceset="MOUNT-PAD" device="3,0" value="MOUNT-PAD3,0">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
