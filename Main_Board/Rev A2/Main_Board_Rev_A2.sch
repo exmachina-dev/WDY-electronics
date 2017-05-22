@@ -19141,7 +19141,7 @@ High-density Mounting</description>
 <attribute name="MPN" value="MCMR06X1000FTL"/>
 <attribute name="OC_NEWARK" value="86T3504"/>
 </part>
-<part name="X12" library="con-molex" deviceset="22-?-02" device="05-7028">
+<part name="X12" library="con-molex" deviceset="22-?-03" device="05-7038">
 <attribute name="MPN" value="22-05-7028"/>
 <attribute name="OC_NEWARK" value="25M1728"/>
 </part>
@@ -19162,7 +19162,7 @@ High-density Mounting</description>
 <attribute name="MPN" value="MCMR06X1000FTL"/>
 <attribute name="OC_NEWARK" value="86T3504"/>
 </part>
-<part name="X13" library="con-molex" deviceset="22-?-02" device="05-7028">
+<part name="X13" library="con-molex" deviceset="22-?-03" device="05-7038">
 <attribute name="MPN" value="22-05-7028"/>
 <attribute name="OC_NEWARK" value="25M1728"/>
 </part>
@@ -20076,6 +20076,8 @@ High-density Mounting</description>
 <attribute name="OC_NEWARK" value="86T3542"/>
 </part>
 <part name="+3V29" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND88" library="supply1" deviceset="GND" device=""/>
+<part name="GND99" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22271,6 +22273,10 @@ High-density Mounting</description>
 <instance part="+3V27" gate="G$1" x="100.33" y="30.48"/>
 <instance part="GND97" gate="1" x="100.33" y="7.62"/>
 <instance part="+3V28" gate="G$1" x="73.66" y="49.53"/>
+<instance part="X13" gate="-3" x="40.64" y="91.44" rot="R180"/>
+<instance part="GND88" gate="1" x="45.72" y="78.74"/>
+<instance part="X12" gate="-3" x="40.64" y="137.16" rot="R180"/>
+<instance part="GND99" gate="1" x="45.72" y="124.46"/>
 </instances>
 <busses>
 </busses>
@@ -22454,6 +22460,18 @@ High-density Mounting</description>
 <pinref part="GND92" gate="1" pin="GND"/>
 <pinref part="J7" gate="-1" pin="S"/>
 <wire x1="271.78" y1="121.92" x2="276.86" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X13" gate="-3" pin="S"/>
+<pinref part="GND88" gate="1" pin="GND"/>
+<wire x1="43.18" y1="91.44" x2="45.72" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="91.44" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X12" gate="-3" pin="S"/>
+<pinref part="GND99" gate="1" pin="GND"/>
+<wire x1="43.18" y1="137.16" x2="45.72" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="137.16" x2="45.72" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="2">
