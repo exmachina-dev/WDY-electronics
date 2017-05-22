@@ -8,8 +8,8 @@
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="dots" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="17" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="16" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="17" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="19" fill="1" visible="yes" active="yes"/>
@@ -18,13 +18,13 @@
 <layer number="18" name="Vias" color="38" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="55" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="55" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="54" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="55" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="55" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="54" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="53" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="53" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="52" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -48,7 +48,7 @@
 <layer number="48" name="Document" color="24" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="48" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="55" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="55" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="54" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="yes"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="yes"/>
@@ -2822,10 +2822,10 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="75.495" y="41.677" size="0.4064" layer="27"/>
 </element>
 <element name="J6" library="con-molex" package="7395-03" value="22-05-7038-03" x="95" y="43.5" smashed="yes" rot="R90">
-<attribute name="OC_NEWARK" value="25M1728" x="73" y="25.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="26M6362" x="73" y="25.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="73" y="25.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="9731610 " x="73" y="25.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="22-05-7028" x="73" y="25.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="22-05-7038" x="73" y="25.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="95.968" y="48.024" size="0.6096" layer="25" ratio="10"/>
 <attribute name="VALUE" x="95.9159" y="47.4101" size="0.4064" layer="27" ratio="10"/>
 </element>
@@ -2851,10 +2851,10 @@ Your Eurocircuits Team
 <attribute name="MPN" value="MCMR06X1000FTL" x="75" y="51.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J7" library="con-molex" package="7395-03" value="22-05-7038-03" x="95" y="54" smashed="yes" rot="R90">
-<attribute name="OC_NEWARK" value="25M1728" x="88.5" y="22.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="26M6362" x="88.5" y="22.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="88.5" y="22.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="9731610 " x="88.5" y="22.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="22-05-7028" x="88.5" y="22.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="22-05-7038" x="88.5" y="22.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="95.968" y="58.778" size="0.6096" layer="25" ratio="10"/>
 <attribute name="VALUE" x="95.9159" y="58.1641" size="0.4064" layer="27" ratio="10"/>
 </element>
@@ -3561,10 +3561,10 @@ Your Eurocircuits Team
 <element name="U3" library="atmel" package="SOIC127P600X175-8N" value="AT24C512C-SSHM-B" x="53" y="25.8" smashed="yes" rot="R90">
 <attribute name="OC_FARNELL" value="1971995 " x="53" y="25.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="8SOIC" x="53" y="25.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="AT24C02C-SSHM-B" x="53" y="25.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="AT24C512C-SSHM-B" x="53" y="25.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="53" y="25.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SUPPLIER" value="ATMEL" x="53" y="25.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="68T4066" x="53" y="25.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="68T4128" x="53" y="25.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="55.9752" y="25.8162" size="0.4064" layer="27" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="55.9752" y="26.375" size="0.6096" layer="25" ratio="10" rot="SR0"/>
 </element>
@@ -3674,9 +3674,9 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="54.246" y="62.524" size="0.4064" layer="28" rot="MR0"/>
 </element>
 <element name="R11" library="rcl" package="R0603" value="10K" x="60.3" y="28.3" smashed="yes" rot="R90">
-<attribute name="MPN" value="MCMR06X4701FTL" x="103.8" y="-6.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="MCMR06X1002FTL" x="103.8" y="-6.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="103.8" y="-6.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="86T3649" x="103.8" y="-6.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="86T3506" x="103.8" y="-6.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="59.665" y="26.649" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="59.665" y="28.681" size="0.4064" layer="27" rot="R90"/>
 </element>
@@ -3818,9 +3818,9 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="72.911" y="9.889" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="R43" library="rcl" package="R0603" value="2K7" x="57.108" y="9" smashed="yes" rot="R270">
-<attribute name="MPN" value="MCMR06X4701FTL" x="59.108" y="63.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="MCMR06X2701FTL" x="59.108" y="63.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="59.108" y="63.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="86T3649" x="59.108" y="63.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="86T3598" x="59.108" y="63.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="56.303" y="7.637" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="56.303" y="9.415" size="0.4064" layer="27" rot="R90"/>
 </element>
@@ -3832,9 +3832,9 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="58.373" y="9.635" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="R45" library="rcl" package="R0603" value="2K7" x="63.508" y="9" smashed="yes" rot="R270">
-<attribute name="MPN" value="MCMR06X4701FTL" x="60.508" y="14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="MCMR06X2701FTL" x="60.508" y="14" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="60.508" y="14" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="86T3649" x="60.508" y="14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="86T3598" x="60.508" y="14" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="62.857" y="7.637" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="62.857" y="9.415" size="0.4064" layer="27" rot="R90"/>
 </element>
@@ -3878,17 +3878,17 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="60.873" y="9.635" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="R44" library="rcl" package="R0603" value="2K7" x="52.008" y="9" smashed="yes" rot="R270">
-<attribute name="MPN" value="MCMR06X4701FTL" x="-3.492" y="29" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="MCMR06X2701FTL" x="-3.492" y="29" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="-3.492" y="29" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="86T3649" x="-3.492" y="29" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="86T3598" x="-3.492" y="29" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="51.243" y="7.637" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="51.243" y="9.415" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="J8" library="con-molex" package="7395-05" value="22-05-7058-05" x="44.5" y="5" smashed="yes">
 <attribute name="OC_FARNELL" value="unknown" x="21.5" y="-114.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="22-05-7048" x="21.5" y="-114.5" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="21.5" y="-114.5" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="26M6363" x="21.5" y="-114.5" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="22-05-7058" x="21.5" y="-114.5" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MOLEX" x="21.5" y="-114.5" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="55H9619" x="21.5" y="-114.5" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="38.3639" y="7.4621" size="0.6096" layer="25" ratio="10"/>
 <attribute name="VALUE" x="38.3339" y="6.7541" size="0.4064" layer="27" ratio="10"/>
 </element>
@@ -3900,30 +3900,30 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="46.821" y="13.297" size="0.4064" layer="27"/>
 </element>
 <element name="R25" library="rcl" package="R0603" value="60.4" x="46.8" y="9" smashed="yes" rot="R90">
-<attribute name="MPN" value="MCMR06X1801FTL" x="136.8" y="-16" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="MCMR06X60R4FTL" x="136.8" y="-16" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="136.8" y="-16" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="86T3556" x="136.8" y="-16" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="86T3680" x="136.8" y="-16" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="46.165" y="7.603" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="46.165" y="9.381" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="R26" library="rcl" package="R0603" value="60.4" x="44.2" y="8.9" smashed="yes" rot="R90">
-<attribute name="MPN" value="MCMR06X1801FTL" x="139.2" y="-21.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="MCMR06X60R4FTL" x="139.2" y="-21.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="139.2" y="-21.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="86T3556" x="139.2" y="-21.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="86T3680" x="139.2" y="-21.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="43.311" y="7.503" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="43.311" y="9.281" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="R27" library="rcl" package="R0603" value="374K" x="48.4" y="9" smashed="yes" rot="R90">
-<attribute name="MPN" value="MCMR06X1201FTL" x="148.4" y="-26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CRCW0603374KFKEA." x="148.4" y="-26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="148.4" y="-26" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="86T3525" x="148.4" y="-26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="27W4235" x="148.4" y="-26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="49.797" y="7.603" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="49.797" y="9.381" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="R30" library="rcl" package="R0603" value="374K" x="42.1" y="13.6" smashed="yes" rot="R270">
-<attribute name="MPN" value="MCMR06X1201FTL" x="-62.9" y="53.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CRCW0603374KFKEA." x="-62.9" y="53.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="-62.9" y="53.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="86T3525" x="-62.9" y="53.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="27W4235" x="-62.9" y="53.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="41.339" y="11.927" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="41.339" y="13.705" size="0.4064" layer="27" rot="R90"/>
 </element>
@@ -3949,21 +3949,24 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="83.775" y="12.13" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="J1" library="con-molex" package="7395-02" value="22-05-7028-02" x="5" y="58" smashed="yes" rot="R270">
-<attribute name="MPN" value="" x="5" y="58" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="22-05-7028" x="5" y="58" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="9731601" x="5" y="58" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="5" y="58" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="5" y="58" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="25M1728" x="5" y="58" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="6.8459" y="59.6161" size="0.6096" layer="25" ratio="10"/>
 <attribute name="VALUE" x="6.8379" y="58.9401" size="0.4064" layer="27" ratio="10"/>
 </element>
 <element name="T2" library="transistor" package="SOT−23" value="MMBT2222AL" x="16.9" y="86.1" smashed="yes">
 <attribute name="NAME" x="15.488" y="87.748" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="15.488" y="87.24" size="0.4064" layer="27"/>
+<attribute name="OC_NEWARK" value="10N9478" x="16.9" y="86.1" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="16.9" y="86.1" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MMBT2222ALT3G" x="16.9" y="86.1" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R65" library="rcl" package="R0603" value="100" x="13.4" y="86.1" smashed="yes">
 <attribute name="MF" value="" x="13.4" y="86.1" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="86T3614" x="13.4" y="86.1" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MCMR06X33R0FTL" x="13.4" y="86.1" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="86T3504" x="13.4" y="86.1" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MCMR06X1000FTL" x="13.4" y="86.1" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="11.749" y="86.989" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="13.527" y="86.989" size="0.4064" layer="27"/>
 </element>
@@ -3978,11 +3981,17 @@ Your Eurocircuits Team
 <attribute name="TP_SIGNAL_NAME" value="" x="59.365" y="22.095" size="1" layer="37"/>
 <attribute name="NAME" x="60.127" y="22.476" size="0.6096" layer="25" ratio="10"/>
 <attribute name="VALUE" x="60.127" y="21.968" size="0.4064" layer="27"/>
+<attribute name="OC_NEWARK" value="unknown" x="60" y="24" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="60" y="24" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="60" y="24" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP6" library="testpad" package="B1,27" value="TPB1,27" x="58" y="24" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="57.365" y="22.095" size="1" layer="37"/>
 <attribute name="NAME" x="57.365" y="22.476" size="0.6096" layer="25" ratio="10"/>
 <attribute name="VALUE" x="57.365" y="21.968" size="0.4064" layer="27"/>
+<attribute name="OC_NEWARK" value="unknown" x="58" y="24" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="58" y="24" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="58" y="24" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R81" library="rcl" package="R0603" value="1K5" x="29" y="8" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="29" y="8" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4640,10 +4649,8 @@ Your Eurocircuits Team
 <polygon width="0.1778" layer="15">
 <vertex x="52.5" y="94.5"/>
 <vertex x="98.5" y="94.5"/>
-<vertex x="98.5" y="17"/>
-<vertex x="93" y="17"/>
-<vertex x="93" y="2.5"/>
-<vertex x="75.2" y="2.5"/>
+<vertex x="98.5" y="0.5"/>
+<vertex x="75.2" y="0.5"/>
 <vertex x="75.2" y="7"/>
 <vertex x="90" y="7"/>
 <vertex x="90" y="90.7"/>

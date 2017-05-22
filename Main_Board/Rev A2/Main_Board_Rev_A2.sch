@@ -19146,8 +19146,8 @@ High-density Mounting</description>
 <attribute name="OC_NEWARK" value="86T3504"/>
 </part>
 <part name="J6" library="con-molex" deviceset="22-?-03" device="05-7038">
-<attribute name="MPN" value="22-05-7028"/>
-<attribute name="OC_NEWARK" value="25M1728"/>
+<attribute name="MPN" value="22-05-7038"/>
+<attribute name="OC_NEWARK" value="26M6362"/>
 </part>
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
 <part name="P+8" library="supply3" deviceset="+24V" device=""/>
@@ -19167,8 +19167,8 @@ High-density Mounting</description>
 <attribute name="OC_NEWARK" value="86T3504"/>
 </part>
 <part name="J7" library="con-molex" deviceset="22-?-03" device="05-7038">
-<attribute name="MPN" value="22-05-7028"/>
-<attribute name="OC_NEWARK" value="25M1728"/>
+<attribute name="MPN" value="22-05-7038"/>
+<attribute name="OC_NEWARK" value="26M6362"/>
 </part>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
 <part name="U6" library="ti" deviceset="SN74LVC2G17DBVR" device="">
@@ -19744,6 +19744,8 @@ High-density Mounting</description>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="U3" library="atmel" deviceset="AT24C512C-SSHM-B" device="">
 <attribute name="MF" value=""/>
+<attribute name="MPN" value="AT24C512C-SSHM-B"/>
+<attribute name="OC_NEWARK" value="68T4128"/>
 </part>
 <part name="+3V315" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
@@ -19838,8 +19840,8 @@ High-density Mounting</description>
 <part name="+3V311" library="supply1" deviceset="+3V3" device=""/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="10K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X4701FTL"/>
-<attribute name="OC_NEWARK" value="86T3649"/>
+<attribute name="MPN" value="MCMR06X1002FTL"/>
+<attribute name="OC_NEWARK" value="86T3506"/>
 </part>
 <part name="X3" library="crystal" deviceset="ASE" device="" value="ASE-12">
 <attribute name="MPN" value="ASE-12.000MHZ-LC-T"/>
@@ -19953,8 +19955,8 @@ High-density Mounting</description>
 <part name="GND60" library="supply1" deviceset="GND" device=""/>
 <part name="R43" library="rcl" deviceset="R-EU_" device="R0603" value="2K7">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X4701FTL"/>
-<attribute name="OC_NEWARK" value="86T3649"/>
+<attribute name="MPN" value="MCMR06X2701FTL"/>
+<attribute name="OC_NEWARK" value="86T3598"/>
 </part>
 <part name="R46" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
 <attribute name="MF" value=""/>
@@ -19964,8 +19966,8 @@ High-density Mounting</description>
 <part name="P+20" library="supply1" deviceset="+5V" device=""/>
 <part name="R45" library="rcl" deviceset="R-EU_" device="R0603" value="2K7">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X4701FTL"/>
-<attribute name="OC_NEWARK" value="86T3649"/>
+<attribute name="MPN" value="MCMR06X2701FTL"/>
+<attribute name="OC_NEWARK" value="86T3598"/>
 </part>
 <part name="R47" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
 <attribute name="MF" value=""/>
@@ -19997,12 +19999,13 @@ High-density Mounting</description>
 </part>
 <part name="R44" library="rcl" deviceset="R-EU_" device="R0603" value="2K7">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X4701FTL"/>
-<attribute name="OC_NEWARK" value="86T3649"/>
+<attribute name="MPN" value="MCMR06X2701FTL"/>
+<attribute name="OC_NEWARK" value="86T3598"/>
 </part>
 <part name="J8" library="con-molex" deviceset="22-?-05" device="05-7058">
-<attribute name="MPN" value="22-05-7048"/>
-<attribute name="OC_NEWARK" value="26M6363"/>
+<attribute name="MF" value="MOLEX"/>
+<attribute name="MPN" value="22-05-7058"/>
+<attribute name="OC_NEWARK" value="55H9619"/>
 </part>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
@@ -20013,23 +20016,23 @@ High-density Mounting</description>
 </part>
 <part name="R25" library="rcl" deviceset="R-EU_" device="R0603" value="60.4">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1801FTL"/>
-<attribute name="OC_NEWARK" value="86T3556"/>
+<attribute name="MPN" value="MCMR06X60R4FTL"/>
+<attribute name="OC_NEWARK" value="86T3680"/>
 </part>
 <part name="R26" library="rcl" deviceset="R-EU_" device="R0603" value="60.4">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1801FTL"/>
-<attribute name="OC_NEWARK" value="86T3556"/>
+<attribute name="MPN" value="MCMR06X60R4FTL"/>
+<attribute name="OC_NEWARK" value="86T3680"/>
 </part>
 <part name="R27" library="rcl" deviceset="R-EU_" device="R0603" value="374K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1201FTL"/>
-<attribute name="OC_NEWARK" value="86T3525"/>
+<attribute name="MPN" value="CRCW0603374KFKEA."/>
+<attribute name="OC_NEWARK" value="27W4235"/>
 </part>
 <part name="R30" library="rcl" deviceset="R-EU_" device="R0603" value="374K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X1201FTL"/>
-<attribute name="OC_NEWARK" value="86T3525"/>
+<attribute name="MPN" value="CRCW0603374KFKEA."/>
+<attribute name="OC_NEWARK" value="27W4235"/>
 </part>
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
@@ -20056,14 +20059,21 @@ High-density Mounting</description>
 <attribute name="MPN" value="OVS-0603"/>
 <attribute name="OC_NEWARK" value="15R2205"/>
 </part>
-<part name="J1" library="con-molex" deviceset="22-?-02" device="05-7028"/>
+<part name="J1" library="con-molex" deviceset="22-?-02" device="05-7028">
+<attribute name="MPN" value="22-05-7028"/>
+<attribute name="OC_NEWARK" value="25M1728"/>
+</part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
-<part name="T2" library="transistor" deviceset="MMBT2222AL" device=""/>
+<part name="T2" library="transistor" deviceset="MMBT2222AL" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MMBT2222ALT3G"/>
+<attribute name="OC_NEWARK" value="10N9478"/>
+</part>
 <part name="R65" library="rcl" deviceset="R-EU_" device="R0603" value="100">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCMR06X33R0FTL"/>
-<attribute name="OC_NEWARK" value="86T3614"/>
+<attribute name="MPN" value="MCMR06X1000FTL"/>
+<attribute name="OC_NEWARK" value="86T3504"/>
 </part>
 <part name="P+25" library="supply1" deviceset="+5V" device=""/>
 <part name="GND80" library="supply1" deviceset="GND" device=""/>
@@ -20072,8 +20082,16 @@ High-density Mounting</description>
 <attribute name="MPN" value="MCMR06X1000FTL"/>
 <attribute name="OC_NEWARK" value="86T3504"/>
 </part>
-<part name="TP3" library="testpad" deviceset="TP" device="B1,27"/>
-<part name="TP6" library="testpad" deviceset="TP" device="B1,27"/>
+<part name="TP3" library="testpad" deviceset="TP" device="B1,27">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="TP6" library="testpad" deviceset="TP" device="B1,27">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
 <part name="R81" library="rcl" deviceset="R-EU_" device="R0603" value="1K5">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="MCMR06X1501FTL"/>
@@ -21086,8 +21104,16 @@ High-density Mounting</description>
 <attribute name="MPN" x="358.14" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V322" gate="G$1" x="358.14" y="66.04"/>
-<instance part="TP3" gate="G$1" x="17.78" y="22.86" rot="R90"/>
-<instance part="TP6" gate="G$1" x="17.78" y="12.7" rot="R90"/>
+<instance part="TP3" gate="G$1" x="17.78" y="22.86" rot="R90">
+<attribute name="OC_NEWARK" x="17.78" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="17.78" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="17.78" y="22.86" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="TP6" gate="G$1" x="17.78" y="12.7" rot="R90">
+<attribute name="OC_NEWARK" x="17.78" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="17.78" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="17.78" y="12.7" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23299,7 +23325,11 @@ High-density Mounting</description>
 <attribute name="MF" x="40.64" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="40.64" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="T2" gate="1" x="332.74" y="215.9" rot="MR0"/>
+<instance part="T2" gate="1" x="332.74" y="215.9" rot="MR0">
+<attribute name="OC_NEWARK" x="332.74" y="215.9" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="332.74" y="215.9" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="332.74" y="215.9" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R65" gate="G$1" x="330.2" y="233.68" rot="MR270">
 <attribute name="OC_NEWARK" x="330.2" y="233.68" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="330.2" y="233.68" size="1.778" layer="96" display="off"/>
