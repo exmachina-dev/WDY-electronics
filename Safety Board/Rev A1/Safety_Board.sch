@@ -1,0 +1,753 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:relay
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:actel
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:diode
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:ir
+LIBS:Lattice
+LIBS:leds
+LIBS:logo
+LIBS:maxim
+LIBS:mechanical
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:Oscillators
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:transf
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:zetex
+LIBS:Zilog
+LIBS:Safety_Board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X03_MALE J1
+U 1 1 592431A6
+P 1450 1050
+F 0 "J1" H 1450 1325 50  0000 C CNN
+F 1 "MSTBA2.5/3-G" H 1475 775 50  0000 C CNN
+F 2 "conn_Phoenix:MSTBA3" H 1450 1250 50  0001 C CNN
+F 3 "" H 1450 1250 50  0001 C CNN
+	1    1450 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03_MALE J2
+U 1 1 59243263
+P 1450 2150
+F 0 "J2" H 1450 2425 50  0000 C CNN
+F 1 "MSTBA2.5/3-G" H 1475 1875 50  0000 C CNN
+F 2 "conn_Phoenix:MSTBA3" H 1450 2350 50  0001 C CNN
+F 3 "" H 1450 2350 50  0001 C CNN
+	1    1450 2150
+	1    0    0    -1  
+$EndComp
+Text Label 1750 1950 0    60   ~ 0
++24V_BRAKE
+Text Label 1800 2350 0    60   ~ 0
+GND_BRAKE
+$Comp
+L +24V #PWR01
+U 1 1 5924334D
+P 2200 800
+F 0 "#PWR01" H 2200 650 50  0001 C CNN
+F 1 "+24V" H 2200 940 50  0000 C CNN
+F 2 "" H 2200 800 50  0001 C CNN
+F 3 "" H 2200 800 50  0001 C CNN
+	1    2200 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5924337F
+P 2200 1300
+F 0 "#PWR02" H 2200 1050 50  0001 C CNN
+F 1 "GND" H 2200 1150 50  0000 C CNN
+F 2 "" H 2200 1300 50  0001 C CNN
+F 3 "" H 2200 1300 50  0001 C CNN
+	1    2200 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03_MALE J3
+U 1 1 592434C3
+P 1450 3100
+F 0 "J3" H 1450 3375 50  0000 C CNN
+F 1 "22-05-7038" H 1475 2825 50  0000 C CNN
+F 2 "conn_Molex:22-05-7038" H 1450 3300 50  0001 C CNN
+F 3 "" H 1450 3300 50  0001 C CNN
+	1    1450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03_MALE J4
+U 1 1 59243531
+P 1450 4000
+F 0 "J4" H 1450 4275 50  0000 C CNN
+F 1 "22-05-7038" H 1475 3725 50  0000 C CNN
+F 2 "conn_Molex:22-05-7038" H 1450 4200 50  0001 C CNN
+F 3 "" H 1450 4200 50  0001 C CNN
+	1    1450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03_MALE J5
+U 1 1 59243560
+P 1450 4900
+F 0 "J5" H 1450 5175 50  0000 C CNN
+F 1 "22-05-7038" H 1475 4625 50  0000 C CNN
+F 2 "conn_Molex:22-05-7038" H 1450 5100 50  0001 C CNN
+F 3 "" H 1450 5100 50  0001 C CNN
+	1    1450 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03_MALE J6
+U 1 1 592435D6
+P 1450 5850
+F 0 "J6" H 1450 6125 50  0000 C CNN
+F 1 "22-05-7038" H 1475 5575 50  0000 C CNN
+F 2 "conn_Molex:22-05-7038" H 1450 6050 50  0001 C CNN
+F 3 "" H 1450 6050 50  0001 C CNN
+	1    1450 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03_MALE J7
+U 1 1 59243611
+P 1450 6850
+F 0 "J7" H 1450 7125 50  0000 C CNN
+F 1 "22-05-7038" H 1475 6575 50  0000 C CNN
+F 2 "conn_Molex:22-05-7038" H 1450 7050 50  0001 C CNN
+F 3 "" H 1450 7050 50  0001 C CNN
+	1    1450 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +24V #PWR03
+U 1 1 592436AF
+P 2200 2800
+F 0 "#PWR03" H 2200 2650 50  0001 C CNN
+F 1 "+24V" H 2200 2940 50  0000 C CNN
+F 2 "" H 2200 2800 50  0001 C CNN
+F 3 "" H 2200 2800 50  0001 C CNN
+	1    2200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +24V #PWR04
+U 1 1 59243741
+P 2200 3750
+F 0 "#PWR04" H 2200 3600 50  0001 C CNN
+F 1 "+24V" H 2200 3890 50  0000 C CNN
+F 2 "" H 2200 3750 50  0001 C CNN
+F 3 "" H 2200 3750 50  0001 C CNN
+	1    2200 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +24V #PWR05
+U 1 1 592437E8
+P 2200 4650
+F 0 "#PWR05" H 2200 4500 50  0001 C CNN
+F 1 "+24V" H 2200 4790 50  0000 C CNN
+F 2 "" H 2200 4650 50  0001 C CNN
+F 3 "" H 2200 4650 50  0001 C CNN
+	1    2200 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +24V #PWR06
+U 1 1 5924386C
+P 2200 5600
+F 0 "#PWR06" H 2200 5450 50  0001 C CNN
+F 1 "+24V" H 2200 5740 50  0000 C CNN
+F 2 "" H 2200 5600 50  0001 C CNN
+F 3 "" H 2200 5600 50  0001 C CNN
+	1    2200 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +24V #PWR07
+U 1 1 592438F7
+P 2200 6600
+F 0 "#PWR07" H 2200 6450 50  0001 C CNN
+F 1 "+24V" H 2200 6740 50  0000 C CNN
+F 2 "" H 2200 6600 50  0001 C CNN
+F 3 "" H 2200 6600 50  0001 C CNN
+	1    2200 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 59243919
+P 2200 7100
+F 0 "#PWR08" H 2200 6850 50  0001 C CNN
+F 1 "GND" H 2200 6950 50  0000 C CNN
+F 2 "" H 2200 7100 50  0001 C CNN
+F 3 "" H 2200 7100 50  0001 C CNN
+	1    2200 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 5924393B
+P 2200 6100
+F 0 "#PWR09" H 2200 5850 50  0001 C CNN
+F 1 "GND" H 2200 5950 50  0000 C CNN
+F 2 "" H 2200 6100 50  0001 C CNN
+F 3 "" H 2200 6100 50  0001 C CNN
+	1    2200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 592439B8
+P 2200 5150
+F 0 "#PWR010" H 2200 4900 50  0001 C CNN
+F 1 "GND" H 2200 5000 50  0000 C CNN
+F 2 "" H 2200 5150 50  0001 C CNN
+F 3 "" H 2200 5150 50  0001 C CNN
+	1    2200 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 59243A19
+P 2200 4250
+F 0 "#PWR011" H 2200 4000 50  0001 C CNN
+F 1 "GND" H 2200 4100 50  0000 C CNN
+F 2 "" H 2200 4250 50  0001 C CNN
+F 3 "" H 2200 4250 50  0001 C CNN
+	1    2200 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 59243A3B
+P 2200 3350
+F 0 "#PWR012" H 2200 3100 50  0001 C CNN
+F 1 "GND" H 2200 3200 50  0000 C CNN
+F 2 "" H 2200 3350 50  0001 C CNN
+F 3 "" H 2200 3350 50  0001 C CNN
+	1    2200 3350
+	1    0    0    -1  
+$EndComp
+Text Label 4400 1150 0    60   ~ 0
++24V_BRAKE
+Text GLabel 4700 3800 2    60   Input ~ 0
+BRAKE_SIG
+Text GLabel 2200 2150 2    60   Input ~ 0
+BRAKE_SIG
+Text GLabel 5800 2450 2    60   Input ~ 0
+BRAKE_DRIVE
+$Comp
+L GND #PWR013
+U 1 1 592F0D5E
+P 5200 3450
+F 0 "#PWR013" H 5200 3200 50  0001 C CNN
+F 1 "GND" H 5200 3300 50  0000 C CNN
+F 2 "" H 5200 3450 50  0001 C CNN
+F 3 "" H 5200 3450 50  0001 C CNN
+	1    5200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR014
+U 1 1 592F0DCC
+P 5200 2200
+F 0 "#PWR014" H 5200 1950 50  0001 C CNN
+F 1 "GND" H 5200 2050 50  0000 C CNN
+F 2 "" H 5200 2200 50  0001 C CNN
+F 3 "" H 5200 2200 50  0001 C CNN
+	1    5200 2200
+	1    0    0    -1  
+$EndComp
+Text GLabel 5800 1200 2    60   Input ~ 0
+ENABLE_SIG
+$Comp
+L +24V #PWR015
+U 1 1 592F254F
+P 8450 800
+F 0 "#PWR015" H 8450 650 50  0001 C CNN
+F 1 "+24V" H 8450 940 50  0000 C CNN
+F 2 "" H 8450 800 50  0001 C CNN
+F 3 "" H 8450 800 50  0001 C CNN
+	1    8450 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 592F2CAD
+P 7900 3600
+F 0 "#PWR016" H 7900 3350 50  0001 C CNN
+F 1 "GND" H 7900 3450 50  0000 C CNN
+F 2 "" H 7900 3600 50  0001 C CNN
+F 3 "" H 7900 3600 50  0001 C CNN
+	1    7900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 592F2D5D
+P 7900 2050
+F 0 "#PWR017" H 7900 1800 50  0001 C CNN
+F 1 "GND" H 7900 1900 50  0000 C CNN
+F 2 "" H 7900 2050 50  0001 C CNN
+F 3 "" H 7900 2050 50  0001 C CNN
+	1    7900 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 7300 1050 0    60   Input ~ 0
+EMERGENCY_SIG
+Text GLabel 2200 6850 2    60   Input ~ 0
+LIMIT_SIG
+Text GLabel 2200 5850 2    60   Input ~ 0
+BRAKE_DRIVE
+Text GLabel 2200 4900 2    60   Input ~ 0
+ENABLE_SIG
+Text GLabel 2200 4000 2    60   Input ~ 0
+ENABLE_SIG
+Text GLabel 2200 3100 2    60   Input ~ 0
+CONTACTOR_SIG
+Text GLabel 8650 3900 2    60   Input ~ 0
+ENABLE_SIG
+Text GLabel 7300 2600 0    60   Input ~ 0
+LIMIT_SIG
+$Comp
+L GND #PWR018
+U 1 1 592F90B6
+P 7600 3600
+F 0 "#PWR018" H 7600 3350 50  0001 C CNN
+F 1 "GND" H 7600 3450 50  0000 C CNN
+F 2 "" H 7600 3600 50  0001 C CNN
+F 3 "" H 7600 3600 50  0001 C CNN
+	1    7600 3600
+	1    0    0    -1  
+$EndComp
+Text GLabel 7350 2450 0    60   Input ~ 0
+RESET
+$Comp
+L Mounting_Hole_PAD MK4
+U 1 1 592FA849
+P 10250 5600
+F 0 "MK4" H 10250 5850 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" H 10250 5775 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3mm_Pad" H 10250 5600 50  0001 C CNN
+F 3 "" H 10250 5600 50  0001 C CNN
+	1    10250 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole_PAD MK3
+U 1 1 592FA976
+P 9500 5600
+F 0 "MK3" H 9500 5850 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" H 9500 5775 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3mm_Pad" H 9500 5600 50  0001 C CNN
+F 3 "" H 9500 5600 50  0001 C CNN
+	1    9500 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole_PAD MK2
+U 1 1 592FA9D9
+P 8750 5600
+F 0 "MK2" H 8750 5850 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" H 8750 5775 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3mm_Pad" H 8750 5600 50  0001 C CNN
+F 3 "" H 8750 5600 50  0001 C CNN
+	1    8750 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole_PAD MK1
+U 1 1 592FAA33
+P 8000 5600
+F 0 "MK1" H 8000 5850 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" H 8000 5775 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3mm_Pad" H 8000 5600 50  0001 C CNN
+F 3 "" H 8000 5600 50  0001 C CNN
+	1    8000 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR019
+U 1 1 592FAA85
+P 10250 5850
+F 0 "#PWR019" H 10250 5600 50  0001 C CNN
+F 1 "Earth" H 10250 5700 50  0001 C CNN
+F 2 "" H 10250 5850 50  0001 C CNN
+F 3 "" H 10250 5850 50  0001 C CNN
+	1    10250 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR020
+U 1 1 592FAB3C
+P 9500 5850
+F 0 "#PWR020" H 9500 5600 50  0001 C CNN
+F 1 "Earth" H 9500 5700 50  0001 C CNN
+F 2 "" H 9500 5850 50  0001 C CNN
+F 3 "" H 9500 5850 50  0001 C CNN
+	1    9500 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR021
+U 1 1 592FAB74
+P 8750 5850
+F 0 "#PWR021" H 8750 5600 50  0001 C CNN
+F 1 "Earth" H 8750 5700 50  0001 C CNN
+F 2 "" H 8750 5850 50  0001 C CNN
+F 3 "" H 8750 5850 50  0001 C CNN
+	1    8750 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR022
+U 1 1 592FABAC
+P 8000 5850
+F 0 "#PWR022" H 8000 5600 50  0001 C CNN
+F 1 "Earth" H 8000 5700 50  0001 C CNN
+F 2 "" H 8000 5850 50  0001 C CNN
+F 3 "" H 8000 5850 50  0001 C CNN
+	1    8000 5850
+	1    0    0    -1  
+$EndComp
+Text GLabel 2200 1050 2    60   Input ~ 0
+EMERGENCY_SIG
+$Comp
+L LY2-D-DCx K2
+U 1 1 59300E37
+P 4900 2950
+F 0 "K2" H 5550 3100 60  0000 C CNN
+F 1 "LY2-D-DC24" H 5775 3025 60  0000 C CNN
+F 2 "relay:PT08-0" V 5300 2600 60  0001 C CNN
+F 3 "" V 5300 2600 60  0001 C CNN
+	1    4900 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L G6K-2G-Y-xDC K4
+U 1 1 593027DE
+P 8200 1550
+F 0 "K4" H 8875 1725 60  0000 C CNN
+F 1 "G6K-2G-Y-24DC" H 9200 1625 60  0000 C CNN
+F 2 "relay:G6K-2G-Y" V 8600 1225 60  0001 C CNN
+F 3 "" V 8600 1225 60  0001 C CNN
+	1    8200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L G6AK-234P-ST-US-DCx K3
+U 1 1 59302BF7
+P 8100 3100
+F 0 "K3" H 8850 3250 60  0000 C CNN
+F 1 "G6AK-234P-ST-US-DC24" H 9375 3150 60  0000 C CNN
+F 2 "relay:G6AK-234P" V 8625 2750 60  0001 C CNN
+F 3 "" V 8625 2750 60  0001 C CNN
+	1    8100 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 850  2200 850 
+Wire Wire Line
+	1750 1050 2200 1050
+Wire Wire Line
+	1750 1250 2200 1250
+Wire Wire Line
+	1750 1950 2200 1950
+Wire Wire Line
+	1750 2150 2200 2150
+Wire Wire Line
+	1750 2900 2200 2900
+Wire Wire Line
+	2200 2900 2200 2800
+Wire Wire Line
+	1750 3300 2200 3300
+Wire Wire Line
+	2200 3300 2200 3350
+Wire Wire Line
+	1750 3800 2200 3800
+Wire Wire Line
+	2200 3800 2200 3750
+Wire Wire Line
+	1750 4200 2200 4200
+Wire Wire Line
+	1750 4700 2200 4700
+Wire Wire Line
+	2200 4700 2200 4650
+Wire Wire Line
+	1750 5100 2200 5100
+Wire Wire Line
+	2200 5100 2200 5150
+Wire Wire Line
+	1750 6650 2200 6650
+Wire Wire Line
+	2200 6650 2200 6600
+Wire Wire Line
+	1750 4000 2200 4000
+Wire Wire Line
+	1750 4900 2200 4900
+Wire Wire Line
+	1750 5850 2200 5850
+Wire Wire Line
+	1750 6850 2200 6850
+Wire Wire Line
+	4400 2600 4400 2650
+Wire Wire Line
+	4950 1150 4950 1350
+Wire Wire Line
+	4950 1150 4400 1150
+Wire Wire Line
+	4400 1150 4400 1350
+Wire Wire Line
+	4400 2600 4750 2600
+Wire Wire Line
+	4750 2600 4750 2650
+Wire Wire Line
+	4500 1950 4500 2000
+Wire Wire Line
+	4500 2000 4850 2000
+Wire Wire Line
+	4850 2000 4850 1950
+Wire Wire Line
+	4600 2000 4600 2600
+Connection ~ 4600 2600
+Connection ~ 4600 2000
+Wire Wire Line
+	4500 3250 4500 3300
+Wire Wire Line
+	4500 3300 4850 3300
+Wire Wire Line
+	4850 3300 4850 3250
+Wire Wire Line
+	4700 3300 4700 3800
+Connection ~ 4700 3300
+Wire Wire Line
+	5200 2450 5200 2650
+Wire Wire Line
+	5200 2450 5800 2450
+Wire Wire Line
+	5200 3250 5200 3450
+Wire Wire Line
+	5200 1950 5200 2200
+Wire Wire Line
+	5200 1200 5200 1350
+Wire Wire Line
+	5200 1200 5800 1200
+Wire Wire Line
+	8250 950  8600 950 
+Wire Wire Line
+	8450 950  8450 800 
+Connection ~ 8450 950 
+Wire Wire Line
+	8350 2150 8700 2150
+Wire Wire Line
+	8600 2600 8600 2800
+Wire Wire Line
+	8250 2600 8600 2600
+Wire Wire Line
+	8250 2600 8250 2800
+Wire Wire Line
+	8500 2150 8500 2600
+Connection ~ 8500 2600
+Connection ~ 8500 2150
+Wire Wire Line
+	7900 3400 7900 3600
+Wire Wire Line
+	8150 3400 8150 3750
+Wire Wire Line
+	7900 1050 7300 1050
+Wire Wire Line
+	7300 2600 7600 2600
+Wire Wire Line
+	7600 2600 7600 2800
+Wire Wire Line
+	7900 2450 7900 2800
+Wire Wire Line
+	7900 2450 7350 2450
+Wire Wire Line
+	8000 5850 8000 5700
+Wire Wire Line
+	8750 5850 8750 5700
+Wire Wire Line
+	9500 5850 9500 5700
+Wire Wire Line
+	10250 5850 10250 5700
+Wire Wire Line
+	2200 4200 2200 4250
+Wire Wire Line
+	2200 850  2200 800 
+Wire Wire Line
+	2200 1250 2200 1300
+Wire Wire Line
+	1750 2350 2300 2350
+Wire Wire Line
+	1750 3100 2200 3100
+Wire Wire Line
+	1750 6050 2200 6050
+Wire Wire Line
+	2200 6050 2200 6100
+Wire Wire Line
+	1750 5650 2200 5650
+Wire Wire Line
+	2200 5650 2200 5600
+Wire Wire Line
+	7600 3400 7600 3600
+Wire Wire Line
+	7900 2050 7900 1850
+Wire Wire Line
+	8700 2150 8700 1850
+Wire Wire Line
+	8350 2150 8350 1850
+Wire Wire Line
+	7900 1050 7900 1250
+Wire Wire Line
+	8250 950  8250 1250
+Wire Wire Line
+	8600 950  8600 1250
+$Comp
+L LY2-D-DCx K1
+U 1 1 59307953
+P 4900 1650
+F 0 "K1" H 5550 1800 60  0000 C CNN
+F 1 "LY2-D-DC24" H 5775 1725 60  0000 C CNN
+F 2 "relay:PT08-0" V 5300 1300 60  0001 C CNN
+F 3 "" V 5300 1300 60  0001 C CNN
+	1    4900 1650
+	-1   0    0    1   
+$EndComp
+Text GLabel 8650 3750 2    60   Input ~ 0
+CONTACTOR_SIG
+Wire Wire Line
+	8150 3750 8650 3750
+Wire Wire Line
+	8500 3400 8500 3900
+Connection ~ 8500 3750
+Wire Wire Line
+	8500 3900 8650 3900
+Wire Wire Line
+	6550 5150 6550 5000
+Wire Wire Line
+	6550 4300 6550 4600
+$Comp
+L +24V #PWR023
+U 1 1 5930A665
+P 6550 4300
+F 0 "#PWR023" H 6550 4150 50  0001 C CNN
+F 1 "+24V" H 6550 4440 50  0000 C CNN
+F 2 "" H 6550 4300 50  0001 C CNN
+F 3 "" H 6550 4300 50  0001 C CNN
+	1    6550 4300
+	1    0    0    -1  
+$EndComp
+Text GLabel 6800 5150 2    60   Input ~ 0
+RESET
+Wire Wire Line
+	1750 7050 2200 7050
+Wire Wire Line
+	2200 7050 2200 7100
+$Comp
+L SW_Push SW1
+U 1 1 59302307
+P 6550 4800
+F 0 "SW1" H 6600 4900 50  0000 L CNN
+F 1 "B3FS-1000" H 6550 4740 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_B3S-1000" H 6550 5000 50  0001 C CNN
+F 3 "" H 6550 5000 50  0001 C CNN
+	1    6550 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 5150 6800 5150
+Wire Wire Line
+	6550 4450 6550 4450
+$EndSCHEMATC
