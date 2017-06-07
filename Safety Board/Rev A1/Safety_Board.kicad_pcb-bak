@@ -225,12 +225,12 @@
       (net 2 GND))
   )
 
-  (module Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop (layer F.Cu) (tedit 59317CA2) (tstamp 5932A303)
+  (module Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop (layer F.Cu) (tedit 593673D3) (tstamp 5932A303)
     (at 148 101)
     (descr "Circular Fiducial, 1mm bare copper top; 2.54mm keepout")
     (tags marker)
     (attr virtual)
-    (fp_text reference REF** (at -6.5 0) (layer F.SilkS)
+    (fp_text reference REF** (at -6.5 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Fiducial (at -7.5 -1.5) (layer F.Fab) hide
