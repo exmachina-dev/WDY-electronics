@@ -19725,13 +19725,13 @@ High-density Mounting</description>
 </part>
 <part name="C53" library="rcl" deviceset="C-EU" device="C0805" value="22uF">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="MC0805X226M6R3CT"/>
+<attribute name="OC_NEWARK" value="33R0743"/>
 </part>
 <part name="C52" library="rcl" deviceset="C-EU" device="C0805" value="22uF">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="MC0805X226M6R3CT"/>
+<attribute name="OC_NEWARK" value="33R0743"/>
 </part>
 <part name="U4" library="NXP" deviceset="LPC1768FBD100" device="">
 <attribute name="MF" value=""/>

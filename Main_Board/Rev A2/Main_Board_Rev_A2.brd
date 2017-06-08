@@ -3535,16 +3535,16 @@ Your Eurocircuits Team
 <attribute name="NAME" x="70.337" y="90.507" size="0.6096" layer="25"/>
 </element>
 <element name="C53" library="rcl" package="C0805" value="22uF" x="77.6" y="65.5" smashed="yes">
-<attribute name="MPN" value="" x="40.1" y="-11" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MC0805X226M6R3CT" x="40.1" y="-11" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="40.1" y="-11" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="40.1" y="-11" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="33R0743" x="40.1" y="-11" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="76.076" y="66.77" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="78.108" y="66.77" size="0.4064" layer="27"/>
 </element>
 <element name="C52" library="rcl" package="C0805" value="22uF" x="77.6" y="85" smashed="yes">
-<attribute name="MPN" value="" x="34.1" y="2" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MC0805X226M6R3CT" x="34.1" y="2" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="34.1" y="2" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="34.1" y="2" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="33R0743" x="34.1" y="2" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="76.076" y="86.27" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="78.108" y="86.27" size="0.4064" layer="27"/>
 </element>
