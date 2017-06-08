@@ -333,7 +333,7 @@ F 3 "" H 4200 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 3900 1200 0    60   Input ~ 0
-ENABLE_SIG
+ENABLE_OUT
 $Comp
 L +24V #PWR015
 U 1 1 592F254F
@@ -645,13 +645,6 @@ F 3 "" V 4900 1250 60  0001 C CNN
 	1    4500 1600
 	1    0    0    -1  
 $EndComp
-Text GLabel 8650 3750 2    60   Input ~ 0
-CONTACTOR_OUT
-Wire Wire Line
-	8150 3750 8650 3750
-Wire Wire Line
-	8500 3400 8500 3900
-Connection ~ 8500 3750
 Wire Wire Line
 	8500 3900 8650 3900
 Wire Wire Line
@@ -812,4 +805,11 @@ Wire Wire Line
 	4700 4750 4700 4650
 Wire Wire Line
 	4200 4950 4700 4950
+Text GLabel 8650 3750 2    60   Input ~ 0
+CONTACTOR_OUT
+Wire Wire Line
+	8500 3400 8500 3900
+Wire Wire Line
+	8150 3750 8650 3750
+Connection ~ 8500 3750
 $EndSCHEMATC
