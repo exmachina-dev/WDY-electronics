@@ -1,0 +1,24 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Manifacturer
+1,"Generic Male Connector, single row, 01x02, pin header",CONN_01X02_MALE,J10,22-05-7028,7395-02,1,,MOLEX
+2,"Generic Male Connector, single row, 01x03, pin header",CONN_01X03_MALE,J3 J4 J5 J6 J7,22-05-7038,22-05-7038,5,,MOLEX
+3,"Generic Male Connector, single row, 01x02, pin header",CONN_01X02_MALE,J2 J8 J9,MSTBA2.5/2G,MSTBA2.5,3,,Phoenix
+4,"Generic Male Connector, single row, 01x03, pin header",CONN_01X03_MALE,J1,MSTBA2.5/3-G,MSTBA3,1,,Phoenix
+5,,G6AK-234P-ST-US-DCx,K3,G6AK-234P-ST-US-DC24,G6AK-234P,1,,OMRON
+6,,G6K-2G-Y-xDC,K4,G6K-2G-Y-24DC,G6K-2G-Y,1,,OMRON
+7,"Power relay, 2 poles, with diode for coil",LY2-D-DCx,K1 K2,LY2-D-DC24,PT08-0,2,https://www.ia.omron.com/data_pdf/cat/ly_ds_e_4_7_csm54.pdf?id=949,OMRON
+8,"Push button switch, generic, two pins",SW_Push,SW1,B3FS-1000,SW_SPST_B3S-1000,1,,OMRON
+
+
+
+
+
+Component Groups:,8
+Component Count:,15
+Fitted Components:,15
+Number of PCBs:,1
+Total components:,15
+Schematic Version:,
+Schematic Date:,
+BoM Date:,2017-06-08 5:15:53 PM
+Schematic Source:,C:/Users/Adrian/Documents/ExMachina/repos/WDY/electronics/Safety Board/Rev A1/Safety_Board.sch
+KiCad Version:,Eeschema 4.0.6
