@@ -18831,6 +18831,7 @@ High-density Mounting</description>
 <wire x1="-6.35" y1="-2.5" x2="-6.35" y2="2.5" width="0.127" layer="21"/>
 <text x="-6.985" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="8.255" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<circle x="-5.08" y="5.08" radius="0.179603125" width="1.016" layer="21"/>
 </package>
 </packages>
 <symbols>
